@@ -19,7 +19,13 @@
 
   <div id="view-main" class="s-wrap" hidden>
     <header class="s-header">
-      <span class="brand">Capacitación VRM / VA · CNSC</span>
+      <div class="brandline">
+        <img class="brandlogo" data-brand="logo" src="/img/logo.svg" alt="Logo del proceso" />
+        <div>
+          <div class="entline" data-brand="entidad">Comisión Nacional del Servicio Civil</div>
+          <span class="brand" data-brand="proceso">Procesos de Selección Territorial</span>
+        </div>
+      </div>
       <span class="live">
         <span><span class="dotlive"></span>En vivo</span>
         <span class="num" id="hdr-connected"></span>
@@ -33,9 +39,18 @@
           <img id="qr-img" src="/api/qr.svg" alt="Código QR para ingresar" />
           <div class="url" id="qr-url"></div>
         </div>
-        <div style="display:grid;gap:16px;align-content:start">
-          <h1 class="s-title">Escanea el código y entra con tu nombre</h1>
-          <p class="s-sub">Hoy: criterios de <strong>verificación de requisitos mínimos</strong>. Cada pregunta tiene <strong>3 minutos</strong>; responde rápido y bien para sumar más puntos.</p>
+        <div style="display:grid;gap:18px;align-content:start">
+          <div class="portada-head">
+            <img class="portada-logo" data-brand="logo" src="/img/logo.svg" alt="Logo del proceso" />
+            <div>
+              <p class="eyebrow" data-brand="entidad">Comisión Nacional del Servicio Civil</p>
+              <h1 class="s-title" data-brand="proceso">Procesos de Selección Territorial</h1>
+              <p class="s-sub" style="font-size:1.15rem;font-weight:600" data-brand="actividad">Capacitación VRM · VA</p>
+              <p class="lema" data-brand="lema"></p>
+            </div>
+          </div>
+          <h2>Escanea el código y entra con tu nombre</h2>
+          <p class="s-sub">Cada pregunta tiene <strong>3 minutos</strong>; responde rápido y bien para sumar más puntos.</p>
           <div>
             <span class="bignum num" id="lobby-count">0</span>
             <span class="s-sub"> participantes conectados</span>

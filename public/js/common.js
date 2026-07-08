@@ -72,6 +72,29 @@ function rankRow({ position, name, score, maxScore, extras, isMe, delta }) {
   return row;
 }
 
+/** Aplica la identidad visual (data/branding.json) a los elementos marcados
+    con data-brand: logo, entidad, proceso, actividad, lema. */
+function applyBranding() {
+  fetch('/api/branding')
+    .then((r) => r.json())
+    .then((b) => {
+      for (const node of document.querySelectorAll('[data-brand]')) {
+        const key = node.dataset.brand;
+        if (key === 'logo') {
+          if (b.logo) node.src = b.logo;
+          else node.hidden = true;
+        } else if (b[key]) {
+          node.textContent = b[key];
+        }
+      }
+      if (b.proceso) {
+        document.title = (b.actividad ? b.actividad + ' · ' : '') + b.proceso;
+      }
+    })
+    .catch(() => {});
+}
+document.addEventListener('DOMContentLoaded', applyBranding);
+
 let toastTimer = null;
 function toast(message) {
   let node = document.querySelector('.toast');

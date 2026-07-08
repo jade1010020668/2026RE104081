@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo del proceso">
+  <!-- Emblema provisional: reemplaza este archivo con el logo oficial del
+       proceso (mismo nombre logo.svg, o actualiza data/branding.json). -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a78d6"/>
+      <stop offset="1" stop-color="#104281"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#g)"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"/>
+  <!-- pin territorial -->
+  <path d="M60 22c-14.4 0-26 11.4-26 25.5C34 66 60 96 60 96s26-30 26-48.5C86 33.4 74.4 22 60 22z" fill="#ffffff"/>
+  <!-- chulo de verificación -->
+  <path d="M48 49l9 9 16-17" fill="none" stroke="#1baf7a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

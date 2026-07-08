@@ -320,6 +320,29 @@ p { margin: 0.3em 0; }
   gap: 16px;
 }
 .s-header .brand { font-size: 1.3rem; font-weight: 800; letter-spacing: 0.02em; }
+
+/* identidad visual (logo + entidad + proceso) */
+.brandline { display: flex; gap: 12px; align-items: center; min-width: 0; }
+.brandlogo { width: 42px; height: 42px; flex: 0 0 auto; }
+.brandlogo-sm { width: 24px; height: 24px; flex: 0 0 auto; }
+.entline {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin: 0;
+}
+.portada-head { display: flex; gap: 20px; align-items: center; }
+.portada-logo { width: 96px; height: 96px; flex: 0 0 auto; }
+.portada-head .lema { color: var(--ink-2); font-style: italic; margin-top: 2px; }
 .s-header .live {
   display: flex;
   gap: 18px;

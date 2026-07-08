@@ -93,6 +93,17 @@ function joinUrl(req) {
 
 app.get('/api/join-url', (req, res) => res.json({ url: joinUrl(req) }));
 
+// Identidad visual (nombre del proceso, entidad, logo). Editable en
+// data/branding.json sin tocar código.
+const BRANDING_FILE = path.join(DATA_DIR, 'branding.json');
+app.get('/api/branding', (req, res) => {
+  try {
+    res.json(JSON.parse(fs.readFileSync(BRANDING_FILE, 'utf8')));
+  } catch (err) {
+    res.json({ entidad: 'CNSC', proceso: 'Quiz VRM/VA', actividad: 'Capacitación', logo: null });
+  }
+});
+
 app.get('/api/qr.svg', async (req, res) => {
   try {
     const svg = await QRCode.toString(joinUrl(req), {
