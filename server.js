@@ -74,6 +74,9 @@ function persistQuestions() {
 // ---------- servidor HTTP ----------
 
 const app = express();
+// Detrás de un proxy (Hugging Face Spaces, Render, etc.) respeta
+// x-forwarded-proto para que el QR se genere con la URL https correcta.
+app.set('trust proxy', true);
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: true } });
 

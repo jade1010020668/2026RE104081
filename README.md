@@ -114,6 +114,40 @@ límite en segundos (por defecto 180 = 3 minutos).
   basta un PC en la red WiFi local (el QR usa la IP local) o un despliegue en
   cualquier servicio que sirva Node.js.
 
+## Publicar en internet (URL pública)
+
+Para que las personas entren desde cualquier red (no solo el WiFi del salón),
+la aplicación puede desplegarse gratis. El QR se genera solo con la URL
+pública, sin configurar nada.
+
+### Opción A · Hugging Face Spaces (con el `Dockerfile` incluido)
+
+1. Entra a <https://huggingface.co/new-space>.
+2. Nombre del Space: por ejemplo `quiz-vrm`; **SDK: Docker** (plantilla
+   *Blank*); visibilidad **Public**; hardware gratuito (CPU basic).
+3. En la pestaña **Files** del Space sube todos los archivos del proyecto
+   (incluido el `Dockerfile`; no subas `node_modules` ni `data/session.json`).
+   También puedes subirlos con git:
+   `git push https://huggingface.co/spaces/TU_USUARIO/quiz-vrm`.
+4. En **Settings → Variables and secrets** crea el secreto `ADMIN_CODE` con
+   tu propio código de supervisor.
+5. Al terminar la construcción, la app queda en
+   `https://TU_USUARIO-quiz-vrm.hf.space` → esa URL es la de los
+   participantes; `/admin` y `/pantalla` funcionan igual.
+
+### Opción B · Render (con el `render.yaml` incluido)
+
+1. Entra a <https://render.com> → **New +** → **Blueprint**.
+2. Conecta este repositorio de GitHub; Render lee `render.yaml` y crea el
+   servicio. Define el valor de `ADMIN_CODE` cuando lo pida.
+3. La app queda en `https://quiz-vrm-cnsc.onrender.com` (o similar).
+   En el plan gratuito el servicio se duerme tras ~15 min sin uso y tarda
+   unos segundos en despertar con la primera visita.
+
+En ambos casos la sesión (participantes y puntajes) vive en el contenedor:
+si el servicio se reinicia, la sesión vuelve a empezar. Para la jornada de
+capacitación, abre la pantalla unos minutos antes y evita reiniciar.
+
 ## Prueba de humo
 
 ```bash

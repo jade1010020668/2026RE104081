@@ -1,0 +1,12 @@
+# Despliegue con un clic en Render (https://render.com):
+# New + → Blueprint → conectar este repositorio de GitHub.
+services:
+  - type: web
+    name: quiz-vrm-cnsc
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_CODE
+        sync: false # se pide al crear el servicio; usa un código propio
