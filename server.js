@@ -324,20 +324,39 @@ if (game.phase === 'question') {
   }
 }
 
-server.listen(PORT, HOST, () => {
+// El banner se imprime una sola vez, con el puerto que realmente quedó en uso.
+server.once('listening', () => {
+  const port = server.address().port;
   const nets = os.networkInterfaces();
   const urls = [];
   for (const list of Object.values(nets)) {
     for (const net of list || []) {
-      if (net.family === 'IPv4' && !net.internal) urls.push(`http://${net.address}:${PORT}/`);
+      if (net.family === 'IPv4' && !net.internal) urls.push(`http://${net.address}:${port}/`);
     }
   }
   console.log('════════════════════════════════════════════════════════');
   console.log('  Quiz VRM/VA · CNSC — servidor iniciado');
-  console.log(`  Participantes:  http://localhost:${PORT}/`);
+  console.log(`  Participantes:  http://localhost:${port}/`);
   for (const u of urls) console.log(`                  ${u}  (red local — este es el QR)`);
-  console.log(`  Supervisor:     http://localhost:${PORT}/admin`);
-  console.log(`  Pantalla:       http://localhost:${PORT}/pantalla`);
+  console.log(`  Supervisor:     http://localhost:${port}/admin`);
+  console.log(`  Pantalla:       http://localhost:${port}/pantalla`);
   console.log(`  Código de acceso (supervisor/pantalla): ${ADMIN_CODE}`);
   console.log('════════════════════════════════════════════════════════');
 });
+
+// Si el puerto está ocupado por otra aplicación, prueba con los siguientes.
+function startServer(port, remainingAttempts) {
+  const onError = (err) => {
+    if (err.code === 'EADDRINUSE' && remainingAttempts > 0) {
+      console.warn(`⚠ El puerto ${port} está ocupado por otra aplicación; probando con el ${port + 1}…`);
+      startServer(port + 1, remainingAttempts - 1);
+    } else {
+      console.error('No se pudo iniciar el servidor:', err.message);
+      process.exit(1);
+    }
+  };
+  server.once('error', onError);
+  server.listen(port, HOST, () => server.removeListener('error', onError));
+}
+
+startServer(PORT, 20);
