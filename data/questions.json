@@ -1,0 +1,122 @@
+[
+  {
+    "id": "edu01",
+    "text": "En la VRM, ¿con cuál documento se acredita el requisito de educación formal exigido por el empleo?",
+    "options": [
+      "Certificado de notas o promedio académico",
+      "Diploma o acta de grado del título exigido",
+      "Constancia de matrícula vigente",
+      "Carné de egresado de la institución"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu02",
+    "text": "Un aspirante aporta certificado de terminación y aprobación de materias, pero el empleo exige título profesional. ¿Cumple el requisito de educación?",
+    "options": [
+      "Sí, porque terminó el plan de estudios",
+      "No: la terminación de materias no equivale al título",
+      "Sí, si además acredita experiencia laboral",
+      "Solo si el programa tiene acreditación de alta calidad"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu03",
+    "text": "Cuando el ejercicio de la profesión exige tarjeta o matrícula profesional (por ejemplo, abogados o ingenieros), en la VRM el aspirante debe:",
+    "options": [
+      "Aportarla o acreditar su trámite, conforme a la norma aplicable",
+      "Reemplazarla con el diploma de grado",
+      "Presentarla solo si el empleo es del nivel directivo",
+      "No presentarla: nunca se revisa en la VRM"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu04",
+    "text": "Para que un título obtenido en el exterior sea válido como requisito de educación en un empleo público en Colombia, se requiere:",
+    "options": [
+      "Únicamente la apostilla del diploma",
+      "Traducción simple al español",
+      "Convalidación ante el Ministerio de Educación Nacional",
+      "Certificación de la embajada del país de origen"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu05",
+    "text": "¿Cuál de las siguientes certificaciones acredita educación formal?",
+    "options": [
+      "Diplomado de 120 horas",
+      "Curso de educación informal",
+      "Seminario de actualización",
+      "Título de especialización"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu06",
+    "text": "Los diplomados y los cursos de educación para el trabajo y el desarrollo humano, frente al requisito de título de posgrado:",
+    "options": [
+      "Lo suplen si suman más de 160 horas",
+      "No lo suplen: no son títulos de educación formal",
+      "Lo suplen si se acreditan dos o más diplomados",
+      "Lo suplen cuando fueron cursados de manera virtual"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu07",
+    "text": "Según las equivalencias del Decreto 1083 de 2015 (niveles profesional y asesor), el título de posgrado en modalidad de especialización puede compensarse, entre otras, por:",
+    "options": [
+      "Un (1) año de experiencia laboral cualquiera",
+      "Un diplomado en el área del empleo",
+      "Dos (2) años de experiencia profesional y viceversa, acreditando el título profesional",
+      "Seis (6) meses de experiencia relacionada"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu08",
+    "text": "El Núcleo Básico del Conocimiento (NBC) sirve en la VRM para:",
+    "options": [
+      "Calcular la experiencia profesional del aspirante",
+      "Verificar que el título pertenezca a las disciplinas académicas exigidas por el empleo",
+      "Determinar la antigüedad del título aportado",
+      "Definir la asignación salarial del empleo"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu09",
+    "text": "La OPEC exige «Título profesional en Derecho». Un aspirante aporta título de «Tecnólogo en Gestión Judicial». En la VRM:",
+    "options": [
+      "Cumple, por tratarse de un área afín",
+      "Cumple, si acredita experiencia en juzgados",
+      "Cumple, si se encuentra cursando Derecho",
+      "No cumple: el nivel de formación exigido es profesional"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu10",
+    "text": "En los procesos de selección de la CNSC, los requisitos mínimos (incluida la educación) deben acreditarse a más tardar:",
+    "options": [
+      "En la fecha señalada en el acuerdo de convocatoria (inscripción)",
+      "El día de la aplicación de las pruebas escritas",
+      "El día de la posesión en el empleo",
+      "En cualquier momento del proceso de selección"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  }
+]
