@@ -1,3 +1,13 @@
+---
+title: Quiz VRM/VA · CNSC
+emoji: 🎯
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Quiz VRM/VA · CNSC — capacitación interactiva en tiempo real
 
 Aplicación web ligera (estilo *quiz* en vivo) para la capacitación de las
