@@ -21,6 +21,14 @@ npm install
 npm start
 ```
 
+Para probarla por primera vez existe un atajo que arranca el servidor y
+**abre solo las tres ventanas** (pantalla, supervisor y participante) en el
+navegador del computador:
+
+```bash
+npm run demo
+```
+
 El servidor imprime las URL disponibles. Los tres roles son:
 
 | Rol | URL | Descripción |
