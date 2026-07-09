@@ -1,0 +1,37 @@
+name: Publicar en Hugging Face Space
+
+# Publica automáticamente la aplicación en el Space
+# huggingface.co/spaces/MORALES101002/quiz-vrm cada vez que cambia la rama,
+# o cuando se dispara manualmente. Requiere el secreto HF_TOKEN (un token de
+# escritura de Hugging Face) configurado en Settings → Secrets → Actions.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/vrm-assessment-app-hr4055
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Empujar la aplicación al Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "Falta el secreto HF_TOKEN. Créalo en Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          # Reemplaza por completo el contenido del Space con esta rama.
+          git push --force \
+            "https://MORALES101002:${HF_TOKEN}@huggingface.co/spaces/MORALES101002/quiz-vrm" \
+            HEAD:main
+          echo "✅ Aplicación publicada. El Space comenzará a construir en huggingface.co/spaces/MORALES101002/quiz-vrm"
