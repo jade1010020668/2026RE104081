@@ -1,120 +1,360 @@
 [
   {
     "id": "edu01",
-    "text": "En la VRM, ¿con cuál documento se acredita el requisito de educación formal exigido por el empleo?",
+    "text": "Según el Decreto 1083 de 2015, ¿con cuáles documentos se acredita la educación formal (los estudios)?",
     "options": [
-      "Certificado de notas o promedio académico",
-      "Diploma o acta de grado del título exigido",
-      "Constancia de matrícula vigente",
-      "Carné de egresado de la institución"
+      "Con cualquier constancia de matrícula o carné estudiantil vigente",
+      "Con certificados, diplomas, actas de grado o títulos otorgados por las instituciones (la tarjeta profesional los suple)",
+      "Con la sábana de notas donde conste el promedio acumulado",
+      "Con una declaración juramentada del aspirante"
     ],
     "correctIndex": 1,
     "timeLimitSec": 180
   },
   {
     "id": "edu02",
-    "text": "Un aspirante aporta certificado de terminación y aprobación de materias, pero el empleo exige título profesional. ¿Cumple el requisito de educación?",
+    "text": "La OPEC exige título de bachiller y el aspirante aporta el certificado de presentación del examen de Estado (ICFES). ¿Es válido?",
     "options": [
-      "Sí, porque terminó el plan de estudios",
-      "No: la terminación de materias no equivale al título",
-      "Sí, si además acredita experiencia laboral",
-      "Solo si el programa tiene acreditación de alta calidad"
-    ],
-    "correctIndex": 1,
-    "timeLimitSec": 180
-  },
-  {
-    "id": "edu03",
-    "text": "Cuando el ejercicio de la profesión exige tarjeta o matrícula profesional (por ejemplo, abogados o ingenieros), en la VRM el aspirante debe:",
-    "options": [
-      "Aportarla o acreditar su trámite, conforme a la norma aplicable",
-      "Reemplazarla con el diploma de grado",
-      "Presentarla solo si el empleo es del nivel directivo",
-      "No presentarla: nunca se revisa en la VRM"
-    ],
-    "correctIndex": 0,
-    "timeLimitSec": 180
-  },
-  {
-    "id": "edu04",
-    "text": "Para que un título obtenido en el exterior sea válido como requisito de educación en un empleo público en Colombia, se requiere:",
-    "options": [
-      "Únicamente la apostilla del diploma",
-      "Traducción simple al español",
-      "Convalidación ante el Ministerio de Educación Nacional",
-      "Certificación de la embajada del país de origen"
+      "Sí, porque el examen de Estado solo lo presentan los bachilleres",
+      "Sí, si además aporta el carné de una universidad",
+      "No: el título de bachiller se acredita con el diploma o el acta de grado",
+      "Sí, pero únicamente para empleos del nivel asistencial"
     ],
     "correctIndex": 2,
     "timeLimitSec": 180
   },
   {
-    "id": "edu05",
-    "text": "¿Cuál de las siguientes certificaciones acredita educación formal?",
+    "id": "edu03",
+    "text": "Un aspirante aporta únicamente la «sábana de notas» de su carrera para acreditar el requisito de educación. ¿Es válida?",
     "options": [
-      "Diplomado de 120 horas",
-      "Curso de educación informal",
-      "Seminario de actualización",
-      "Título de especialización"
+      "Sí, si registra un promedio superior a 4.0",
+      "Sí, si está firmada por el rector de la institución",
+      "Sí, pero solamente para la prueba de valoración de antecedentes",
+      "No: la sábana de notas no acredita ningún tipo de requisito"
     ],
     "correctIndex": 3,
     "timeLimitSec": 180
   },
   {
-    "id": "edu06",
-    "text": "Los diplomados y los cursos de educación para el trabajo y el desarrollo humano, frente al requisito de título de posgrado:",
+    "id": "edu04",
+    "text": "Un diploma aportado por el aspirante solo tiene la firma del rector y le falta la del secretario académico. ¿Se puede validar?",
     "options": [
-      "Lo suplen si suman más de 160 horas",
-      "No lo suplen: no son títulos de educación formal",
-      "Lo suplen si se acreditan dos o más diplomados",
-      "Lo suplen cuando fueron cursados de manera virtual"
+      "No: el diploma debe contener las firmas del rector y del secretario del plantel",
+      "Sí, porque el rector es la máxima autoridad de la institución",
+      "Sí, si el aspirante anexa una declaración juramentada",
+      "Sí, siempre que el diploma sea anterior a 1994"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu05",
+    "text": "El empleo exige título de técnico profesional y el aspirante aporta un certificado de «Técnico Laboral por Competencias». ¿Es válido?",
+    "options": [
+      "Sí: ambos corresponden a formación técnica",
+      "No: es un certificado de aptitud ocupacional, no un título de educación superior",
+      "Sí, si el programa tuvo una duración superior a 600 horas",
+      "Sí, únicamente si fue expedido por el SENA"
     ],
     "correctIndex": 1,
     "timeLimitSec": 180
   },
   {
-    "id": "edu07",
-    "text": "Según las equivalencias del Decreto 1083 de 2015 (niveles profesional y asesor), el título de posgrado en modalidad de especialización puede compensarse, entre otras, por:",
+    "id": "edu06",
+    "text": "Para que un título obtenido en el exterior sea válido en la VRM se requiere:",
     "options": [
-      "Un (1) año de experiencia laboral cualquiera",
-      "Un diplomado en el área del empleo",
-      "Dos (2) años de experiencia profesional y viceversa, acreditando el título profesional",
-      "Seis (6) meses de experiencia relacionada"
+      "Únicamente la apostilla del diploma",
+      "Solo la traducción oficial al español",
+      "Una certificación de la embajada del país donde se estudió",
+      "Convalidación del Ministerio de Educación y, además, estar apostillado o legalizado y traducido"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu07",
+    "text": "La OPEC exige diploma de bachiller. El aspirante no lo aporta, pero adjunta su título profesional universitario. ¿Cumple el requisito?",
+    "options": [
+      "No: debe aportar exactamente el diploma de bachiller exigido",
+      "No, salvo que el empleo sea del nivel profesional",
+      "Sí: el requisito se entiende cumplido al acreditar un título de nivel superior al exigido",
+      "Sí, pero solo si además acredita un año de experiencia"
     ],
     "correctIndex": 2,
     "timeLimitSec": 180
   },
   {
     "id": "edu08",
-    "text": "El Núcleo Básico del Conocimiento (NBC) sirve en la VRM para:",
+    "text": "El empleo exige «aprobación de tres (3) años de educación superior». El certificado dice que el aspirante «se encuentra cursando sexto semestre». ¿Cumple?",
     "options": [
-      "Calcular la experiencia profesional del aspirante",
-      "Verificar que el título pertenezca a las disciplinas académicas exigidas por el empleo",
-      "Determinar la antigüedad del título aportado",
-      "Definir la asignación salarial del empleo"
-    ],
-    "correctIndex": 1,
-    "timeLimitSec": 180
-  },
-  {
-    "id": "edu09",
-    "text": "La OPEC exige «Título profesional en Derecho». Un aspirante aporta título de «Tecnólogo en Gestión Judicial». En la VRM:",
-    "options": [
-      "Cumple, por tratarse de un área afín",
-      "Cumple, si acredita experiencia en juzgados",
-      "Cumple, si se encuentra cursando Derecho",
-      "No cumple: el nivel de formación exigido es profesional"
+      "Sí: sexto semestre equivale a tres años",
+      "Sí, aplicando el principio de la buena fe",
+      "Sí, si su promedio académico es superior a 3.5",
+      "No: solo hay certeza de cinco semestres cursados y aprobados"
     ],
     "correctIndex": 3,
     "timeLimitSec": 180
   },
   {
-    "id": "edu10",
-    "text": "En los procesos de selección de la CNSC, los requisitos mínimos (incluida la educación) deben acreditarse a más tardar:",
+    "id": "edu09",
+    "text": "El empleo exige título profesional del NBC de Administración y especialización. El aspirante aporta SOLO el diploma de la especialización. ¿Cumple el requisito de educación?",
     "options": [
-      "En la fecha señalada en el acuerdo de convocatoria (inscripción)",
-      "El día de la aplicación de las pruebas escritas",
-      "El día de la posesión en el empleo",
-      "En cualquier momento del proceso de selección"
+      "Sí: quien tiene posgrado necesariamente obtuvo un pregrado",
+      "No: no es posible establecer si su pregrado pertenece al NBC exigido por la OPEC",
+      "Sí, siempre que la especialización sea afín a las funciones",
+      "Sí, pero el documento solo se puntúa en la prueba de VA"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "edu10",
+    "text": "La OPEC exige un curso específico de 100 horas. El aspirante aporta tres cursos con la misma denominación, de 40 horas cada uno (120 horas en total). ¿Cumple?",
+    "options": [
+      "Sí: la sumatoria supera las 100 horas exigidas",
+      "Sí, si los cursos fueron realizados en los últimos 10 años",
+      "No: la intensidad horaria no se acredita sumando cursos de igual o similar denominación",
+      "Sí, si los tres cursos los expidió la misma institución"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp01",
+    "text": "Por regla general (Decreto 1083 de 2015), la experiencia profesional se contabiliza a partir de:",
+    "options": [
+      "La fecha del grado, en todos los casos y sin excepción",
+      "La fecha de expedición de la cédula de ciudadanía",
+      "El primer contrato laboral firmado después de iniciar estudios",
+      "La terminación y aprobación del pensum académico de la formación profesional"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp02",
+    "text": "¿Cuál es el contenido mínimo que debe tener una certificación laboral?",
+    "options": [
+      "Nombre o razón social de la entidad, tiempo de servicio y relación de funciones desempeñadas",
+      "Salario devengado, tipo de contrato y jefe inmediato",
+      "Horario de trabajo y motivo del retiro",
+      "Únicamente el cargo desempeñado y el año de ingreso"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp03",
+    "text": "El empleo exige únicamente «experiencia laboral» y la certificación aportada no relaciona funciones. ¿Es válida?",
+    "options": [
+      "No: toda certificación debe describir las funciones",
+      "Sí: la experiencia laboral es la adquirida con el ejercicio de cualquier empleo, ocupación, arte u oficio",
+      "Sí, pero solo si el empleo es del nivel profesional",
+      "No, salvo que se complete con declaración juramentada"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp04",
+    "text": "La certificación dice que el aspirante «se encuentra vinculado» a la entidad, sin fecha de retiro. ¿Qué fecha final se toma para contar la experiencia?",
+    "options": [
+      "Ninguna: la certificación se rechaza siempre",
+      "La fecha de cierre de inscripciones del proceso",
+      "La fecha de expedición de la certificación",
+      "El último día del año en curso"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp05",
+    "text": "La certificación laboral solo indica el AÑO de ingreso y el AÑO de retiro (sin mes ni día). ¿Cómo se contabiliza?",
+    "options": [
+      "Del 1 de enero del año de ingreso al 31 de diciembre del año de retiro",
+      "No se contabiliza: se rechaza la certificación",
+      "Se toma el 30 de junio de ambos años, como promedio",
+      "Del último día del último mes del año de ingreso al primer día del primer mes del año de retiro"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp06",
+    "text": "La certificación indica una jornada laboral inferior a ocho (8) horas diarias. ¿Cómo se establece el tiempo de experiencia?",
+    "options": [
+      "Se cuenta como tiempo completo, por favorabilidad",
+      "Se suman las horas trabajadas y el resultado se divide entre ocho",
+      "No se contabiliza ese tiempo",
+      "Se cuenta la mitad del tiempo certificado"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp07",
+    "text": "El aspirante acredita experiencia adquirida de manera simultánea en dos entidades (tiempos traslapados). ¿Cómo se contabiliza?",
+    "options": [
+      "Se suman los dos tiempos completos",
+      "Se elige la certificación de la entidad de mayor jerarquía",
+      "Una sola vez; salvo medios tiempos o tiempos parciales autorizados, que se suman sin exceder la jornada completa",
+      "Ninguno de los dos tiempos se tiene en cuenta"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp08",
+    "text": "Un contador certifica que, desde su grado, labora como AUXILIAR CONTABLE en una entidad pública, y concursa para un empleo del nivel profesional. ¿Es experiencia profesional?",
+    "options": [
+      "No: el cargo es del nivel asistencial y esa experiencia no se valida para el nivel profesional",
+      "Sí, porque fue adquirida después de la obtención del título",
+      "Sí, siempre que las funciones hayan sido contables",
+      "Sí: se convierte automáticamente en experiencia profesional relacionada"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp09",
+    "text": "El aspirante aporta resoluciones de nombramiento y actas de posesión para demostrar su experiencia. ¿Son válidas por sí solas?",
+    "options": [
+      "Sí: son documentos públicos que dan plena fe",
+      "Sí, si están autenticadas ante notario",
+      "Sí, pero únicamente para empleos del nivel directivo",
+      "No: se requieren documentos adicionales que evidencien el tiempo laborado y el ejercicio del cargo"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp10",
+    "text": "¿Se puede validar como experiencia profesional la judicatura, aunque el aspirante no aporte la certificación de terminación de materias?",
+    "options": [
+      "No: sin esa certificación es imposible contabilizarla",
+      "Sí: la judicatura solo la pueden realizar quienes terminaron y aprobaron todas las materias del pensum",
+      "No: la judicatura es una práctica académica sin valor de experiencia",
+      "Sí, pero únicamente por la mitad del tiempo certificado"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ01",
+    "text": "En los niveles Directivo, Asesor y Profesional, el título de posgrado en modalidad de especialización puede compensarse, entre otras, por:",
+    "options": [
+      "Un (1) año de experiencia laboral cualquiera",
+      "Un diplomado afín de mínimo 160 horas",
+      "Dos (2) años de experiencia profesional, siempre que se acredite el título profesional",
+      "Seis (6) meses de experiencia relacionada"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ02",
+    "text": "¿En qué etapa del proceso de selección se aplican las equivalencias entre estudio y experiencia?",
+    "options": [
+      "Solo en la VRM, cuando no se cumple el requisito de forma directa y están previstas en el MEFCL y la OPEC",
+      "En cualquier etapa del proceso de selección",
+      "Solo en la prueba de VA, para sumar puntos adicionales",
+      "En la etapa que el aspirante solicite por escrito"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ03",
+    "text": "El título de posgrado en modalidad de MAESTRÍA puede compensarse por:",
+    "options": [
+      "Dos (2) años de experiencia profesional",
+      "Cuatro (4) años de experiencia profesional",
+      "Cinco (5) años de experiencia relacionada",
+      "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ04",
+    "text": "Para los niveles técnico y asistencial, el título de formación tecnológica o técnica profesional equivale a:",
+    "options": [
+      "Dos (2) años de experiencia laboral",
+      "Un (1) año de experiencia relacionada, acreditando la terminación y aprobación de los estudios",
+      "Tres (3) años de experiencia relacionada",
+      "Seis (6) meses de experiencia profesional"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ05",
+    "text": "¿Existe equivalencia aplicable para el título de ESPECIALIZACIÓN TECNOLÓGICA adicional al requisito mínimo?",
+    "options": [
+      "Sí: un (1) año de experiencia relacionada",
+      "Sí: dos (2) años, como cualquier especialización",
+      "Sí, siempre que el MEFCL de la entidad la contemple",
+      "No: las equivalencias son taxativas y la norma no la contempla"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ06",
+    "text": "¿Puede una entidad incluir en su MEFCL equivalencias diferentes a las establecidas en los Decretos 785 de 2005 y 1083 de 2015?",
+    "options": [
+      "No: solo puede escoger entre las previstas taxativamente en esas normas",
+      "Sí, en ejercicio de su autonomía administrativa",
+      "Sí, con aprobación previa de la CNSC",
+      "Sí, pero únicamente para los empleos del nivel directivo"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ07",
+    "text": "Tres (3) años de experiencia profesional pueden compensarse por:",
+    "options": [
+      "Un diplomado de mínimo 300 horas",
+      "Título profesional adicional al exigido en el requisito del respectivo empleo",
+      "Un título de especialización tecnológica",
+      "Dos títulos de técnico profesional en cualquier área"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ08",
+    "text": "¿Es posible aplicar la equivalencia de un posgrado o título profesional adicional por experiencia profesional RELACIONADA?",
+    "options": [
+      "Sí, en todos los niveles jerárquicos",
+      "Sí, cuando el posgrado sea afín a las funciones del empleo",
+      "No: la norma solo prevé la equivalencia con experiencia profesional, no con la relacionada",
+      "Sí, previa autorización de la entidad que oferta el empleo"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ09",
+    "text": "Cuando la profesión exige tarjeta, matrícula o licencia debidamente reglamentada, estos documentos:",
+    "options": [
+      "Pueden compensarse con dos (2) años de experiencia",
+      "Pueden compensarse con un título de posgrado afín",
+      "Se suplen con una declaración juramentada del aspirante",
+      "No pueden compensarse por experiencia u otras calidades, salvo que la ley lo establezca"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ10",
+    "text": "Las equivalencias entre estudio y experiencia NO se aplican a:",
+    "options": [
+      "Los empleos del área médico asistencial del Sistema de Seguridad Social en Salud",
+      "Los empleos del nivel asistencial",
+      "Los empleos de las entidades territoriales",
+      "Los empleos cuyas funciones están definidas en la ley"
     ],
     "correctIndex": 0,
     "timeLimitSec": 180
