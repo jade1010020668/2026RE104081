@@ -159,8 +159,9 @@ render.yaml          Despliegue con un clic en Render
   simulados, dos rondas de preguntas, verificando QR, temporizador,
   resultados, tabla con ▲/▼ y sorteo.
 - **Demo interactiva publicada** (simulación de las tres vistas con
-  participantes de prueba, para verla sin instalar nada):
-  <https://claude.ai/code/artifact/e1827674-eb5f-48cb-b43f-35165b7d4535>
+  participantes de prueba — se pueden ver juntas o por separado —, para
+  verla sin instalar nada):
+  <https://claude.ai/code/artifact/f65184e7-6f4f-43a2-944a-ea12ea60b005>
 
 ## 5. Cómo ejecutarla
 
