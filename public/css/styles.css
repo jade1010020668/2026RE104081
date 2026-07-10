@@ -51,12 +51,12 @@
   --good: #34d399;
   --warning: #fbbf24;
   --critical: #f87171;
-  --opt-a: #3b82f6;
-  --opt-b: #14b8a6;
-  --opt-c: #eab308;
-  --opt-d: #a78bfa;
-  --opt-e: #fb923c;
-  --opt-f: #f87171;
+  --opt-a: #2f6fcc;
+  --opt-b: #0f9488;
+  --opt-c: #cf9a1f;
+  --opt-d: #7e63d6;
+  --opt-e: #d97b38;
+  --opt-f: #d1504c;
   --shadow: 0 14px 44px -16px rgba(0, 0, 0, 0.6);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
@@ -395,12 +395,26 @@ p { margin: 0.3em 0; }
 }
 .masthead-screen {
   display: block;
-  height: clamp(130px, 20vh, 260px);
+  height: clamp(210px, 30vh, 420px);   /* pantallas de contenido: banner grande */
   width: auto;
-  max-width: min(96%, 1120px);
+  max-width: min(98%, 1320px);
   margin: 0 auto;
-  border-radius: 16px;
-  box-shadow: 0 18px 50px -18px rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  box-shadow: 0 22px 64px -20px rgba(0, 0, 0, 0.65);
+}
+/* Portada: máximo protagonismo del proceso */
+body[data-screen="lobby"] .masthead-screen {
+  height: clamp(300px, 48vh, 640px);
+}
+/* Pie institucional de la pantalla proyectada */
+.s-footer {
+  text-align: center;
+  color: var(--ink-muted);
+  font-size: clamp(0.9rem, 1.35vw, 1.15rem);
+  letter-spacing: 0.06em;
+  padding-top: 16px;
+  margin-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 .admin-tag {
   font-size: 0.78rem;

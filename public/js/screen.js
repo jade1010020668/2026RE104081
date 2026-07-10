@@ -289,6 +289,7 @@ function renderSorteo() {
 
 function render() {
   if (!state) return;
+  document.body.dataset.screen = state.screen; // permite agrandar el banner en la portada
   document.getElementById('hdr-connected').textContent =
     `${state.counts.connected} conectados`;
 
