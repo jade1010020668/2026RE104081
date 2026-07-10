@@ -20,11 +20,8 @@
   <div id="view-main" class="a-wrap" hidden>
     <header style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
       <div class="brandline">
-        <img class="brandlogo" data-brand="logo" src="/img/logo.svg" alt="" />
-        <div>
-          <div class="entline" data-brand="entidad">Comisión Nacional del Servicio Civil</div>
-          <h1 style="font-size:1.15rem;margin:0"><span data-brand="proceso">Quiz VRM/VA</span> · Supervisor</h1>
-        </div>
+        <img class="masthead-sm" data-brand="banner" src="/img/banner.jpg" alt="Proceso de Selección Entidades del Orden Territorial y UApA" />
+        <span class="admin-tag">Supervisor</span>
       </div>
       <span class="secondary">Pantalla: <a href="/pantalla" target="_blank">/pantalla</a> · Participantes: <a href="/" target="_blank" id="join-link">/</a></span>
     </header>
@@ -41,6 +38,35 @@
       </div>
     </section>
 
+    <!-- Enlaces y QR de las tres vistas -->
+    <section class="card" style="display:grid;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+        <h3 style="font-size:1rem;margin:0">Enlaces y códigos QR</h3>
+        <span class="muted" style="font-size:0.8rem">Ábrelos desde el WiFi del salón para que los QR funcionen en los celulares.</span>
+      </div>
+      <div class="a-links">
+        <div class="linkcard">
+          <div class="linkhead">📱 Participantes</div>
+          <img class="qrimg" src="/api/qr.svg?to=participant" alt="QR para participantes" />
+          <a class="linkurl" id="url-participant" href="/" target="_blank" rel="noopener">—</a>
+          <button class="btn btn-copy" data-copy="url-participant" type="button">Copiar enlace</button>
+        </div>
+        <div class="linkcard">
+          <div class="linkhead">🖥️ Pantalla</div>
+          <img class="qrimg" src="/api/qr.svg?to=pantalla" alt="QR para la pantalla proyectada" />
+          <a class="linkurl" id="url-pantalla" href="/pantalla" target="_blank" rel="noopener">—</a>
+          <button class="btn btn-copy" data-copy="url-pantalla" type="button">Copiar enlace</button>
+        </div>
+        <div class="linkcard">
+          <div class="linkhead">🎛️ Supervisor</div>
+          <img class="qrimg" src="/api/qr.svg?to=admin" alt="QR para el panel del supervisor" />
+          <a class="linkurl" id="url-admin" href="/admin" target="_blank" rel="noopener">—</a>
+          <button class="btn btn-copy" data-copy="url-admin" type="button">Copiar enlace</button>
+        </div>
+      </div>
+      <p class="muted" style="margin:0;font-size:0.8rem">La Pantalla y el Supervisor pedirán el código de acceso al abrirse.</p>
+    </section>
+
     <!-- Controles -->
     <section class="card" style="display:grid;gap:12px">
       <h3 style="font-size:1rem;margin:0">Controles de la sesión</h3>
@@ -53,6 +79,7 @@
         <button class="btn" data-screen="lobby">🔳 Portada y QR</button>
         <button class="btn" data-screen="question_ranking">📊 Resultados de la pregunta</button>
         <button class="btn" data-screen="accumulated">🏆 Tabla general</button>
+        <button class="btn" data-screen="resumen">📋 Resumen general</button>
         <button class="btn" id="btn-sorteo">🎲 Sorteo aleatorio</button>
       </div>
       <div class="a-controls" style="border-top:1px solid var(--grid);padding-top:12px">
@@ -107,6 +134,27 @@
         <button class="btn btn-primary" type="submit">Guardar</button>
       </div>
     </form>
+  </div>
+
+  <!-- Detalle de una pregunta jugada: quién respondió bien y quién mal -->
+  <div class="modal-back" id="detailmodal" hidden>
+    <div class="card modal" id="detailcard">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">
+        <h3 id="detail-title" style="margin:0">Detalle de la pregunta</h3>
+        <button class="btn" type="button" id="detail-close" title="Cerrar">✕</button>
+      </div>
+      <p class="secondary" id="detail-question" style="margin:0"></p>
+      <p class="muted" id="detail-correct" style="margin:0"></p>
+      <div class="dist" id="detail-dist"></div>
+      <div class="detail-groups" id="detail-groups"></div>
+      <div class="detail-sorteo">
+        <span class="muted" style="font-size:0.82rem">🎲 Sortear una persona de un grupo (para preguntarle en público, se muestra en la pantalla):</span>
+        <div class="a-controls" id="detail-sorteo-btns"></div>
+      </div>
+      <div class="a-controls" style="justify-content:flex-end">
+        <button class="btn btn-primary" type="button" id="detail-project">📺 Proyectar resultados</button>
+      </div>
+    </div>
   </div>
 
   <script src="/socket.io/socket.io.js"></script>

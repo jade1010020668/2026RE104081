@@ -9,20 +9,18 @@
 <body class="page-participant">
   <div class="p-wrap">
     <header class="p-header">
-      <span class="brand" style="display:flex;gap:8px;align-items:center;min-width:0">
-        <img class="brandlogo-sm" data-brand="logo" src="/img/logo.svg" alt="" />
-        <span data-brand="proceso" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Quiz VRM/VA · CNSC</span>
-      </span>
+      <img class="masthead" data-brand="banner" src="/img/banner.jpg" alt="Proceso de Selección Entidades del Orden Territorial y UApA" />
       <span class="mename" id="me-name"></span>
     </header>
 
     <!-- Registro -->
     <section id="view-join" class="card" hidden>
       <h2>¡Bienvenido(a)!</h2>
-      <p class="secondary">Escribe tu nombre completo para participar en la sesión.</p>
-      <form id="join-form" style="display:grid;gap:12px;margin-top:12px">
-        <input class="input" id="join-name" maxlength="40" placeholder="Tu nombre y apellido" autocomplete="name" required />
-        <button class="btn btn-primary btn-big" type="submit">Ingresar</button>
+      <p class="secondary">Escribe tu <strong>nombre y apellidos completos</strong> para presentar el examen. Con ese nombre quedará registrada tu participación.</p>
+      <form id="join-form" style="display:grid;gap:8px;margin-top:12px">
+        <input class="input" id="join-name" maxlength="60" placeholder="Ej.: María Fernanda Gómez Ruiz" autocomplete="name" required />
+        <p class="muted" id="join-hint" style="margin:0;font-size:0.82rem">Debe incluir al menos un nombre y un apellido.</p>
+        <button class="btn btn-primary btn-big" type="submit" style="margin-top:4px">Ingresar</button>
       </form>
     </section>
 

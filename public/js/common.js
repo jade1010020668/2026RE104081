@@ -80,8 +80,9 @@ function applyBranding() {
     .then((b) => {
       for (const node of document.querySelectorAll('[data-brand]')) {
         const key = node.dataset.brand;
-        if (key === 'logo') {
-          if (b.logo) node.src = b.logo;
+        if (node.tagName === 'IMG') {
+          // logo, banner, o cualquier imagen de marca
+          if (b[key]) { node.src = b[key]; node.hidden = false; }
           else node.hidden = true;
         } else if (b[key]) {
           node.textContent = b[key];

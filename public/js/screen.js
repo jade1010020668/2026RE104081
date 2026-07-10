@@ -15,6 +15,7 @@ const sections = {
   question_ranking: document.getElementById('s-qranking'),
   accumulated: document.getElementById('s-accumulated'),
   sorteo: document.getElementById('s-sorteo'),
+  resumen: document.getElementById('s-resumen'),
 };
 
 let state = null;
@@ -91,7 +92,7 @@ function renderQuestionRanking() {
   const lq = state.lastQuestion;
   if (!lq) return;
   document.getElementById('qr-title').textContent =
-    `Resultados · Pregunta ${state.accumulated.playedCount}`;
+    `Resultados · Pregunta ${lq.question.number}`;
   document.getElementById('qr-correct').textContent =
     `Respuesta correcta: ${LETTERS[lq.question.correctIndex]}. ${lq.question.options[lq.question.correctIndex]}`;
 
@@ -144,7 +145,10 @@ function renderAccumulated() {
   const list = clear(document.getElementById('acc-list'));
   const max = Math.max(...acc.ranking.map((r) => r.total), 1);
   for (const r of acc.ranking) {
-    const extras = el('span', 'face-sm', r.faces.map((f) => (f ? faceEmoji(f) : '·')).join(' '));
+    // En vez de las caritas: cantidad de respuestas correctas de cada persona.
+    const extras = el('span', 'acc-correct');
+    extras.appendChild(el('span', 'n num', String(r.correct)));
+    extras.appendChild(el('span', 'l', ` de ${acc.playedCount} ✓`));
     list.appendChild(
       rankRow({
         position: r.position,
@@ -158,12 +162,56 @@ function renderAccumulated() {
   }
 }
 
+function renderResumen() {
+  const r = state.resumen;
+  if (!r) return;
+  document.getElementById('res-sub').textContent =
+    `${r.participants} participantes · ${r.playedCount} de ${r.totalQuestions} preguntas`;
+
+  const stats = clear(document.getElementById('res-stats'));
+  const card = (num, label) => {
+    const c = el('div', 'rstat');
+    c.appendChild(el('div', 'rstat-n num', String(num)));
+    c.appendChild(el('div', 'rstat-l', label));
+    return c;
+  };
+  stats.appendChild(card(r.participants, 'participantes'));
+  stats.appendChild(card(r.playedCount, 'preguntas jugadas'));
+  stats.appendChild(card(r.pctAciertos + '%', 'aciertos promedio'));
+  stats.appendChild(card(r.avgCorrect, 'aciertos por persona'));
+  const top = el('div', 'rstat');
+  top.appendChild(el('div', 'rstat-n num', String(r.topScore)));
+  top.appendChild(el('div', 'rstat-l', r.topName ? `líder: ${r.topName}` : 'mejor puntaje'));
+  stats.appendChild(top);
+
+  const list = clear(document.getElementById('res-ranking'));
+  const max = Math.max(...r.ranking.map((x) => x.total), 1);
+  for (const x of r.ranking) {
+    const extras = el('span', 'acc-correct');
+    extras.appendChild(el('span', 'n num', String(x.correct)));
+    extras.appendChild(el('span', 'l', ` de ${r.playedCount} ✓`));
+    list.appendChild(
+      rankRow({ position: x.position, name: x.name, score: x.total, maxScore: max, delta: x.delta, extras })
+    );
+  }
+}
+
 function renderSorteo() {
   const s = state.sorteo;
   if (!s) return;
   const nameEl = document.getElementById('sorteo-name');
   const detail = document.getElementById('sorteo-detail');
-  const key = s.token + ':' + (s.question ? s.question.number : 0);
+  // Encabezado: grupo del que se está sorteando.
+  const head = document.getElementById('sorteo-head');
+  const group = document.getElementById('sorteo-group');
+  if (s.category && s.question) {
+    head.textContent = `🎲 Sorteo · Pregunta ${s.question.number}`;
+    group.textContent = `Entre quienes ${s.categoryLabel} (${s.poolSize})`;
+  } else {
+    head.textContent = '🎲 Sorteo';
+    group.textContent = s.categoryLabel ? `Entre ${s.categoryLabel}` : '';
+  }
+  const key = s.token + ':' + (s.question ? s.question.number : 0) + ':' + (s.category || '');
 
   const reveal = () => {
     nameEl.classList.remove('spinning');
@@ -247,6 +295,7 @@ function render() {
   if (state.screen === 'question_ranking') renderQuestionRanking();
   if (state.screen === 'accumulated') renderAccumulated();
   if (state.screen === 'sorteo') renderSorteo();
+  if (state.screen === 'resumen') renderResumen();
 }
 
 socket.on('screen:state', (snapshot) => {

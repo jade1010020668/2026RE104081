@@ -47,9 +47,25 @@ function joinSession(name, token) {
   });
 }
 
+// Exige nombre completo (nombre + apellido). Debe coincidir con la validación
+// del servidor en lib/game.js.
+function isFullName(name) {
+  if (!/^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ.'\- ]+$/.test(name)) return false;
+  const words = name.split(' ').filter((w) => /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]/.test(w));
+  if (words.length < 2) return false;
+  return name.replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ]/g, '').length >= 5;
+}
+
 document.getElementById('join-form').addEventListener('submit', (ev) => {
   ev.preventDefault();
-  const name = document.getElementById('join-name').value;
+  const name = document.getElementById('join-name').value.trim().replace(/\s+/g, ' ');
+  if (!isFullName(name)) {
+    toast('Escribe tu nombre y apellidos completos (al menos un nombre y un apellido).');
+    const hint = document.getElementById('join-hint');
+    if (hint) { hint.textContent = 'Ejemplo válido: María Fernanda Gómez Ruiz'; hint.style.color = 'var(--critical)'; }
+    document.getElementById('join-name').focus();
+    return;
+  }
   joinSession(name, null);
 });
 

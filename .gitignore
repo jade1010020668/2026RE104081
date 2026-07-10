@@ -2,3 +2,8 @@ node_modules/
 data/session.json
 .env
 *.log
+
+# respaldos locales
+data/questions.42.bak.json
+data/questions.orig.json
+questions_repo.json

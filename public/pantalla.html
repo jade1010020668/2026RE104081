@@ -19,13 +19,7 @@
 
   <div id="view-main" class="s-wrap" hidden>
     <header class="s-header">
-      <div class="brandline">
-        <img class="brandlogo" data-brand="logo" src="/img/logo.svg" alt="Logo del proceso" />
-        <div>
-          <div class="entline" data-brand="entidad">Comisión Nacional del Servicio Civil</div>
-          <span class="brand" data-brand="proceso">Procesos de Selección Territorial</span>
-        </div>
-      </div>
+      <img class="masthead-screen" data-brand="banner" src="/img/banner.jpg" alt="Proceso de Selección Entidades del Orden Territorial y UApA" />
       <span class="live">
         <span><span class="dotlive"></span>En vivo</span>
         <span class="num" id="hdr-connected"></span>
@@ -40,16 +34,12 @@
           <div class="url" id="qr-url"></div>
         </div>
         <div style="display:grid;gap:18px;align-content:start">
-          <div class="portada-head">
-            <img class="portada-logo" data-brand="logo" src="/img/logo.svg" alt="Logo del proceso" />
-            <div>
-              <p class="eyebrow" data-brand="entidad">Comisión Nacional del Servicio Civil</p>
-              <h1 class="s-title" data-brand="proceso">Procesos de Selección Territorial</h1>
-              <p class="s-sub" style="font-size:1.15rem;font-weight:600" data-brand="actividad">Capacitación VRM · VA</p>
-              <p class="lema" data-brand="lema"></p>
-            </div>
+          <div>
+            <p class="eyebrow" data-brand="entidad">Comisión Nacional del Servicio Civil</p>
+            <p class="s-sub" style="font-size:1.2rem;font-weight:700;color:var(--ink-1);margin-top:4px" data-brand="actividad">Capacitación VRM · VA</p>
+            <p class="lema" data-brand="lema"></p>
           </div>
-          <h2>Escanea el código y entra con tu nombre</h2>
+          <h2 class="s-title" style="font-size:clamp(1.5rem,3vw,2.3rem)">Escanea el código y entra con tu nombre</h2>
           <p class="s-sub">Cada pregunta tiene <strong>3 minutos</strong>; responde rápido y bien para sumar más puntos.</p>
           <div>
             <span class="bignum num" id="lobby-count">0</span>
@@ -102,9 +92,20 @@
 
       <!-- Sorteo -->
       <section id="s-sorteo" class="s-sorteo" hidden>
-        <h2 class="s-title">🎲 Sorteo</h2>
+        <h2 class="s-title" id="sorteo-head">🎲 Sorteo</h2>
+        <p class="s-sub" id="sorteo-group" style="margin:0"></p>
         <div class="sorteo-name" id="sorteo-name">…</div>
         <div class="sorteo-detail card" id="sorteo-detail" hidden></div>
+      </section>
+
+      <!-- Resumen general -->
+      <section id="s-resumen" hidden style="display:grid;gap:18px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap">
+          <h2 class="s-title">Resumen general</h2>
+          <span class="s-sub num" id="res-sub"></span>
+        </div>
+        <div class="resumen-stats" id="res-stats"></div>
+        <div class="ranklist" id="res-ranking"></div>
       </section>
     </main>
   </div>

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "exp01",
+    "text": "Por regla general (Decreto 1083 de 2015), la experiencia profesional se contabiliza a partir de:",
+    "options": [
+      "La fecha del grado, en todos los casos y sin excepción",
+      "La fecha de expedición de la cédula de ciudadanía",
+      "El primer contrato laboral firmado después de iniciar estudios",
+      "La terminación y aprobación del pensum académico de la formación profesional"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp02",
+    "text": "¿Cuál es el contenido mínimo que debe tener una certificación laboral?",
+    "options": [
+      "Nombre o razón social de la entidad, tiempo de servicio y relación de funciones desempeñadas",
+      "Salario devengado, tipo de contrato y jefe inmediato",
+      "Horario de trabajo y motivo del retiro",
+      "Únicamente el cargo desempeñado y el año de ingreso"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp03",
+    "text": "El empleo exige únicamente «experiencia laboral» y la certificación aportada no relaciona funciones. ¿Es válida?",
+    "options": [
+      "No: toda certificación debe describir las funciones",
+      "Sí: la experiencia laboral es la adquirida con el ejercicio de cualquier empleo, ocupación, arte u oficio",
+      "Sí, pero solo si el empleo es del nivel profesional",
+      "No, salvo que se complete con declaración juramentada"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp04",
+    "text": "La certificación dice que el aspirante «se encuentra vinculado» a la entidad, sin fecha de retiro. ¿Qué fecha final se toma para contar la experiencia?",
+    "options": [
+      "Ninguna: la certificación se rechaza siempre",
+      "La fecha de cierre de inscripciones del proceso",
+      "La fecha de expedición de la certificación",
+      "El último día del año en curso"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp05",
+    "text": "La certificación laboral solo indica el AÑO de ingreso y el AÑO de retiro (sin mes ni día). ¿Cómo se contabiliza?",
+    "options": [
+      "Del 1 de enero del año de ingreso al 31 de diciembre del año de retiro",
+      "No se contabiliza: se rechaza la certificación",
+      "Se toma el 30 de junio de ambos años, como promedio",
+      "Del último día del último mes del año de ingreso al primer día del primer mes del año de retiro"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp06",
+    "text": "La certificación indica una jornada laboral inferior a ocho (8) horas diarias. ¿Cómo se establece el tiempo de experiencia?",
+    "options": [
+      "Se cuenta como tiempo completo, por favorabilidad",
+      "Se suman las horas trabajadas y el resultado se divide entre ocho",
+      "No se contabiliza ese tiempo",
+      "Se cuenta la mitad del tiempo certificado"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp07",
+    "text": "En un empleo del nivel profesional, un aspirante aporta dos certificaciones de experiencia profesional de tiempo completo (8 horas diarias): en una entidad pública, del 1 de marzo de 2021 al 28 de febrero de 2023, y en una empresa privada, del 1 de septiembre de 2022 al 31 de agosto de 2023. Los dos periodos se traslapan entre el 1 de septiembre de 2022 y el 28 de febrero de 2023. ¿Cómo debe contabilizar el analista el tiempo total de experiencia en la VRM?",
+    "options": [
+      "36 meses, sumando ambas certificaciones porque cada entidad expidió un documento independiente y los dos periodos fueron efectivamente laborados.",
+      "30 meses: el semestre traslapado se cuenta una sola vez, pues al ser ambas vinculaciones de tiempo completo no procede sumarlas (la suma solo se admite para medios tiempos o tiempos parciales autorizados, sin exceder la jornada completa).",
+      "24 meses, conservando únicamente la certificación de la entidad pública por su mayor jerarquía y descartando la del sector privado.",
+      "El semestre traslapado se anula en ambas certificaciones por coincidir en el tiempo, de modo que ese periodo no se valida en ninguna."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp08",
+    "text": "Un contador certifica que, desde su grado, labora como AUXILIAR CONTABLE en una entidad pública, y concursa para un empleo del nivel profesional. ¿Es experiencia profesional?",
+    "options": [
+      "No: el cargo es del nivel asistencial y esa experiencia no se valida para el nivel profesional",
+      "Sí, porque fue adquirida después de la obtención del título",
+      "Sí, siempre que las funciones hayan sido contables",
+      "Sí: se convierte automáticamente en experiencia profesional relacionada"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp09",
+    "text": "El aspirante aporta resoluciones de nombramiento y actas de posesión para demostrar su experiencia. ¿Son válidas por sí solas?",
+    "options": [
+      "Sí: son documentos públicos que dan plena fe",
+      "Sí, si están autenticadas ante notario",
+      "Sí, pero únicamente para empleos del nivel directivo",
+      "No: se requieren documentos adicionales que evidencien el tiempo laborado y el ejercicio del cargo"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "exp10",
+    "text": "¿Se puede validar como experiencia profesional la judicatura, aunque el aspirante no aporte la certificación de terminación de materias?",
+    "options": [
+      "No: sin esa certificación es imposible contabilizarla",
+      "Sí: la judicatura solo la pueden realizar quienes terminaron y aprobaron todas las materias del pensum",
+      "No: la judicatura es una práctica académica sin valor de experiencia",
+      "Sí, pero únicamente por la mitad del tiempo certificado"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp01",
+    "text": "Un aspirante de 35 años presenta la certificación de una práctica laboral que realizó como opción para obtener su título profesional. El analista duda si puede contarla porque el aspirante ya superó los 28 años. ¿Cómo debe valorarla?",
+    "options": [
+      "No se reconoce: el reconocimiento de prácticas solo aplica a jóvenes entre 14 y 28 años",
+      "Sí se reconoce al 100% del tiempo, sin importar la edad, porque la práctica se realizó como opción para adquirir el título",
+      "Sí, pero solo al 90% de la intensidad horaria certificada",
+      "No se reconoce, porque es experiencia anterior a la obtención del título"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp02",
+    "text": "Un aspirante de 26 años acredita una judicatura debidamente certificada. El analista observa que la judicatura aparece regulada tanto en la Ley 2039 (90%) como en la Ley 2043 (100%). ¿Qué porcentaje de tiempo debe reconocer?",
+    "options": [
+      "El 90% de la intensidad horaria, porque el aspirante tiene entre 14 y 28 años y aplica la Ley 2039",
+      "El 90%, pero limitado a un máximo de 6 meses",
+      "Ninguno: la judicatura no constituye práctica laboral certificable",
+      "El 100% del tiempo, aplicando la Ley 2043 por el principio de favorabilidad del artículo 53 de la Constitución"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp03",
+    "text": "Una aspirante de 24 años presenta una certificación de servicio en consultorio jurídico por un período de 10 meses. ¿Cómo debe valorarse esa experiencia previa?",
+    "options": [
+      "Se reconoce el 90% de la intensidad horaria certificada, pero hasta un máximo de 6 meses",
+      "Se reconocen los 10 meses completos al 100%, por aplicación de la Ley 2043",
+      "Se reconocen los 10 meses al 90% de la intensidad horaria, sin tope de tiempo",
+      "No se reconoce, porque el consultorio jurídico excede el límite de 6 meses permitido"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp04",
+    "text": "Un egresado de Medicina presenta, para un empleo del área de la salud, certificaciones de experiencia adquirida antes de obtener su inscripción o registro profesional. ¿Puede el analista computar ese tiempo?",
+    "options": [
+      "Sí, al 100% del tiempo, porque la Ley 2043 reconoce las prácticas sin franja etaria",
+      "Sí, al 90% de la intensidad horaria, conforme a la Ley 2039 y el Decreto 952",
+      "No: en las profesiones del sistema de seguridad social en salud la experiencia profesional solo se computa a partir de la inscripción o registro profesional",
+      "Sí, siempre que la certificación cumpla los requisitos mínimos establecidos en el Criterio"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp05",
+    "text": "Una aspirante con doble titulación de pregrado en la misma área del conocimiento (Administración de Empresas y Administración Pública) pide que se le sume la experiencia obtenida ejerciendo ambas profesiones de tiempo completo. Aporta certificación como Administradora de Empresas del 15 de enero de 2020 al 14 de enero de 2022, y como Administradora Pública del 15 de julio de 2021 al 14 de julio de 2023. El analista advierte que ambos periodos coinciden entre el 15 de julio de 2021 y el 14 de enero de 2022. ¿Cómo debe proceder en la VRM?",
+    "options": [
+      "Contabilizar la experiencia de ambas profesiones, pero computando una sola vez los 6 meses coincidentes; como son vinculaciones de tiempo completo no pueden sumarse, para un total de 42 meses.",
+      "Sumar la totalidad del tiempo de las dos profesiones (48 meses), pues cada título habilita una experiencia profesional distinta aunque los periodos se traslapen.",
+      "Negar el cómputo de la experiencia, porque un mismo lapso no puede respaldarse simultáneamente con dos títulos profesionales diferentes.",
+      "Convalidar la suma completa solo si las dos profesiones pertenecieran a áreas del conocimiento diferentes; como son de la misma área, se toma únicamente la certificación de mayor duración."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp06",
+    "text": "Un analista de VRM recibe una certificación laboral de una empresa privada que no tiene firma manuscrita, sino una firma digital. El aspirante no anexó ningún sello de notaría. ¿Cómo debe proceder el analista frente a esta certificación?",
+    "options": [
+      "No admitirla: en los procesos de la CNSC solo se tiene por válida la firma manuscrita de quien expide la constancia",
+      "Requerir al aspirante para que lleve la certificación a autenticar ante notario antes de validarla",
+      "Rechazarla porque las certificaciones del sector privado siempre exigen firma manuscrita del representante legal",
+      "Tenerla por válida: se presume válida siempre que la firma digital o electrónica cumpla las condiciones de validez de la Ley 527 de 1999 y del Decreto 1074 de 2015"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "comp07",
+    "text": "Un aspirante aporta una certificación de una entidad pública con firma electrónica verificable (identifica al firmante y detecta alteraciones). Sin embargo, el documento solo indica la razón social y el tiempo de servicio, pero no relaciona las funciones desempeñadas. El analista, en la etapa de VRM, duda si la validez de la firma electrónica basta para dar por completa la certificación. ¿Qué decisión es la correcta?",
+    "options": [
+      "Sí, la firma electrónica verificada suple cualquier omisión y la certificación se tiene por completa",
+      "No: aunque la firma electrónica sea válida, la certificación debe contener el contenido mínimo —razón social, tiempo de servicio y relación de funciones— para ser tenida en cuenta",
+      "Sí, porque el artículo 25 del Decreto Ley 019 de 2012 presume auténticos los actos del funcionario público y ello completa el documento",
+      "Sí, siempre que el aspirante además la autentique ante notario por tratarse de una entidad pública"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "equ01",
+    "text": "En los niveles Directivo, Asesor y Profesional, el título de posgrado en modalidad de especialización puede compensarse, entre otras, por:",
+    "options": [
+      "Un (1) año de experiencia laboral cualquiera",
+      "Un diplomado afín de mínimo 160 horas",
+      "Dos (2) años de experiencia profesional, siempre que se acredite el título profesional",
+      "Seis (6) meses de experiencia relacionada"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ02",
+    "text": "¿En qué etapa del proceso de selección se aplican las equivalencias entre estudio y experiencia?",
+    "options": [
+      "Solo en la VRM, cuando no se cumple el requisito de forma directa y están previstas en el MEFCL y la OPEC",
+      "En cualquier etapa del proceso de selección",
+      "Solo en la prueba de VA, para sumar puntos adicionales",
+      "En la etapa que el aspirante solicite por escrito"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ03",
+    "text": "El título de posgrado en modalidad de MAESTRÍA puede compensarse por:",
+    "options": [
+      "Dos (2) años de experiencia profesional",
+      "Cuatro (4) años de experiencia profesional",
+      "Cinco (5) años de experiencia relacionada",
+      "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ04",
+    "text": "Para los niveles técnico y asistencial, el título de formación tecnológica o técnica profesional equivale a:",
+    "options": [
+      "Dos (2) años de experiencia laboral",
+      "Un (1) año de experiencia relacionada, acreditando la terminación y aprobación de los estudios",
+      "Tres (3) años de experiencia relacionada",
+      "Seis (6) meses de experiencia profesional"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ05",
+    "text": "¿Existe equivalencia aplicable para el título de ESPECIALIZACIÓN TECNOLÓGICA adicional al requisito mínimo?",
+    "options": [
+      "Sí: un (1) año de experiencia relacionada",
+      "Sí: dos (2) años, como cualquier especialización",
+      "Sí, siempre que el MEFCL de la entidad la contemple",
+      "No: las equivalencias son taxativas y la norma no la contempla"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ06",
+    "text": "¿Puede una entidad incluir en su MEFCL equivalencias diferentes a las establecidas en los Decretos 785 de 2005 y 1083 de 2015?",
+    "options": [
+      "No: solo puede escoger entre las previstas taxativamente en esas normas",
+      "Sí, en ejercicio de su autonomía administrativa",
+      "Sí, con aprobación previa de la CNSC",
+      "Sí, pero únicamente para los empleos del nivel directivo"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ07",
+    "text": "Tres (3) años de experiencia profesional pueden compensarse por:",
+    "options": [
+      "Un diplomado de mínimo 300 horas",
+      "Título profesional adicional al exigido en el requisito del respectivo empleo",
+      "Un título de especialización tecnológica",
+      "Dos títulos de técnico profesional en cualquier área"
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ08",
+    "text": "¿Es posible aplicar la equivalencia de un posgrado o título profesional adicional por experiencia profesional RELACIONADA?",
+    "options": [
+      "Sí, en todos los niveles jerárquicos",
+      "Sí, cuando el posgrado sea afín a las funciones del empleo",
+      "No: la norma solo prevé la equivalencia con experiencia profesional, no con la relacionada",
+      "Sí, previa autorización de la entidad que oferta el empleo"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ09",
+    "text": "Cuando la profesión exige tarjeta, matrícula o licencia debidamente reglamentada, estos documentos:",
+    "options": [
+      "Pueden compensarse con dos (2) años de experiencia",
+      "Pueden compensarse con un título de posgrado afín",
+      "Se suplen con una declaración juramentada del aspirante",
+      "No pueden compensarse por experiencia u otras calidades, salvo que la ley lo establezca"
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180
+  },
+  {
+    "id": "equ10",
+    "text": "Una analista de VRM revisa la inscripción de un aspirante a un empleo del área médico-asistencial de una Empresa Social del Estado (ESE) que integra el Sistema de Seguridad Social en Salud. El aspirante no acredita de forma directa el requisito mínimo de estudios exigido en la OPEC, por lo que pide que se le reconozca su experiencia mediante una equivalencia para quedar admitido. ¿Cómo debe proceder la analista?",
+    "options": [
+      "Aplicar la equivalencia porque está contemplada en la OPEC y el MEFCL, igual que se hace con los demás empleos de carrera.",
+      "Aplicar la equivalencia dado que el empleo corresponde al nivel asistencial, nivel en el que estas siempre proceden.",
+      "No aplicar la equivalencia y dejar al aspirante como no admitido, porque las equivalencias entre estudio y experiencia no proceden para los empleos del área médico-asistencial de las entidades del Sistema de Seguridad Social en Salud.",
+      "Admitir al aspirante si acredita la inscripción o registro profesional en salud, documento que supliría el requisito mínimo de estudios."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180
+  }
+]

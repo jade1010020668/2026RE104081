@@ -12,7 +12,7 @@ const { Game } = require('./lib/game');
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
 // Código con el que ingresan el supervisor (/admin) y la pantalla proyectada (/pantalla).
-const ADMIN_CODE = process.env.ADMIN_CODE || 'cnsc2026';
+const ADMIN_CODE = process.env.ADMIN_CODE || '123456789';
 // URL pública que codifica el QR; si no se define se usa el host de la petición.
 const PUBLIC_URL = process.env.PUBLIC_URL || null;
 
@@ -91,7 +91,37 @@ function joinUrl(req) {
   return `${req.protocol}://${req.get('host')}/`;
 }
 
+// Base en la red local (WiFi del salón): prioriza PUBLIC_URL, luego la IP IPv4
+// local con el puerto real y, como último recurso, el host de la petición. Así
+// los enlaces del panel apuntan a una dirección que los celulares SÍ alcanzan,
+// aunque el supervisor haya abierto /admin como «localhost».
+function lanBase(req) {
+  if (PUBLIC_URL) return PUBLIC_URL.replace(/\/+$/, '');
+  const addr = server.address();
+  const port = (addr && addr.port) || PORT;
+  const nets = os.networkInterfaces();
+  for (const name of Object.keys(nets)) {
+    for (const net of nets[name] || []) {
+      if ((net.family === 'IPv4' || net.family === 4) && !net.internal) {
+        return `http://${net.address}:${port}`;
+      }
+    }
+  }
+  return `${req.protocol}://${req.get('host')}`.replace(/\/+$/, '');
+}
+
 app.get('/api/join-url', (req, res) => res.json({ url: joinUrl(req) }));
+
+// Enlaces de las tres vistas para el panel del supervisor.
+app.get('/api/urls', (req, res) => {
+  const base = lanBase(req);
+  res.json({
+    base,
+    participant: base + '/',
+    admin: base + '/admin',
+    pantalla: base + '/pantalla',
+  });
+});
 
 // Identidad visual (nombre del proceso, entidad, logo). Editable en
 // data/branding.json sin tocar código.
@@ -106,7 +136,12 @@ app.get('/api/branding', (req, res) => {
 
 app.get('/api/qr.svg', async (req, res) => {
   try {
-    const svg = await QRCode.toString(joinUrl(req), {
+    const to = req.query.to;
+    let target = joinUrl(req); // sin parámetro: URL de participantes (portada)
+    if (to === 'admin') target = lanBase(req) + '/admin';
+    else if (to === 'pantalla') target = lanBase(req) + '/pantalla';
+    else if (to === 'participant') target = lanBase(req) + '/';
+    const svg = await QRCode.toString(target, {
       type: 'svg',
       margin: 1,
       errorCorrectionLevel: 'M',
@@ -248,11 +283,33 @@ io.on('connection', (socket) => {
     })
   );
 
+  // Devolverse a una pregunta ya jugada y proyectar sus resultados.
+  socket.on(
+    'admin:review_question',
+    safe(({ id }) => {
+      requireAdmin();
+      game.reviewQuestion(id);
+      afterChange();
+    })
+  );
+
+  // Detalle completo de una pregunta jugada: quién respondió qué, quién
+  // acertó y quién falló (solo para el panel del supervisor).
+  socket.on(
+    'admin:question_detail',
+    safe(({ id }) => {
+      requireAdmin();
+      const detail = game.questionRanking(id);
+      if (!detail) throw new Error('La pregunta no existe.');
+      return { detail };
+    })
+  );
+
   socket.on(
     'admin:sorteo',
-    safe(() => {
+    safe(({ questionId, category } = {}) => {
       requireAdmin();
-      game.runSorteo();
+      game.runSorteo({ questionId, category });
       afterChange();
     })
   );

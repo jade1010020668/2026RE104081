@@ -49,14 +49,40 @@ socket.on('connect', () => {
   else loginView.hidden = false;
 });
 
-fetch('/api/join-url')
+function setLink(id, url) {
+  const a = document.getElementById(id);
+  if (!a) return;
+  a.href = url;
+  a.textContent = url;
+}
+
+// Enlaces de las tres vistas (usan la IP de red local para que el QR funcione).
+fetch('/api/urls')
   .then((r) => r.json())
-  .then(({ url }) => {
-    const a = document.getElementById('join-link');
-    a.href = url;
-    a.textContent = url;
+  .then((u) => {
+    setLink('join-link', u.participant);
+    setLink('url-participant', u.participant);
+    setLink('url-pantalla', u.pantalla);
+    setLink('url-admin', u.admin);
   })
   .catch(() => {});
+
+// Botones «Copiar enlace».
+for (const btn of document.querySelectorAll('[data-copy]')) {
+  btn.addEventListener('click', () => {
+    const target = document.getElementById(btn.dataset.copy);
+    const url = target ? target.href : '';
+    if (!url) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(
+        () => toast('Enlace copiado.'),
+        () => toast(url)
+      );
+    } else {
+      toast(url);
+    }
+  });
+}
 
 // ---------- controles ----------
 
@@ -139,7 +165,22 @@ function renderQuestions() {
     item.appendChild(mid);
 
     const actions = el('div', 'qactions');
-    actions.appendChild(el('span', `badge ${q.status}`, q.status));
+    const projecting = state.reviewId === q.id && state.screen === 'question_ranking';
+    actions.appendChild(
+      el('span', `badge ${projecting ? 'activa' : q.status}`, projecting ? 'proyectando' : q.status)
+    );
+    if (q.status === 'jugada') {
+      const proj = el('button', 'btn', '📺');
+      proj.title = 'Proyectar los resultados de esta pregunta en la pantalla';
+      proj.addEventListener('click', () =>
+        call('admin:review_question', { id: q.id }, `Proyectando la pregunta ${q.number}.`)
+      );
+      const det = el('button', 'btn', '👁');
+      det.title = 'Ver quién respondió bien y quién mal';
+      det.addEventListener('click', () => openDetail(q));
+      actions.appendChild(proj);
+      actions.appendChild(det);
+    }
     if (q.status === 'pendiente') {
       const play = el('button', 'btn', '▶');
       play.title = 'Activar esta pregunta';
@@ -282,6 +323,96 @@ qform.addEventListener('submit', (ev) => {
   };
   if (editingId) socket.emit('admin:question_update', { id: editingId, question }, done);
   else socket.emit('admin:question_add', { question }, done);
+});
+
+// ---------- detalle de una pregunta jugada (quién acertó / quién falló) ----------
+
+function openDetail(q) {
+  socket.emit('admin:question_detail', { id: q.id }, (res) => {
+    if (!res || !res.ok || !res.detail) {
+      return toast((res && res.error) || 'No se pudo cargar el detalle.');
+    }
+    renderDetailModal(res.detail);
+  });
+}
+
+function renderDetailModal(d) {
+  const q = d.question;
+  document.getElementById('detail-title').textContent = `Pregunta ${q.number} · detalle`;
+  document.getElementById('detail-question').textContent = q.text;
+  document.getElementById('detail-correct').textContent =
+    `Respuesta correcta: ${LETTERS[q.correctIndex]}. ${q.options[q.correctIndex]}`;
+
+  // distribución de respuestas por opción
+  const dist = clear(document.getElementById('detail-dist'));
+  const maxCount = Math.max(...d.stats.perOption, 1);
+  q.options.forEach((optText, i) => {
+    const row = el('div', 'drow');
+    row.dataset.i = String(i);
+    if (i === q.correctIndex) row.classList.add('correct');
+    row.title = optText;
+    row.appendChild(el('span', 'dlabel', LETTERS[i]));
+    const track = el('div', 'dtrack');
+    const fill = el('div', 'dfill');
+    fill.style.width = (d.stats.perOption[i] / maxCount) * 100 + '%';
+    track.appendChild(fill);
+    row.appendChild(track);
+    row.appendChild(el('span', 'dcount num', String(d.stats.perOption[i])));
+    dist.appendChild(row);
+  });
+
+  // grupos: contestaron bien / mal / no respondieron
+  const correct = d.entries.filter((e) => e.correct);
+  const wrong = d.entries.filter((e) => !e.correct && e.choice != null);
+  const none = d.entries.filter((e) => e.choice == null);
+  const groups = clear(document.getElementById('detail-groups'));
+  const grp = (cls, title, list, fmt) => {
+    const g = el('div', `detail-group ${cls}`);
+    g.appendChild(el('h4', null, `${title} (${list.length})`));
+    const names = el('div', 'detail-names');
+    if (!list.length) names.appendChild(el('span', 'muted', '—'));
+    for (const e of list) names.appendChild(el('span', 'nm', fmt(e)));
+    g.appendChild(names);
+    groups.appendChild(g);
+  };
+  grp('ok', '✅ Contestaron bien', correct, (e) => `${e.name} · +${e.score}`);
+  grp('bad', '❌ Contestaron mal', wrong, (e) => `${e.name} → ${LETTERS[e.choice]}`);
+  grp('none', '😴 No respondieron', none, (e) => e.name);
+
+  // Botones de sorteo por grupo (caritas)
+  const sbox = clear(document.getElementById('detail-sorteo-btns'));
+  const grupos = [
+    ['feliz', '😄 Bien y rápido'],
+    ['enojada', '😠 Bien pero lento'],
+    ['triste', '😢 Mal'],
+    ['llorando', '😭 Sin responder'],
+  ];
+  for (const [cat, label] of grupos) {
+    const count = (d.stats.faces && d.stats.faces[cat]) || 0;
+    const b = el('button', 'btn', `${label} (${count})`);
+    b.type = 'button';
+    b.disabled = count === 0;
+    b.addEventListener('click', () => {
+      call('admin:sorteo', { questionId: q.id, category: cat }, 'Sorteo realizado: mira la pantalla.');
+      closeDetail();
+    });
+    sbox.appendChild(b);
+  }
+
+  document.getElementById('detail-project').onclick = () => {
+    call('admin:review_question', { id: q.id }, `Proyectando la pregunta ${q.number}.`);
+    closeDetail();
+  };
+  document.getElementById('detailmodal').hidden = false;
+}
+
+function closeDetail() {
+  document.getElementById('detailmodal').hidden = true;
+}
+
+document.getElementById('detail-close').addEventListener('click', closeDetail);
+document.getElementById('detailmodal').addEventListener('click', (ev) => {
+  if (ev.target.id === 'detailmodal') closeDetail();
 });
 
 socket.on('admin:state', (snapshot) => {
