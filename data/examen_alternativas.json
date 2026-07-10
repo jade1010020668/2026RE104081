@@ -1,132 +1,392 @@
 [
   {
     "id": "equ01",
-    "text": "En los niveles Directivo, Asesor y Profesional, el título de posgrado en modalidad de especialización puede compensarse, entre otras, por:",
+    "text": "En una alcaldía (orden territorial), una analista de VRM revisa la inscripción de un aspirante a un empleo del nivel Profesional cuyo MEFCL exige título profesional y título de posgrado en la modalidad de especialización. El aspirante acredita el título profesional, pero no la especialización. Si la equivalencia está adoptada en la OPEC y en el MEFCL, ¿por cuál alternativa puede compensarse el título de especialización?",
     "options": [
-      "Un (1) año de experiencia laboral cualquiera",
-      "Un diplomado afín de mínimo 160 horas",
+      "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional",
       "Dos (2) años de experiencia profesional, siempre que se acredite el título profesional",
-      "Seis (6) meses de experiencia relacionada"
+      "Cuatro (4) años de experiencia profesional, siempre que se acredite el título profesional",
+      "Un (1) año de experiencia relacionada, acreditando la terminación y aprobación de los estudios"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "timeLimitSec": 180,
-    "sustento": "art. 2.2.2.5.1 del Decreto 1083 de 2015; art. 25 del Decreto 785 de 2005."
+    "sustento": "Orden territorial (norma prioritaria): art. 25.1.1 del Decreto Ley 785 de 2005: para los niveles Directivo, Asesor y Profesional, el título de posgrado en la modalidad de especialización equivale a dos (2) años de experiencia profesional y viceversa, siempre que se acredite el título profesional. Concordante con el art. 2.2.2.5.1 del Decreto 1083 de 2015 (orden nacional). Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI 'Equivalencias entre estudio y experiencia', tabla por niveles: especialización = 2 años; maestría = 3 años; doctorado o postdoctorado = 4 años. Las equivalencias solo proceden en la etapa de VRM cuando el aspirante no cumple de forma directa el requisito y están previstas en la OPEC y en el MEFCL (Anexo de Casos, equivalencias #4). Cascaritas: la opción de 3 años corresponde a la maestría y la de 4 años al doctorado/postdoctorado (art. 25.1.2 y 25.1.3 del Decreto Ley 785 de 2005); la de 1 año de experiencia relacionada por terminación de estudios es la equivalencia de los niveles técnico y asistencial (art. 25.2.1 ibidem), nivel distinto al del caso."
   },
   {
     "id": "equ02",
-    "text": "¿En qué etapa del proceso de selección se aplican las equivalencias entre estudio y experiencia?",
+    "text": "Caso práctico (orden territorial). En un proceso de una Gobernación, un aspirante a un empleo del nivel técnico NO acredita de forma directa el requisito mínimo de experiencia, pero aporta formación adicional que el MEFCL y la OPEC del empleo tienen prevista como alternativa/equivalencia estudio-experiencia (art. 25 del Decreto Ley 785 de 2005). ¿En qué etapa del proceso de selección debe el analista aplicar esa equivalencia?",
     "options": [
-      "Solo en la VRM, cuando no se cumple el requisito de forma directa y están previstas en el MEFCL y la OPEC",
-      "En cualquier etapa del proceso de selección",
-      "Solo en la prueba de VA, para sumar puntos adicionales",
-      "En la etapa que el aspirante solicite por escrito"
+      "Únicamente en la VRM: solo cuando el aspirante no cumple el requisito de forma directa y la equivalencia está prevista y adoptada en el MEFCL y la OPEC del empleo",
+      "En la valoración de antecedentes (VA), para sumar puntaje por la formación o experiencia adicional aportada",
+      "En la VRM, aplicando directamente las equivalencias del Decreto Ley 785 de 2005 aunque el MEFCL y la OPEC del empleo no las hayan adoptado",
+      "En cualquier etapa, a criterio del analista, o solo si el aspirante lo solicita por escrito antes de la prueba"
     ],
     "correctIndex": 0,
     "timeLimitSec": 180,
-    "sustento": "Criterio Unificado, cap. VI; Anexo de Casos, equivalencias #4."
+    "sustento": "Criterio Unificado CNSC (18/02/2021), Cap. VI 'Equivalencias entre estudio y experiencia': en el orden territorial se rigen por el art. 25 del Decreto Ley 785 de 2005 (concordante con los arts. 2.2.2.5.1 y 2.2.2.5.2 del Decreto 1083 de 2015; nivel nacional, art. 8 del Decreto Ley 770 de 2005) y 'solo son aplicables en la etapa de verificación de requisitos mínimos, cuando los aspirantes no cumplen en forma directa... siempre y cuando se encuentren contempladas en la OPEC y en el MEFCL'. Anexo Técnico (Casos), factor 'Equivalencias entre estudios y experiencia', Caso 4 ('¿En qué etapa del proceso de selección se puede dar aplicación a las equivalencias?'): son válidas exclusivamente en la VRM cuando el aspirante no cumple de forma directa y hayan sido adoptadas en el respectivo Manual de Funciones; en la prueba de VA, dada su naturaleza, no existe aplicación de las mismas."
   },
   {
     "id": "equ03",
-    "text": "El título de posgrado en modalidad de MAESTRÍA puede compensarse por:",
+    "text": "En una gobernación (proceso del orden territorial), un empleo del nivel Profesional exige como requisito de estudios título profesional y título de posgrado en la modalidad de MAESTRÍA. En la VRM, un aspirante acredita el título profesional pero no la maestría, y pide que se le aplique la equivalencia prevista en la OPEC y el MEFCL. ¿Cuál es la equivalencia que procede para suplir el título de maestría?",
     "options": [
       "Dos (2) años de experiencia profesional",
+      "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional",
       "Cuatro (4) años de experiencia profesional",
-      "Cinco (5) años de experiencia relacionada",
-      "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional"
+      "Cinco (5) años de experiencia relacionada"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "timeLimitSec": 180,
-    "sustento": "art. 2.2.2.5.1 del Decreto 1083 de 2015. Cascaritas: A son los años de la especialización y B los del doctorado."
+    "sustento": "Orden territorial: art. 25, numeral 25.1, del Decreto Ley 785 de 2005 (niveles Directivo, Asesor y Profesional: el título de posgrado en la modalidad de maestría equivale a tres (3) años de experiencia profesional y viceversa, siempre que se acredite el título profesional), en concordancia con el art. 2.2.2.5.1 del Decreto 1083 de 2015 (orden nacional) y el Capítulo VI del Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), tabla de equivalencias para los niveles Directivo, Asesor y Profesional. Las equivalencias solo se aplican en la etapa de VRM cuando el aspirante no cumple de forma directa el requisito y están contempladas en la OPEC y el MEFCL. Cascaritas: dos (2) años corresponde a la especialización y cuatro (4) años al doctorado o posdoctorado; además, la norma exige experiencia PROFESIONAL, no relacionada."
   },
   {
     "id": "equ04",
-    "text": "Para los niveles técnico y asistencial, el título de formación tecnológica o técnica profesional equivale a:",
+    "text": "En un proceso de selección del orden territorial, la OPEC de un empleo del Nivel Técnico exige como requisito mínimo de estudios un título de formación tecnológica. Un aspirante no lo acredita de forma directa, pero la equivalencia está prevista en el MEFCL y en la OPEC. Según la tabla de equivalencias del Criterio Unificado, ¿a qué equivale el título de formación tecnológica o de formación técnica profesional?",
     "options": [
       "Dos (2) años de experiencia laboral",
-      "Un (1) año de experiencia relacionada, acreditando la terminación y aprobación de los estudios",
+      "Un (1) año de experiencia relacionada, siempre que se acredite la terminación y aprobación de los estudios en la respectiva modalidad",
       "Tres (3) años de experiencia relacionada",
       "Seis (6) meses de experiencia profesional"
     ],
     "correctIndex": 1,
     "timeLimitSec": 180,
-    "sustento": "art. 25.2.1 del Decreto 785 de 2005; art. 2.2.2.5.1 del Decreto 1083 de 2015. Cascarita: C es la equivalencia del título ADICIONAL."
+    "sustento": "Orden territorial (norma principal): numeral 25.2 del artículo 25 del Decreto Ley 785 de 2005 (Nivel Técnico), según el cual el título de formación tecnológica o de formación técnica profesional equivale a un (1) año de experiencia relacionada, siempre y cuando se acredite la terminación y aprobación de los estudios en la respectiva modalidad. Concordante con el artículo 2.2.2.5.1 del Decreto 1083 de 2015 (orden nacional) y el artículo 8 del Decreto Ley 770 de 2005. Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI \"Equivalencias entre estudio y experiencia\", bloque Técnico y Asistencial (aplicables solo en VRM, cuando no se cumple el requisito de forma directa y están previstas en la OPEC y el MEFCL). Cascarita: \"tres (3) años de experiencia relacionada\" es la equivalencia INVERSA (la experiencia que equivale al título), no el resultado que pide el enunciado; \"dos (2) años de experiencia laboral\" y \"seis (6) meses de experiencia profesional\" confunden el tipo/nivel de experiencia (la experiencia profesional no aplica al Nivel Técnico, pues exige título profesional)."
   },
   {
     "id": "equ05",
-    "text": "¿Existe equivalencia aplicable para el título de ESPECIALIZACIÓN TECNOLÓGICA adicional al requisito mínimo?",
+    "text": "En una gobernación (orden territorial), una analista de VRM revisa la inscripción de un aspirante a un empleo del nivel TÉCNICO. El aspirante cumple el requisito mínimo de estudios y, además, aporta un título de ESPECIALIZACIÓN TECNOLÓGICA, pidiendo que se le reconozca por vía de equivalencia como experiencia. ¿Cómo debe proceder la analista?",
     "options": [
-      "Sí: un (1) año de experiencia relacionada",
-      "Sí: dos (2) años, como cualquier especialización",
-      "Sí, siempre que el MEFCL de la entidad la contemple",
-      "No: las equivalencias son taxativas y la norma no la contempla"
+      "Aplicar la equivalencia reconociendo un (1) año de experiencia relacionada, como se hace con el título de formación tecnológica o técnica profesional.",
+      "Aplicar la equivalencia reconociendo dos (2) años de experiencia profesional, igual que cualquier especialización de posgrado.",
+      "Aplicar la equivalencia siempre que esté contemplada en el MEFCL y la OPEC de la entidad territorial.",
+      "No aplicar equivalencia alguna: la especialización tecnológica no está prevista en el art. 25 del Decreto Ley 785 de 2005 ni en el art. 2.2.2.5.1 del Decreto 1083 de 2015, y el listado de equivalencias es taxativo."
     ],
     "correctIndex": 3,
     "timeLimitSec": 180,
-    "sustento": "Anexo de Casos, equivalencias #2. Cascarita fuerte: la opción C suena razonable, pero el MEFCL no puede crear equivalencias nuevas."
+    "sustento": "Anexo de Casos (Equivalencias entre estudios y experiencia), Caso #2: no es posible aplicar equivalencia alguna para el título de especialización tecnológica adicional al requisito mínimo, porque las equivalencias están enlistadas de manera taxativa y ni el Decreto Ley 785 de 2005 (orden territorial) ni el Decreto 1083 de 2015 las prevén para ese título. Norma territorial priorizada: art. 25 del Decreto Ley 785 de 2005; para el nivel técnico y asistencial rige el art. 25.2 (25.2.1: título de formación tecnológica o técnica profesional por un (1) año de experiencia relacionada; 25.2.2: tres (3) años de experiencia relacionada por título de formación tecnológica/técnica profesional adicional; 25.2.3: un (1) año de educación superior por un (1) año de experiencia), entre las que NO figura la especialización tecnológica. Norma nacional concordante: art. 2.2.2.5.1 del Decreto 1083 de 2015. Las entidades solo pueden adoptar en su MEFCL las equivalencias taxativamente previstas y no crear nuevas (Criterio Unificado, Cap. VI; Anexo de Casos, Casos #3 y #9), lo que descarta la opción C. Las opciones A y B corresponden a equivalencias de otros supuestos (formación tecnológica/técnica profesional y especialización de posgrado, respectivamente) y no a la especialización tecnológica."
   },
   {
     "id": "equ06",
-    "text": "¿Puede una entidad incluir en su MEFCL equivalencias diferentes a las establecidas en los Decretos 785 de 2005 y 1083 de 2015?",
+    "text": "En un proceso del orden territorial, una alcaldía incluyó en su MEFCL una equivalencia que no figura en el artículo 25 del Decreto Ley 785 de 2005 (compensar el título de especialización exigido con un diplomado). Un aspirante que no cumple el requisito de estudios pide a la analista de VRM que se la aplique. ¿Puede una entidad territorial establecer en su MEFCL equivalencias distintas a las previstas en la norma?",
     "options": [
-      "No: solo puede escoger entre las previstas taxativamente en esas normas",
-      "Sí, en ejercicio de su autonomía administrativa",
-      "Sí, con aprobación previa de la CNSC",
+      "No: la entidad solo puede escoger entre las equivalencias previstas taxativamente en el art. 25 del Decreto Ley 785 de 2005 (orden territorial), en concordancia con el art. 2.2.2.5.1 del Decreto 1083 de 2015",
+      "Sí, en ejercicio de su autonomía administrativa para fijar el MEFCL",
+      "Sí, siempre que la CNSC apruebe previamente esa equivalencia",
       "Sí, pero únicamente para los empleos del nivel directivo"
     ],
     "correctIndex": 0,
     "timeLimitSec": 180,
-    "sustento": "Anexo de Casos, equivalencias #3 y #9."
+    "sustento": "art. 25 del Decreto Ley 785 de 2005 (orden territorial) y art. 2.2.2.5.1 del Decreto 1083 de 2015 (orden nacional); Anexo de Casos (equivalencias), casos 3 y 9: las entidades no deben incluir en sus MEFCL equivalencias diferentes a las autorizadas y solo pueden escoger de las previstas taxativamente en dichas normas; Criterio Unificado, cap. VI 'Equivalencias entre estudio y experiencia'."
   },
   {
     "id": "equ07",
-    "text": "Tres (3) años de experiencia profesional pueden compensarse por:",
+    "text": "Proceso de selección del ORDEN TERRITORIAL. Una alcaldía municipal oferta un empleo del nivel Profesional cuyo MEFCL exige título profesional y tres (3) años de experiencia profesional, y prevé expresamente las equivalencias de ley. En la etapa de VRM, un aspirante acredita el título profesional exigido pero no la experiencia; en cambio, aporta un segundo título profesional. ¿Con cuál alternativa puede darse por cumplido el requisito de los tres (3) años de experiencia profesional?",
     "options": [
-      "Un diplomado de mínimo 300 horas",
-      "Título profesional adicional al exigido en el requisito del respectivo empleo",
-      "Un título de especialización tecnológica",
-      "Dos títulos de técnico profesional en cualquier área"
+      "Con un título de posgrado en la modalidad de especialización adicional al exigido",
+      "Con el segundo título profesional adicional al exigido en el requisito del respectivo empleo",
+      "Con un título de especialización tecnológica adicional al exigido",
+      "Con un título de formación tecnológica adicional, propio del nivel técnico y asistencial"
     ],
     "correctIndex": 1,
     "timeLimitSec": 180,
-    "sustento": "tabla del cap. VI del Criterio Unificado."
+    "sustento": "Capítulo VI del Criterio Unificado (tabla de equivalencias, niveles Directivo, Asesor y Profesional): «Tres (3) años de experiencia profesional por título profesional adicional al exigido en el requisito del respectivo empleo». Norma del ORDEN TERRITORIAL (prioritaria): art. 25, numeral 25.1.4, del Decreto Ley 785 de 2005; orden nacional: art. 2.2.2.5.1, numeral 2, del Decreto 1083 de 2015. Cascaritas: la especialización equivale a 2 años (no 3) de experiencia profesional y la maestría a 3, pero se acreditan por experiencia y no como título profesional adicional; la especialización tecnológica NO tiene equivalencia prevista y no puede aplicarse (Anexo de Casos, equivalencias #2); el título de formación tecnológica adicional corresponde al nivel técnico y asistencial (art. 25.2 D.785; numeral 1 del art. 2.2.2.5.1 D.1083) y se cambia por experiencia RELACIONADA, no profesional (Anexo #6). Las equivalencias son taxativas, solo proceden en la etapa de VRM y únicamente si fueron adoptadas en el MEFCL/OPEC (Anexo #4, #9 y #10)."
   },
   {
     "id": "equ08",
-    "text": "¿Es posible aplicar la equivalencia de un posgrado o título profesional adicional por experiencia profesional RELACIONADA?",
+    "text": "En un proceso de selección del ORDEN TERRITORIAL, una analista de VRM revisa a un aspirante a un empleo del nivel Profesional de una gobernación. El MEFCL exige título profesional y título de posgrado en la modalidad de especialización, y contempla las equivalencias de ley. El aspirante no acredita el posgrado, pero aporta experiencia profesional RELACIONADA adicional y pide que con ella se le compense el título de especialización para quedar admitido. ¿Cómo debe proceder la analista?",
     "options": [
-      "Sí, en todos los niveles jerárquicos",
-      "Sí, cuando el posgrado sea afín a las funciones del empleo",
-      "No: la norma solo prevé la equivalencia con experiencia profesional, no con la relacionada",
-      "Sí, previa autorización de la entidad que oferta el empleo"
+      "Aplicar la equivalencia, porque la experiencia profesional relacionada es una modalidad de experiencia profesional y sirve igual para compensar el posgrado.",
+      "Aplicar la equivalencia compensando el título de especialización con un (1) año de experiencia profesional relacionada, como se hace en el nivel técnico.",
+      "No aplicar la equivalencia: para el nivel Profesional la norma solo prevé compensar el título de especialización con dos (2) años de experiencia PROFESIONAL (y viceversa, acreditando el título profesional), y el criterio de la CNSC descarta expresamente hacerlo por experiencia profesional RELACIONADA; por tanto la equivalencia solicitada no procede.",
+      "Aplicar la equivalencia siempre que la gobernación la autorice expresamente para este caso concreto."
     ],
     "correctIndex": 2,
     "timeLimitSec": 180,
-    "sustento": "Anexo de Casos, equivalencias #8 (se cambiaría un «saber hacer» por un «saber»)."
+    "sustento": "Norma territorial (prioritaria): art. 25, numeral 25.1, del Decreto Ley 785 de 2005 (equivalencias para los niveles Directivo, Asesor y Profesional del orden territorial; el numeral 25.2 regula los niveles Técnico y Asistencial), concordante con el art. 2.2.2.5.1 del Decreto 1083 de 2015 (orden nacional). Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI 'Equivalencias entre estudio y experiencia': el título de posgrado en la modalidad de especialización se compensa con dos (2) años de experiencia PROFESIONAL 'y viceversa', siempre que se acredite el título profesional; es decir, con experiencia profesional, no con experiencia profesional relacionada. Anexo Técnico (Casos), factor Equivalencias, Caso 8: 'No es posible' aplicar la equivalencia de un título de posgrado o de un título profesional adicional al exigido por experiencia profesional relacionada, pues se cambiaría un «saber hacer» por un «saber». Las equivalencias son taxativas y la entidad no puede crear ni ampliar las no previstas en las normas (Casos 3 y 9 del Anexo). Además, las equivalencias solo operan en la etapa de VRM y deben estar previstas en el MEFCL y la OPEC."
   },
   {
     "id": "equ09",
-    "text": "Cuando la profesión exige tarjeta, matrícula o licencia debidamente reglamentada, estos documentos:",
+    "text": "En un concurso de méritos de una alcaldía municipal (orden territorial), una analista de VRM revisa la inscripción a un empleo del nivel Profesional cuyo MEFCL exige título profesional en una disciplina cuyo ejercicio está debidamente reglamentado por la ley (con matrícula o tarjeta profesional obligatoria). El aspirante no acredita esa matrícula y solicita que se le tenga por cumplido el requisito reconociéndole su experiencia. ¿Cómo debe proceder la analista?",
     "options": [
-      "Pueden compensarse con dos (2) años de experiencia",
-      "Pueden compensarse con un título de posgrado afín",
-      "Se suplen con una declaración juramentada del aspirante",
-      "No pueden compensarse por experiencia u otras calidades, salvo que la ley lo establezca"
+      "Aceptar la compensación con dos (2) años de experiencia profesional, aplicando por analogía la equivalencia prevista para el título de especialización.",
+      "Tener por cumplido el requisito con la declaración juramentada de experiencia que rinda el propio aspirante.",
+      "Aceptar un título de posgrado afín a las funciones del empleo en reemplazo de la matrícula o tarjeta exigida.",
+      "No admitir la compensación: cuando el empleo exige una profesión, arte u oficio debidamente reglamentado, los grados, títulos, licencias, matrículas o autorizaciones previstas en las normas sobre la materia no pueden suplirse por experiencia u otras calidades, salvo que la ley así lo establezca."
     ],
     "correctIndex": 3,
     "timeLimitSec": 180,
-    "sustento": "arts. 5 y 26 de los Decretos 770 y 785 de 2005; art. 2.2.2.5.2 del Decreto 1083 de 2015."
+    "sustento": "Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI \"Equivalencias entre estudio y experiencia\": cuando para el desempeño de un empleo se exige una profesión, arte u oficio debidamente reglamentado, los grados, títulos, licencias, matrículas o autorizaciones previstas en las normas sobre la materia no podrán compensarse por experiencia u otras calidades, salvo cuando la ley así lo establezca. Orden territorial (prioritario en este proceso): art. 26 del Decreto Ley 785 de 2005; orden nacional: art. 5 del Decreto Ley 770 de 2005; y art. 2.2.2.5.2 del Decreto 1083 de 2015 (nota al pie 12 del Criterio). Las equivalencias generales del orden territorial se regulan en el art. 25 del mismo Decreto Ley 785 de 2005 (y arts. 2.2.2.5.1 del Decreto 1083 de 2015 / 8 del Decreto Ley 770 de 2005), pero esas alternativas no alcanzan a los requisitos de una profesión reglamentada, que solo cede ante disposición legal expresa."
   },
   {
     "id": "equ10",
-    "text": "Una analista de VRM revisa la inscripción de un aspirante a un empleo del área médico-asistencial de una Empresa Social del Estado (ESE) que integra el Sistema de Seguridad Social en Salud. El aspirante no acredita de forma directa el requisito mínimo de estudios exigido en la OPEC, por lo que pide que se le reconozca su experiencia mediante una equivalencia para quedar admitido. ¿Cómo debe proceder la analista?",
+    "text": "En un proceso de selección del ORDEN TERRITORIAL, una analista de VRM revisa la inscripción de un aspirante a un empleo del área médico-asistencial de una Empresa Social del Estado (ESE) del orden departamental, que integra el Sistema General de Seguridad Social en Salud. El aspirante no acredita de forma directa el requisito mínimo de estudios exigido en la OPEC y pide que se le reconozca su experiencia mediante una equivalencia para quedar admitido. ¿Cómo debe proceder la analista?",
     "options": [
-      "Aplicar la equivalencia porque está contemplada en la OPEC y el MEFCL, igual que se hace con los demás empleos de carrera.",
-      "Aplicar la equivalencia dado que el empleo corresponde al nivel asistencial, nivel en el que estas siempre proceden.",
-      "No aplicar la equivalencia y dejar al aspirante como no admitido, porque las equivalencias entre estudio y experiencia no proceden para los empleos del área médico-asistencial de las entidades del Sistema de Seguridad Social en Salud.",
-      "Admitir al aspirante si acredita la inscripción o registro profesional en salud, documento que supliría el requisito mínimo de estudios."
+      "Aplicar la equivalencia, porque está contemplada en la OPEC y el MEFCL, tal como se hace con los demás empleos de carrera del orden territorial.",
+      "Aplicar la equivalencia, dado que el empleo es del nivel asistencial y en ese nivel las equivalencias siempre proceden.",
+      "No aplicar la equivalencia y dejar al aspirante como no admitido, porque las equivalencias entre estudio y experiencia no se aplican a los empleos del área médico-asistencial de las entidades que conforman el Sistema de Seguridad Social en Salud.",
+      "Admitir al aspirante si acredita el registro o inscripción profesional en salud, pues ese documento supliría el requisito mínimo de estudios exigido."
     ],
     "correctIndex": 2,
     "timeLimitSec": 180,
-    "sustento": "Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI 'Equivalencias entre estudio y experiencia': las equivalencias no se aplican a los empleos del área médico-asistencial de las entidades que conforman el Sistema de Seguridad Social en Salud (parágrafo 2 del artículo 25 del Decreto Ley 785 de 2005; parágrafo del artículo 8 del Decreto Ley 770 de 2005; parágrafo 2 del artículo 2.2.2.5.1 del Decreto 1083 de 2015)."
+    "sustento": "Criterio Unificado de VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI 'Equivalencias entre estudio y experiencia': las equivalencias no se aplican a los empleos del área médico-asistencial de las entidades que conforman el Sistema de Seguridad Social en Salud. Al tratarse de un proceso del orden territorial, la regla se funda de manera prioritaria en el parágrafo 2 del artículo 25 del Decreto Ley 785 de 2005 (norma que regula las equivalencias entre estudio y experiencia en el nivel territorial), en concordancia con el parágrafo del artículo 8 del Decreto Ley 770 de 2005 y el parágrafo 2 del artículo 2.2.2.5.1 del Decreto 1083 de 2015. Además, conforme al mismo Capítulo VI, las equivalencias solo operan en la etapa de VRM cuando el aspirante no cumple en forma directa el requisito y estén previstas en la OPEC y el MEFCL, lo que no habilita crear excepciones a la exclusión del área médico-asistencial."
+  },
+  {
+    "id": "equ11",
+    "text": "Etapa de VRM en un proceso de selección de una gobernación (orden territorial). Para un empleo del nivel profesional, el MEFCL y la OPEC exigen como requisito mínimo: título profesional en una disciplina del NBC requerido y veinticuatro (24) meses de experiencia profesional; además, el manual tiene adoptadas las equivalencias del nivel profesional. Un aspirante acredita el título profesional exigido y treinta (30) meses de experiencia profesional certificada, es decir, satisface el requisito mínimo en forma directa; adicionalmente aporta un título de especialización. El analista debe decidir cómo verificar el cumplimiento. ¿Qué procede en la VRM?",
+    "options": [
+      "Como el aspirante aporta especialización, el analista debe aplicar de manera obligatoria la equivalencia de esa especialización por dos (2) años de experiencia profesional para reforzar la experiencia, pues siempre que exista posgrado la entidad está obligada a reconocerlo en la etapa de VRM.",
+      "El analista debe reemplazar el requisito de experiencia por el título de especialización, aplicando la equivalencia de tres (3) años de experiencia profesional, de modo que el aspirante quede admitido por equivalencia y no por cumplimiento directo del requisito.",
+      "No hay lugar a aplicar equivalencia alguna: como el aspirante cumple en forma directa el requisito mínimo (título profesional y la experiencia exigida), debe admitirse por ese cumplimiento directo; las equivalencias solo operan en VRM cuando el aspirante NO cumple directamente, y la especialización adicional no se usa para equivalencias.",
+      "El aspirante debe ser inadmitido, porque al acreditar más experiencia de la exigida y, además, un posgrado adicional, supera el máximo del empleo y en tal caso las equivalencias obligan a excluirlo del proceso."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716.txt, CAPÍTULO VI 'Equivalencias entre estudio y experiencia' (líneas 985-987): las equivalencias 'Solo son aplicables en la etapa de verificación de requisitos mínimos, cuando los aspirantes no cumplen en forma directa, con el requisito mínimo exigido para el empleo al cual se presentó, siempre y cuando se encuentren contempladas en la OPEC y en el MEFCL'. Reiterado en CRITERIOS_717.txt, Anexo (Casos de Equivalencias), Caso 4 (líneas 1770-1776): 'Las equivalencias son aplicables cuando el aspirante no cumple de forma directa con el requisito mínimo exigido...'; y agrega que en la prueba de valoración de antecedentes 'no existe aplicación de las mismas'. En el orden territorial la fuente es el Artículo 25 del Decreto Ley 785 de 2005 (líneas 984-985), concordante con el art. 2.2.2.5.1 del Decreto 1083 de 2015. Por tanto, si el aspirante cumple directamente (título profesional + los 24 meses exigidos, y acredita 30), se admite por cumplimiento directo y NO hay lugar a equivalencias. Las cascaritas confunden las cifras y el sentido de la regla: la especialización equivale a dos (2) años de experiencia profesional (línea 996) y la maestría a tres (3) años (línea 1006), pero esas equivalencias solo operan cuando NO se cumple directamente; y acreditar más de lo exigido no excluye al aspirante (el exceso se aprecia en la prueba de VA, no en VRM)."
+  },
+  {
+    "id": "equ12",
+    "text": "En un proceso de selección del orden territorial (Gobernación del Meta), durante la etapa de verificación de requisitos mínimos (VRM) de un empleo del nivel profesional, un analista nuevo le pregunta a su coordinadora qué significa exactamente que la equivalencia sea una 'alternativa' del requisito. La coordinadora le aclara que las equivalencias estudio-experiencia previstas en el MEFCL y la OPEC operan como alternativas. Conforme al Criterio Unificado de la CNSC, ¿en qué consiste correctamente una 'alternativa' al aplicar una equivalencia?",
+    "options": [
+      "Consiste en reconocerle al aspirante cualquier estudio o experiencia adicional que, a juicio del analista, demuestre mayor idoneidad para el empleo, aunque esa forma de acreditar no figure en la Ley ni en los Decretos.",
+      "Consiste en señalar alternativas en las que se describe de manera diferente el requisito básico del empleo, siempre que dichas alternativas se encuentren establecidas en la Ley o en los Decretos respectivos.",
+      "Consiste en sustituir el requisito básico del empleo por otro completamente distinto, de modo que el aspirante ya no deba acreditar la formación o la experiencia originalmente exigida en el perfil.",
+      "Consiste en una facultad de la entidad territorial para crear en su MEFCL alternativas nuevas, adicionales a las de los Decretos, cuando las necesidades del servicio lo exijan."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716.txt, CAPÍTULO VI 'Equivalencias entre estudio y experiencia', líneas 1102-1104: «Aplicar las equivalencias implica señalar alternativas en las que se describe de manera diferente el requisito básico del empleo, siempre que estas se encuentren establecidas en la Ley o los Decretos respectivos.» Es decir, la 'alternativa' NO elimina ni cambia el requisito básico: lo describe de otra forma admitida por la norma. En el orden territorial estas equivalencias se rigen por el artículo 25 del Decreto Ley 785 de 2005 (líneas 984-985), en concordancia con los artículos 2.2.2.5.1 y 2.2.2.5.2 del Decreto 1083 de 2015 (notas 11-13, líneas 1116-1118). Por su carácter taxativo, la alternativa solo es válida si está prevista en la Ley o los Decretos y contemplada en la OPEC y el MEFCL (líneas 985-987): por ello la opción correcta es la que exige que la alternativa esté 'establecida en la Ley o en los Decretos respectivos'. Las demás son incorrectas: no puede reconocerse una forma de acreditación a juicio del analista sin respaldo normativo (contradice líneas 1102-1104); la alternativa no sustituye el requisito básico por otro distinto, sino que lo describe de manera diferente (líneas 1102-1103); y la entidad territorial no puede crear equivalencias nuevas adicionales a las de los Decretos 785 y 1083 (art. 25 D.L. 785/2005; art. 2.2.2.5.1 D.1083/2015), pues solo puede prever, en su MEFCL, la aplicación de las equivalencias ya establecidas en la norma (líneas 1077-1081, 1089-1100)."
+  },
+  {
+    "id": "equ13",
+    "text": "Etapa de VRM en una alcaldía del orden territorial. La analista revisa a un aspirante a un empleo del nivel profesional cuyo Manual de Funciones (MEFCL) adoptó las equivalencias de los Decretos 785 de 2005 y 1083 de 2015. El aspirante no acredita de forma directa toda la experiencia exigida, pero aporta formación adicional al requisito mínimo que resulta relacionada con las funciones del empleo. Al aplicar la equivalencia, ¿qué clase de experiencia se le reconoce con esa formación adicional?",
+    "options": [
+      "La clase de experiencia que el empleo exija según el caso: laboral, relacionada, profesional o profesional relacionada, siempre que la formación adicional sea relacionada con las funciones del empleo",
+      "Únicamente experiencia relacionada, con independencia de la clase de experiencia que exija el empleo",
+      "Solo experiencia profesional, por tratarse de un empleo del nivel profesional, sin admitir otras clases",
+      "Solo experiencia laboral, pues la formación adicional únicamente compensa el tiempo de servicio genérico"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_717, Anexo Técnico, sección \"Casos relacionados con el factor equivalencias entre estudios y experiencia\", Caso 1 (líneas 1737-1751): \"si la formación adicional al requisito mínimo, acreditada por el aspirante, es relacionada con las funciones del empleo, se le reconocerá la misma como equivalente a la experiencia exigida, cuando esta sea laboral, relacionada, profesional o profesional relacionada, según el caso\". Sustento normativo del propio caso: art. 25 del Decreto Ley 785 de 2005 (orden territorial) y art. 2.2.2.5.1 del Decreto 1083 de 2015. Además, la equivalencia solo opera si fue adoptada en el MEFCL y únicamente en la etapa de VRM (Caso 4, líneas 1767-1779). Las demás opciones son incorrectas porque restringen indebidamente el reconocimiento a una sola clase de experiencia, cuando la norma reconoce la clase que corresponda al empleo según el caso."
+  },
+  {
+    "id": "equ14",
+    "text": "En un proceso de selección de la CNSC para proveer un empleo del nivel Profesional de una gobernación (orden territorial), la OPEC y el MEFCL exigen como requisito de experiencia cuatro (4) años de experiencia profesional y contemplan expresamente la aplicación de equivalencias. Un aspirante acredita su título profesional y, además, un título de posgrado en la modalidad de doctorado, pero no logra demostrar los cuatro (4) años de experiencia profesional exigidos. En la etapa de verificación de requisitos mínimos (VRM), ¿qué equivalencia procede aplicar para tener por cumplido el requisito de experiencia?",
+    "options": [
+      "El título de doctorado equivale a los cuatro (4) años de experiencia profesional exigidos, siempre que se acredite el título profesional, por lo que se tiene por cumplido el requisito.",
+      "El título de doctorado equivale a tres (3) años de experiencia profesional, por lo que aún faltaría un (1) año para cumplir el requisito exigido.",
+      "El título de doctorado equivale a dos (2) años de experiencia profesional, siempre que se acredite el título profesional, por lo que no alcanza a cubrir el requisito.",
+      "No procede equivalencia alguna, porque el doctorado solo puede compensar experiencia relacionada y no experiencia profesional."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716, Cap. VI 'Equivalencias entre estudio y experiencia', tabla de niveles DIRECTIVO, ASESOR y PROFESIONAL (columna 'NACIONAL y TERRITORIAL'): 'El Título de Postgrado en la modalidad de doctorado o postdoctorado, por: Cuatro (4) años de experiencia profesional y viceversa, siempre que se acredite el título profesional'. La tabla distingue las cifras por modalidad: especialización = dos (2) años, maestría = tres (3) años y doctorado/postdoctorado = cuatro (4) años; por ello son incorrectas las cifras de dos y tres años (opciones que confunden con especialización y maestría). La equivalencia es con experiencia PROFESIONAL (no relacionada), lo que descarta la última opción. Base normativa: artículo 25 del Decreto Ley 785 de 2005 (orden territorial) y artículo 2.2.2.5.1 del Decreto 1083 de 2015. Estas equivalencias solo se aplican en la etapa de VRM, cuando el aspirante no cumple en forma directa el requisito, y siempre que estén contempladas en la OPEC y en el MEFCL (CRITERIOS_716, Cap. VI, párrafo inicial)."
+  },
+  {
+    "id": "equ15",
+    "text": "En un proceso de selección del orden territorial adelantado por la CNSC para una Alcaldía municipal, se oferta un empleo del nivel TÉCNICO. El MEFCL y la OPEC exigen como requisitos mínimos: título de formación técnica profesional en un área determinada y, adicionalmente, tres (3) años de experiencia relacionada; y prevén expresamente la aplicación de equivalencias estudio-experiencia. Una aspirante acredita el título de formación técnica profesional exigido, pero solo seis (6) meses de experiencia relacionada. Para completar el requisito, adjunta además un título de formación tecnológica adicional, de la misma disciplina académica. En la etapa de Verificación de Requisitos Mínimos (VRM), ¿cómo debe resolver el analista?",
+    "options": [
+      "No procede la admisión, porque la experiencia relacionada nunca puede ser objeto de equivalencia, ya que ello implicaría cambiar un 'saber hacer' por un 'saber'.",
+      "Procede la admisión, porque en los niveles técnico y asistencial el título de formación tecnológica (o de formación técnica profesional) adicional al inicialmente exigido equivale a tres (3) años de experiencia relacionada, y viceversa; al estar la equivalencia prevista en el MEFCL y la OPEC, se aplica en VRM.",
+      "No procede la admisión, porque el título de formación tecnológica adicional equivale únicamente a un (1) año de experiencia relacionada, de modo que a la aspirante aún le faltarían dos (2) años para completar el requisito.",
+      "Procede la admisión, pero solo si además acredita dos (2) años de experiencia profesional, conforme a la equivalencia aplicable a los empleos del nivel profesional."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716, Cap. VI 'Equivalencias entre estudio y experiencia', tabla nivel TÉCNICO y ASISTENCIAL (columna Nacional y Territorial): 'Tres (3) años de experiencia relacionada' equivale a 'Título de formación tecnológica o de formación técnica profesional adicional al inicialmente exigido, y viceversa'. Esta equivalencia está recogida de forma expresa en el numeral 25.2.2 del art. 25 del Decreto Ley 785 de 2005 (orden territorial) y en el art. 2.2.2.5.1 del Decreto 1083 de 2015 (transcritos literalmente en CRITERIOS_717, caso 6). Por eso el título tecnológico adicional de la misma disciplina reemplaza los tres años de experiencia relacionada faltantes (opción correcta), y NO un (1) año —esa cifra corresponde a la fila distinta, numeral 25.2.1, en que el título tecnológico/técnico sustituye el requisito de ESTUDIOS por un (1) año de experiencia relacionada—. El mismo Cap. VI precisa que las equivalencias 'Solo son aplicables en la etapa de verificación de requisitos mínimos... siempre y cuando se encuentren contempladas en la OPEC y en el MEFCL', y el parágrafo 5 del art. 2.2.2.5.1 exige que en los niveles asistencial y técnico los estudios aprobados pertenezcan a la misma disciplina académica (por eso el título tecnológico es de la misma disciplina). Se descarta que la experiencia relacionada 'nunca' admita equivalencia: la regla del 'saber hacer por saber' (CRITERIOS_717, caso 8) opera solo cuando se pretende sustituir experiencia profesional relacionada por un título de posgrado o profesional adicional en los niveles directivo, asesor y profesional —supuesto no enlistado taxativamente—, no en el nivel técnico, donde la equivalencia sí está prevista. Y se descartan los dos (2) años de experiencia profesional, propios de la equivalencia de la especialización en los niveles directivo, asesor y profesional."
+  },
+  {
+    "id": "equ16",
+    "text": "Caso práctico (VRM, orden territorial). En un proceso de selección de la CNSC, la Gobernación de Boyacá ofertó un empleo del nivel Técnico cuyo MEFCL exige, como requisito mínimo de estudios, un título de formación tecnológica y, además, un título de formación tecnológica o técnica profesional ADICIONAL al inicialmente exigido; el manual contempla de forma expresa las equivalencias de los Decretos Ley 785 de 2005 y 1083 de 2015. Un aspirante acredita el título tecnológico inicial, pero no posee el título adicional; en su lugar aporta tres (3) años de experiencia relacionada debidamente certificada. En la etapa de verificación de requisitos mínimos, ¿cómo debe proceder el analista?",
+    "options": [
+      "Inadmitir al aspirante, pues para los niveles técnico y asistencial no existe equivalencia entre el título tecnológico o técnico profesional adicional y la experiencia.",
+      "Admitir al aspirante solamente si acredita un (1) año de experiencia relacionada, ya que esa es la equivalencia prevista para el título de formación tecnológica o técnica profesional.",
+      "Admitir al aspirante, porque tres (3) años de experiencia relacionada equivalen al título de formación tecnológica o técnica profesional adicional al inicialmente exigido, y viceversa, según las equivalencias adoptadas en el MEFCL.",
+      "Admitir al aspirante únicamente si aporta tres (3) años de experiencia profesional, dado que la equivalencia exige experiencia profesional y no relacionada."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_717, factor EQUIVALENCIAS, Caso 6 (líneas 1806-1849), inciso para los niveles técnico y asistencial: art. 25.2.2 del Decreto Ley 785 de 2005 (orden territorial) —«Tres (3) años de experiencia relacionada por título de formación tecnológica o de formación técnica profesional adicional al inicialmente exigido, y viceversa» (líneas 1841-1842)— concordante con el art. 2.2.2.5.1 num. 1 del Decreto 1083 de 2015 (líneas 1824-1825) y con el cuadro TÉCNICO y ASISTENCIAL de CRITERIOS_716 (líneas 1032-1040). La equivalencia opera con experiencia RELACIONADA (no profesional), por 3 años (no 1), y sí existe para estos niveles, siempre que esté adoptada en el MEFCL/OPEC y aplicada solo en VRM. La opción del '1 año' corresponde a la otra equivalencia (art. 25.2.1: título tecnológico/técnico por un (1) año de experiencia relacionada), y la de 'experiencia profesional' confunde con la regla de los niveles directivo/asesor/profesional (art. 25 y 2.2.2.5.1: tres años de experiencia profesional por título profesional adicional)."
+  },
+  {
+    "id": "equ17",
+    "text": "En un proceso de selección adelantado por la CNSC para una alcaldía municipal (orden territorial), la señora Ríos se inscribe a un empleo del nivel TÉCNICO cuyo MEFCL y su reflejo en la OPEC exigen, como requisito de estudios, un (1) año de educación superior en la disciplina requerida, y prevén expresamente la aplicación de equivalencias. La aspirante no acredita de forma directa ese año de educación superior, pero sí cuenta con diploma de bachiller. En la etapa de verificación de requisitos mínimos (VRM), ¿con qué puede equivalerse ese un (1) año de educación superior?",
+    "options": [
+      "Con dos (2) años de experiencia profesional, siempre y cuando acredite el título profesional adicional al exigido en el empleo.",
+      "Con seis (6) meses de experiencia relacionada más un curso específico de mínimo ciento sesenta (160) horas de duración, sin necesidad de acreditar diploma de bachiller.",
+      "Con un (1) año de experiencia; o con seis (6) meses de experiencia relacionada más un curso específico de mínimo sesenta (60) horas de duración, siempre que en ambos casos acredite diploma de bachiller.",
+      "Con un (1) año de experiencia relacionada más la terminación y aprobación de un título de formación tecnológica en la respectiva modalidad."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "La equivalencia correcta está en CRITERIOS_716, Cap. VI 'Equivalencias entre estudio y experiencia', fila de los niveles TÉCNICO y ASISTENCIAL, que establece: 'Un (1) año de educación superior por un (1) año de experiencia y viceversa, o por seis (6) meses de experiencia relacionada y curso específico de mínimo sesenta (60) horas de duración y viceversa, siempre y cuando se acredite diploma de bachiller para ambos casos'. Para el orden territorial esta equivalencia corresponde al artículo 25, numeral 25.2.3, del Decreto Ley 785 de 2005, concordante con el artículo 2.2.2.5.1 del Decreto 1083 de 2015 (ver también CRITERIOS_717, caso 6 de equivalencias). Estas equivalencias solo se aplican en la etapa de VRM, cuando el aspirante no cumple de forma directa el requisito y siempre que estén contempladas en el MEFCL y en la OPEC (CRITERIOS_716, Cap. VI, inciso inicial). Por eso la opción correcta es la que ofrece un (1) año de experiencia, o bien seis (6) meses de experiencia relacionada más curso de mínimo 60 horas, exigiendo diploma de bachiller en ambos casos. Las demás son incorrectas: 'dos (2) años de experiencia profesional con título profesional' es la equivalencia del posgrado de especialización para los niveles Directivo, Asesor y Profesional, no del nivel Técnico; '160 horas sin diploma de bachiller' altera la cifra del curso (son 60 horas) y suprime el requisito obligatorio del diploma de bachiller; y 'un (1) año de experiencia relacionada más título de formación tecnológica' mezcla indebidamente la fila 25.2.1 (título de formación tecnológica o técnica profesional por un año de experiencia relacionada), que es una equivalencia distinta."
+  },
+  {
+    "id": "equ18",
+    "text": "En un concurso de la CNSC del orden territorial, una alcaldía municipal oferta un empleo del nivel TÉCNICO cuyo requisito mínimo de estudios es un (1) año de educación superior, y cuya OPEC y MEFCL prevén expresamente la aplicación de equivalencias. Durante la verificación de requisitos mínimos (VRM), un aspirante acredita únicamente diploma de bachiller, por lo que no cumple de forma directa con el año de educación superior exigido. ¿Cuál es la equivalencia aplicable para suplir ese año de educación superior?",
+    "options": [
+      "Un (1) año de educación superior se equivale por tres (3) años de experiencia relacionada, o por un curso específico de mínimo ciento sesenta (160) horas de duración, siempre y cuando se acredite diploma de bachiller.",
+      "El año de educación superior faltante solo puede reemplazarse acreditando título de formación tecnológica o de formación técnica profesional, junto con un (1) año de experiencia relacionada.",
+      "Un (1) año de educación superior se equivale por un (1) año de experiencia, o por seis (6) meses de experiencia relacionada y un curso específico de mínimo sesenta (60) horas de duración, siempre y cuando se acredite diploma de bachiller.",
+      "Un (1) año de educación superior se equivale por seis (6) meses de experiencia y un curso específico de mínimo sesenta (60) horas de duración, siempre y cuando se acredite la aprobación de cuatro (4) años de educación básica secundaria."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_717, sección CASOS RELACIONADOS CON EL FACTOR EQUIVALENCIAS, Caso 6 (líneas 1806-1849), nivel territorial (líneas 1832-1846), y tabla concordante de CRITERIOS_716 (líneas 1032-1048). Para los niveles técnico y asistencial del orden territorial, el art. 25.2.3 del Decreto Ley 785 de 2005 (dentro del art. 25 sobre equivalencias territoriales), en concordancia con el art. 2.2.2.5.1 num. 1 del Decreto 1083 de 2015, dispone: 'Un (1) año de educación superior por un (1) año de experiencia y viceversa, o por seis (6) meses de experiencia relacionada y curso específico de mínimo sesenta (60) horas de duración y viceversa, siempre y cuando se acredite diploma de bachiller para ambos casos.' Por eso la opción correcta es la que exige diploma de bachiller y las cifras exactas (1 año de experiencia, o 6 meses de experiencia relacionada + curso de mínimo 60 horas). Las demás son cascaritas: la primera altera las cifras (3 años y 160 horas); la segunda corresponde a otra equivalencia distinta (art. 25.2.1: título de tecnólogo o técnico profesional por 1 año de experiencia relacionada); y la cuarta cambia el requisito de 'diploma de bachiller' por 'aprobación de cuatro (4) años de educación básica secundaria' —que en realidad pertenece a la equivalencia del diploma de bachiller (líneas 1050-1051)— y omite que la experiencia sea relacionada. Estas equivalencias solo operan en la etapa de VRM y únicamente si están adoptadas en el MEFCL y reflejadas en la OPEC (arts. 25 del Decreto Ley 785 de 2005 y 2.2.2.5.1 del Decreto 1083 de 2015)."
+  },
+  {
+    "id": "equ19",
+    "text": "Caso VRM (orden territorial): La Alcaldía de un municipio ofertó, dentro del proceso de selección de la CNSC, un empleo del nivel ASISTENCIAL cuyo requisito mínimo de estudios es \"Diploma de bachiller en cualquier modalidad\". El aspirante Nelson no aporta el diploma de bachiller, pero pretende que se le aplique la equivalencia estudio-experiencia prevista en el MEFCL y en la OPEC. La analista verifica el Capítulo VI del Criterio Unificado (tabla \"TÉCNICO y ASISTENCIAL\"). ¿Cuál es la combinación que, conforme a dicha tabla, equivale al diploma de bachiller y permitiría admitir a Nelson en la etapa de VRM?",
+    "options": [
+      "Aprobación de cinco (5) años de educación básica primaria y un (1) año de experiencia laboral.",
+      "Aprobación de tres (3) años de educación básica secundaria y dieciocho (18) meses de experiencia.",
+      "Aprobación de cuatro (4) años de educación básica secundaria y un (1) año de experiencia laboral; o, en su defecto, cuatro (4) años de educación básica secundaria y CAP del SENA.",
+      "Aprobación de cuatro (4) años de educación básica secundaria y dos (2) años de experiencia relacionada."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716, Capítulo VI \"Equivalencias entre estudio y experiencia\", tabla del nivel TÉCNICO y ASISTENCIAL (columna NACIONAL y TERRITORIAL), fila \"Diploma de bachiller en cualquier modalidad\": equivale \"por aprobación de cuatro (4) años de educación básica secundaria y un (1) año de experiencia laboral y viceversa o por aprobación de cuatro (4) años de educación básica secundaria y CAP de Sena\". Para el orden territorial estas equivalencias se fundan en el artículo 25 del Decreto Ley 785 de 2005, en concordancia con los artículos 2.2.2.5.1 y 2.2.2.5.2 del Decreto 1083 de 2015, y solo se aplican en la etapa de VRM cuando el aspirante no cumple directamente el requisito y siempre que estén previstas en el MEFCL y en la OPEC. Las demás opciones son incorrectas: la básica secundaria son cuatro (4) grados, no básica primaria (opción de cinco años de primaria); la cifra correcta de experiencia es un (1) año de experiencia LABORAL, no dos (2) años de experiencia relacionada ni dieciocho (18) meses (esta última corresponde a otra fila de la tabla, la de FORMACIÓN SENA sobre tres años de básica secundaria). Educación básica secundaria de cuatro (4) grados conforme al art. 11 de la Ley 115 de 1994."
+  },
+  {
+    "id": "equ20",
+    "text": "En un proceso de selección adelantado por la CNSC, la Alcaldía de un municipio oferta un empleo del nivel ASISTENCIAL cuyo requisito mínimo de estudios es la aprobación de un (1) año de educación básica secundaria. En la etapa de Verificación de Requisitos Mínimos (VRM), una aspirante no acredita ese año de secundaria; en su lugar aporta el certificado de culminación de la educación básica primaria y una certificación de seis (6) meses de experiencia laboral. El MEFCL y la OPEC del empleo contemplan expresamente la aplicación de equivalencias. ¿Cómo debe resolver el analista la VRM?",
+    "options": [
+      "No procede la equivalencia: para reemplazar el año de educación básica secundaria se requiere acreditar un (1) año de experiencia laboral, y no seis (6) meses.",
+      "Sí procede la equivalencia: seis (6) meses de experiencia laboral suplen el año de educación básica secundaria exigido, precisamente porque la aspirante acredita además la formación básica primaria.",
+      "Sí procede, pero únicamente si, además de los seis (6) meses de experiencia, la aspirante aporta un curso específico de mínimo sesenta (60) horas de duración.",
+      "No procede, porque la equivalencia del nivel asistencial exige acreditar el diploma de bachiller en cualquier modalidad y no la simple formación básica primaria."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado VRM/VA de la CNSC (Sala Plena, 18 de febrero de 2021), CRITERIOS_716, Cap. VI 'Equivalencias entre estudio y experiencia', tabla del nivel TÉCNICO y ASISTENCIAL (columna NACIONAL y TERRITORIAL): la 'Aprobación de un (1) año de educación básica secundaria' equivale a 'Seis (6) meses de experiencia laboral y viceversa, siempre y cuando se acredite la formación básica primaria'. Por eso la respuesta correcta es la opción con seis (6) meses de experiencia laboral condicionada a acreditar la básica primaria. El distractor de 'un (1) año de experiencia laboral' corresponde en realidad a la fila del diploma de bachiller (que equivale a cuatro (4) años de básica secundaria y un (1) año de experiencia laboral), y el del 'curso de mínimo 60 horas' corresponde a otra fila distinta de esa misma tabla; el de 'diploma de bachiller' confunde la condición, que aquí es la básica primaria. Fundamento normativo del orden territorial: artículo 25 del Decreto Ley 785 de 2005, en concordancia con los artículos 2.2.2.5.1 y 2.2.2.5.2 del Decreto 1083 de 2015. Además, conforme al mismo Cap. VI, las equivalencias solo se aplican en la etapa de VRM, cuando el aspirante no cumple de manera directa el requisito, y siempre que estén previstas en el MEFCL y en la OPEC, condiciones que en el caso se satisfacen."
+  },
+  {
+    "id": "equ21",
+    "text": "En un proceso de selección de la CNSC para proveer un empleo del nivel asistencial de una alcaldía municipal (orden territorial), el MEFCL y la OPEC exigen como requisito mínimo de estudios \"tres (3) años de educación básica secundaria\" y prevén de forma expresa la aplicación de equivalencias. En la etapa de verificación de requisitos mínimos (VRM), una aspirante no acredita de manera directa ese requisito de estudios, pero aporta el Certificado de Aptitud Profesional (CAP) del SENA. Conforme al Criterio Unificado, ¿a qué equivale el CAP del SENA para tener por cumplido el requisito?",
+    "options": [
+      "A cuatro (4) años de educación básica secundaria y a un (1) año de experiencia laboral",
+      "A dos (2) años de formación en educación superior o a dos (2) años de experiencia",
+      "A tres (3) años de educación básica secundaria o a dieciocho (18) meses de experiencia",
+      "A dos (2) años de educación básica secundaria o a doce (12) meses de experiencia"
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716, Capítulo VI \"Equivalencias entre estudio y experiencia\", tabla FORMACIÓN SENA (Nacional y Territorial): la fila \"El CAP del SENA\" equivale a \"Tres (3) años de educación básica secundaria o dieciocho (18) meses de experiencia\". Fundamento normativo para el orden territorial: artículo 25 del Decreto Ley 785 de 2005, en concordancia con el artículo 2.2.2.5.1 del Decreto 1083 de 2015; estas equivalencias solo se aplican en la etapa de VRM y únicamente cuando están contempladas en la OPEC y en el MEFCL. Las opciones incorrectas confunden esta fila con otras del mismo capítulo: \"cuatro (4) años de educación básica secundaria y un (1) año de experiencia laboral\" corresponde a la equivalencia del diploma de bachiller (no del CAP); \"dos (2) años de formación en educación superior o dos (2) años de experiencia\" corresponde al CAP Técnico del SENA y bachiller con intensidad horaria entre 1.500 y 2.000 horas (no al CAP simple); y la cifra de \"dos años de básica secundaria o doce meses\" no existe en la tabla."
+  },
+  {
+    "id": "equ22",
+    "text": "En un proceso de selección de la CNSC para proveer un empleo del nivel técnico de la Secretaría de Infraestructura de una alcaldía municipal (orden territorial), el MEFCL y la OPEC exigen como requisito mínimo de estudios \"dos (2) años de formación en educación superior\" y prevén expresamente la aplicación de equivalencias. Una aspirante no acredita años de educación superior, pero aporta su diploma de bachiller y el Certificado de Aptitud Profesional (CAP) Técnico del SENA, con una intensidad horaria certificada de 1.800 horas. En la etapa de verificación de requisitos mínimos, ¿a qué equivalencia da lugar el CAP Técnico del SENA con bachiller de esa intensidad horaria?",
+    "options": [
+      "Dos (2) años de formación en educación superior o tres (3) años de experiencia, por corresponder al nivel técnico.",
+      "Dos (2) años de formación en educación superior o dos (2) años de experiencia.",
+      "Tres (3) años de formación en educación superior o tres (3) años de experiencia.",
+      "Un (1) año de educación superior o un (1) año de experiencia relacionada, por tratarse de formación técnica."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716, Capítulo VI \"Equivalencias entre estudio y experiencia\", tabla FORMACIÓN SENA (aplicable a orden NACIONAL y TERRITORIAL): \"Por el CAP Técnico del Sena y bachiller, con intensidad horaria entre 1.500 y 2.000 horas\" equivale a \"Dos (2) años de formación en educación superior o dos (2) años de experiencia\". Como la aspirante certifica 1.800 horas (rango 1.500 a 2.000), la equivalencia es de dos (2) años de educación superior o dos (2) años de experiencia. La opción de tres (3) años y tres (3) años corresponde a la intensidad horaria superior a 2.000 horas (misma tabla), y el resultado de un (1) año pertenece al nivel Técnico y Asistencial por título de formación tecnológica o técnica profesional, no al CAP del SENA. Fundamento normativo: artículo 25 del Decreto Ley 785 de 2005 (equivalencias en el orden territorial), en concordancia con el artículo 2.2.2.5.1 del Decreto 1083 de 2015. Estas equivalencias solo se aplican en la etapa de verificación de requisitos mínimos (VRM), cuando el aspirante no cumple en forma directa el requisito y siempre que estén previstas en el MEFCL y la OPEC (CRITERIOS_716, Cap. VI, encabezado)."
+  },
+  {
+    "id": "equ23",
+    "text": "Un municipio del orden territorial oferta un empleo del nivel Técnico y en su MEFCL previó, como equivalencia para el requisito de estudios, la posibilidad de acreditar dos (2) años de educación superior. En la etapa de VRM, un aspirante pretende completar esos dos años sumando un (1) año aprobado de un programa de Contaduría Pública con un (1) año aprobado de un programa de Ingeniería de Sistemas, es decir, estudios de dos disciplinas académicas distintas. ¿Cómo debe resolver el analista?",
+    "options": [
+      "No puede sumar los estudios: al tratarse de un empleo del nivel Técnico, los estudios aprobados que se aporten para la equivalencia deben pertenecer a una misma disciplina académica o profesión, por lo que no cumple el requisito",
+      "Sí puede sumar los estudios, porque las equivalencias del nivel Técnico no imponen ninguna restricción sobre la disciplina de los programas cursados",
+      "No puede sumar los estudios, porque la exigencia de una misma disciplina académica solo aplica a los empleos de los niveles Directivo, Asesor y Profesional",
+      "Sí puede sumar los estudios, siempre que entre los dos programas acredite en total tres (3) años de educación superior, sin importar la disciplina"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Parágrafo 5 del Art. 2.2.2.5.1 del Decreto 1083 de 2015 (CRITERIOS_716.txt, CAPÍTULO VI, líneas 1089-1091 y nota al pie 11 en la línea 1116): \"En todo caso, cuando se trate de equivalencias para los empleos pertenecientes a los niveles Asistencial y Técnico, los estudios aprobados deben pertenecer a una misma disciplina académica o profesión.\" Esta regla, concordante con el régimen de equivalencias del orden territorial del artículo 25 del Decreto Ley 785 de 2005 (referido en la línea 1080 del mismo criterio), impide sumar estudios de disciplinas distintas (Contaduría + Ingeniería) para completar la equivalencia. Por tanto, la opción correcta es la que niega la acumulación por pertenecer los programas a disciplinas diferentes. Las demás son cascaritas: no existe libertad de disciplina en Técnico/Asistencial (opción 2 es falsa); la exigencia de misma disciplina aplica precisamente a Técnico y Asistencial, no a Directivo/Asesor/Profesional (opción 3 invierte los niveles); y la equivalencia prevista era de dos (2) años, no tres (3), y en ningún caso se levanta la exigencia de misma disciplina (opción 4 altera la cifra y la regla)."
+  },
+  {
+    "id": "equ24",
+    "text": "En un proceso de selección de la CNSC para proveer un empleo del nivel profesional de una gobernación departamental (orden territorial), el analista adelanta la etapa de verificación de requisitos mínimos. Al revisar el MEFCL de la entidad observa que, para el inciso de equivalencia del título de maestría, la gobernación adoptó únicamente la opción de \"tres (3) años de experiencia profesional, siempre que se acredite el título profesional\", y NO incluyó las otras dos opciones de ese mismo inciso (título profesional adicional afín; o terminación de estudios profesionales adicionales afines más un año de experiencia). El analista se pregunta si esa adopción parcial es jurídicamente válida para aplicarla en la VRM. ¿Cómo debe proceder?",
+    "options": [
+      "Es válida: como la 'o' que separa las alternativas de cada inciso es disyuntiva, cada opción es independiente y la autoridad competente puede incorporar en su MEFCL solo una o varias de ellas; el analista aplica la equivalencia adoptada.",
+      "No es válida: si la entidad adopta una de las alternativas del inciso, queda obligada a incluir también las demás, pues las opciones de un mismo inciso conforman una unidad indivisible que debe adoptarse en bloque.",
+      "No es válida: la 'o' del inciso es copulativa, de modo que la equivalencia solo procede cuando el MEFCL reproduce la totalidad de las alternativas previstas en la norma para ese inciso.",
+      "Es válida solo si la entidad adopta al menos dos de las alternativas por inciso, ya que una única opción no constituye equivalencia completa conforme a los Decretos 785 de 2005 y 1083 de 2015."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_717, EQUIVALENCIAS, Caso 10 (líneas 1894-1905): es procedente tener como válidas las equivalencias en que la entidad toma en su MEFCL \"solo una o varias\" de las opciones contempladas en cada inciso, porque las alternativas están separadas semánticamente por la letra \"o\", que para el caso es disyuntiva; por ello se interpreta que cada una es independiente y las normas facultan a la autoridad competente que adopta el manual para incorporarlas o no. El inciso de maestría al que alude el escenario contiene exactamente esas tres opciones (CRITERIOS_716, tabla del cap. VI, líneas 1006-1014): tres (3) años de experiencia profesional acreditando el título profesional; o título profesional adicional afín; o terminación de estudios profesionales adicionales afines más un (1) año de experiencia profesional. Sustento normativo del propio caso: art. 25 del Decreto Ley 785 de 2005 (orden territorial) y art. 2.2.2.5.1 del Decreto 1083 de 2015. Las cascaritas confunden el carácter disyuntivo de la \"o\" con una supuesta obligación de adoptar el inciso en bloque (opciones 1 y 2 — bloque indivisible / \"o\" copulativa) o inventan un mínimo de dos opciones por inciso que la norma no exige (opción 3)."
+  },
+  {
+    "id": "equ25",
+    "text": "Caso VRM - orden territorial: La CNSC adelanta un proceso de selección para proveer un empleo del nivel Profesional en la alcaldía de un municipio. El Manual Específico de Funciones y Competencias Laborales (MEFCL) y la OPEC exigen título profesional y título de posgrado en la modalidad de especialización, y prevén expresamente la aplicación de equivalencias. En la etapa de verificación de requisitos mínimos, un aspirante acredita el título profesional exigido, pero NO cuenta con la especialización, por lo que solicita que se le equipare ese título de posgrado mediante formación académica adicional. Además de las alternativas de experiencia profesional o de un título profesional adicional afín, ¿cuál de las siguientes alternativas permite equiparar el título de especialización exigido?",
+    "options": [
+      "Terminación y aprobación de estudios profesionales adicionales al título profesional exigido, siempre que dicha formación sea afín con las funciones del cargo, más un (1) año de experiencia profesional",
+      "Terminación y aprobación de estudios profesionales adicionales al título profesional exigido, siempre que dicha formación sea afín con las funciones del cargo, más dos (2) años de experiencia profesional",
+      "Terminación y aprobación de estudios profesionales adicionales al título profesional exigido, siempre que dicha formación sea afín con las funciones del cargo, más tres (3) años de experiencia profesional",
+      "Terminación y aprobación de estudios profesionales adicionales al título profesional exigido, siempre que dicha formación sea afín con las funciones del cargo, sin exigir experiencia profesional adicional"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Fuente: CRITERIOS_716, Cap. VI 'Equivalencias entre estudio y experiencia', tabla del nivel DIRECTIVO, ASESOR y PROFESIONAL, fila 'El título de posgrado en la modalidad de especialización por:', tercera alternativa: 'Terminación y aprobación de estudios profesionales adicionales al título profesional exigido en el requisito del respectivo empleo, siempre y cuando dicha formación adicional sea afín con las funciones del cargo, y un (1) año de experiencia profesional'. Marco normativo: art. 25 del Decreto Ley 785 de 2005 (nivel territorial) en concordancia con los arts. 2.2.2.5.1 y 2.2.2.5.2 del Decreto 1083 de 2015 (y art. 8 del Decreto Ley 770 de 2005 para el orden nacional). La equivalencia solo procede en la etapa de VRM, cuando el aspirante no cumple de forma directa el requisito y siempre que esté prevista en el MEFCL y la OPEC. Las opciones incorrectas alteran las cifras o suprimen la experiencia: 'dos (2) años' corresponde a la tercera alternativa del título de DOCTORADO/POSTDOCTORADO, no a la especialización; 'tres (3) años' no es la cifra de esta alternativa (para especialización es un (1) año; además 'tres años de experiencia profesional' equivalen a un título profesional adicional en fila distinta); y 'sin exigir experiencia' confunde esta alternativa con la de 'título profesional adicional afín', que sí opera sin experiencia, mientras que la de 'estudios profesionales adicionales' siempre exige un (1) año de experiencia profesional. Se trata de VRM, no de valoración de antecedentes."
+  },
+  {
+    "id": "equ26",
+    "text": "En un proceso de selección del orden territorial, un municipio oferta un empleo del nivel Profesional cuyo requisito de estudios en el MEFCL y la OPEC es: título profesional en Derecho y título de posgrado en la modalidad de especialización. El MEFCL contempla las equivalencias de ley. Una aspirante acredita su título profesional en Derecho, pero NO tiene la especialización exigida; en su lugar aporta un segundo título profesional en Ingeniería de Alimentos y pide que se le aplique la equivalencia de \"título profesional adicional al exigido\" para reemplazar la especialización. Las funciones del cargo son de asesoría y sustanciación jurídica. En la etapa de VRM, ¿cómo debe proceder el analista?",
+    "options": [
+      "No aplicar la equivalencia: aunque existe la figura del título profesional adicional al exigido para reemplazar la especialización, esta solo procede si la formación adicional es afín con las funciones del cargo, y la Ingeniería de Alimentos no guarda afinidad con funciones de asesoría y sustanciación jurídica",
+      "Aplicar la equivalencia y dar por cumplido el requisito, pues cualquier título profesional adicional al exigido reemplaza la especialización sin necesidad de que sea afín con las funciones del cargo",
+      "Aplicar la equivalencia únicamente si, además del título profesional adicional, la aspirante acredita dos (2) años de experiencia profesional, sin importar la afinidad del título",
+      "No aplicar equivalencia alguna, porque en el orden territorial no está permitido reemplazar la especialización con un título profesional adicional, sino solo con tres (3) años de experiencia profesional"
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716.txt, CAPÍTULO VI \"Equivalencias entre estudio y experiencia\", cuadro DIRECTIVO, ASESOR y PROFESIONAL (líneas 998-1000): la especialización equivale, entre otras, a \"Título profesional adicional al exigido en el requisito del respectivo empleo, siempre y cuando dicha formación adicional sea afín con las funciones del cargo\". La afinidad con las funciones es condición ineludible; sin ella no procede la equivalencia (por eso son falsas las opciones que la omiten). El cuadro rige tanto para el orden NACIONAL como TERRITORIAL (línea 994), de modo que en el nivel territorial SÍ es admisible reemplazar la especialización con un título profesional adicional afín, lo que desmiente la última opción. El nivel territorial se rige por el artículo 25 del Decreto Ley 785 de 2005, en concordancia con el Decreto 1083 de 2015 (líneas 983-987), y las equivalencias solo se aplican en VRM cuando estén previstas en la OPEC y el MEFCL. La combinación de \"título profesional adicional + dos (2) años de experiencia\" no corresponde a ninguna equivalencia prevista para la especialización (el año/años de experiencia solo acompañan al supuesto distinto de \"terminación y aprobación de estudios profesionales adicionales\", no al título completo)."
+  },
+  {
+    "id": "equ27",
+    "text": "En un proceso de selección de la CNSC para proveer un empleo del nivel Profesional de una alcaldía municipal (orden territorial), el MEFCL y la OPEC exigen como requisito mínimo de estudios un título profesional en un NBC determinado y, además, título de posgrado en la modalidad de especialización; el manual contempla expresamente la aplicación de equivalencias. Una aspirante acredita el título profesional exigido junto con su tarjeta profesional, pero NO cuenta con la especialización; en su lugar aporta dos (2) años de experiencia profesional adicionales a los ya exigidos por el empleo. En la etapa de VRM, ¿cómo debe resolver el analista frente a la ausencia de la especialización?",
+    "options": [
+      "No procede la equivalencia: opera en un solo sentido, de modo que la especialización sí puede reemplazar experiencia, pero la experiencia profesional nunca puede sustituir la especialización exigida como estudio.",
+      "Sí procede, pero se requieren tres (3) años de experiencia profesional para sustituir la especialización, acreditando además el título profesional.",
+      "Sí procede: la equivalencia opera 'y viceversa', por lo que los dos (2) años de experiencia profesional adicionales, acreditando el título profesional, sustituyen la especialización exigida.",
+      "Sí procede, pero únicamente mediante un título profesional adicional afín a las funciones del cargo, pues la especialización jamás se equipara con experiencia."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_716.txt, CAPÍTULO VI 'Equivalencias entre estudio y experiencia', fila DIRECTIVO/ASESOR y PROFESIONAL (línea 996): 'El título de posgrado en la modalidad de especialización por: Dos (2) años de experiencia profesional y viceversa, siempre que se acredite el título profesional'. La expresión 'y viceversa' vuelve BIDIRECCIONAL la equivalencia: así como la especialización reemplaza dos (2) años de experiencia profesional, esos mismos dos (2) años de experiencia profesional —acreditando el título profesional— reemplazan la especialización exigida (dirección experiencia por estudios). Base normativa: artículo 25 del Decreto Ley 785 de 2005, aplicable al nivel territorial, y artículo 2.2.2.5.1 del Decreto 1083 de 2015 (líneas 984-987), equivalencias que solo operan en la etapa de VRM y siempre que estén previstas en el MEFCL y la OPEC. La cifra de tres (3) años corresponde a la maestría (línea 1006), no a la especialización, lo que descarta esa opción; y el 'y viceversa' desvirtúa que la equivalencia funcione en un solo sentido o que exija forzosamente un título profesional adicional."
+  },
+  {
+    "id": "equ28",
+    "text": "En un proceso de selección de una alcaldía municipal (orden territorial), durante la etapa de VRM se analiza a una aspirante a un empleo del nivel Técnico. El MEFCL y la OPEC prevén la equivalencia de un (1) año de educación superior por un (1) año de experiencia. La aspirante no acredita la experiencia exigida, pero aporta certificación de haber cursado y aprobado dos (2) años de estudios en un programa de formación desarrollado por ciclos propedéuticos, junto con los títulos correspondientes a cada ciclo de forma independiente. ¿Cómo debe resolver el analista la aplicación de la equivalencia?",
+    "options": [
+      "No procede la equivalencia, porque la formación por ciclos propedéuticos se clasifica como educación para el trabajo y el desarrollo humano y no puede tenerse como años de educación superior para compensar experiencia.",
+      "Procede la equivalencia, porque los años aprobados en programas por ciclos propedéuticos corresponden a años de educación superior; los dos (2) años de estudio equivalen a dos (2) años de experiencia, siempre que se acrediten de manera independiente los títulos de cada ciclo.",
+      "No procede la equivalencia, porque los años de estudio por ciclos propedéuticos solo pueden tenerse como años de educación superior cuando la aspirante ya haya obtenido el título del último ciclo de profesional universitario.",
+      "Procede la equivalencia, pero el analista debe exigir además tres (3) años de experiencia relacionada por cada año de estudio aprobado, conforme a la tabla del nivel Técnico y Asistencial."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "CRITERIOS_717, Capítulo de Equivalencias, Caso 11 (líneas 1907-1917): sí es posible aplicar la equivalencia de experiencia por años de estudio cuando estos se aprobaron en programas por ciclos propedéuticos, dado que dichos años corresponden a años de educación superior (art. 3 de la Ley 749 de 2002 y art. 5 de la Ley 1188 de 2008); el aspirante debe acreditar los títulos de formación de cada ciclo de manera independiente. La equivalencia aplicable en el nivel Técnico y Asistencial —un (1) año de educación superior por un (1) año de experiencia y viceversa— está prevista en el art. 25 del Decreto Ley 785 de 2005 (orden territorial) y en el art. 2.2.2.5.1 del Decreto 1083 de 2015 (CRITERIOS_716, Capítulo VI, tabla del nivel Técnico y Asistencial). Las equivalencias solo operan en VRM y solo si están previstas en el MEFCL y la OPEC. Por eso dos (2) años de estudio en ciclos propedéuticos equivalen a dos (2) años de experiencia. La opción 1 es falsa porque los ciclos propedéuticos son educación superior, no educación para el trabajo; la opción 3 confunde la regla, pues no se exige obtener el último título de profesional universitario; y la opción 4 mezcla erróneamente cifras de otra fila de la tabla (tres años de experiencia relacionada)."
+  },
+  {
+    "id": "equ29",
+    "text": "En un proceso de selección de la CNSC del orden territorial, una gobernación oferta un empleo del nivel profesional cuyo requisito mínimo es título profesional en el núcleo básico exigido y treinta y seis (36) meses de experiencia profesional relacionada. El MEFCL y la OPEC del empleo adoptaron las equivalencias de los artículos 25 del Decreto Ley 785 de 2005 y 2.2.2.5.1 del Decreto 1083 de 2015. Una aspirante acredita el título profesional exigido, una especialización afín con las funciones del empleo y, además, dieciocho (18) meses de experiencia profesional relacionada debidamente certificada. En la etapa de verificación de requisitos mínimos (VRM), ¿cómo debe proceder el analista?",
+    "options": [
+      "Como con la sola especialización no cubre los 36 meses, la aspirante debe ser inadmitida en la VRM; la especialización y los 18 meses de experiencia se remiten a la prueba de valoración de antecedentes para que allí se aplique la equivalencia y se decida su admisión.",
+      "La especialización equivale a tres (3) años de experiencia profesional, de modo que por sí sola cubre íntegramente los 36 meses exigidos; en consecuencia, los 18 meses de experiencia aportada se descartan por no ser necesarios y la aspirante queda admitida.",
+      "Primero verifica si el título adicional adoptado como equivalencia cubre por sí solo la experiencia exigida: como la especialización equivale a dos (2) años (24 meses) de experiencia profesional no alcanza a cubrir los 36 meses, por lo que contabiliza además la experiencia aportada (18 meses), reúne 42 meses, supera el mínimo y queda admitida en la VRM; los seis (6) meses que sobran se tendrán en cuenta para puntuar en la prueba de valoración de antecedentes.",
+      "Suma la especialización (equivalente a 2 años) y los 18 meses de experiencia aportada para admitirla, pero el excedente de seis (6) meses se descarta, pues el tiempo de experiencia sobrante no puede tenerse en cuenta en ninguna prueba posterior."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado (CRITERIOS_717), capítulo de Equivalencias, Caso/numeral 7 (líneas 1851-1860): cuando el aspirante no cumple el requisito mínimo de experiencia, se identifica qué títulos de formación adicional acredita para verificar si procede la equivalencia completa de experiencia por título (adoptada en el MEFCL); \"Si no le alcanza, se contabiliza la experiencia aportada. En caso de sobrar tiempo, este se tendrá en cuenta para puntuar en la prueba de valoración de antecedentes\". El orden es: (1) equivalencia completa por título, (2) si no cubre, contabilizar la experiencia efectivamente aportada, (3) el sobrante se lleva a la VA. Las equivalencias solo se aplican en la VRM, no en la VA (CRITERIOS_716, Cap. VI, líneas 985-987). Cifra exacta: para los niveles directivo, asesor y profesional, la especialización equivale a dos (2) años de experiencia profesional, siempre que se acredite el título profesional (art. 25 del Decreto Ley 785 de 2005 —nivel territorial— y art. 2.2.2.5.1 del Decreto 1083 de 2015; tabla de equivalencias del CRITERIOS_716, líneas 992-1004; la maestría equivale a 3 años). Aplicado al caso: 24 meses (especialización) no cubren los 36 exigidos, luego 24 + 18 = 42 meses ≥ 36 → admitida, y los 6 meses de excedente puntúan en VA. Las demás opciones fallan por: aplicar equivalencias en la VA e inadmitir (opción 1, contra el Cap. VI del CRITERIOS_716, líneas 985-987), confundir la cifra atribuyendo a la especialización el equivalente de la maestría (opción 2) y descartar el sobrante en vez de llevarlo a VA (opción 4)."
+  },
+  {
+    "id": "equ30",
+    "text": "En una alcaldía municipal (orden territorial), un empleo del nivel profesional exige como requisitos mínimos: título profesional en Administración y treinta y seis (36) meses de experiencia profesional. El MEFCL y la OPEC del empleo tienen adoptadas las equivalencias legales. Un aspirante acredita el título profesional en Administración, un título de posgrado en la modalidad de especialización adicional al exigido y afín con las funciones del cargo, y solo dieciocho (18) meses de experiencia profesional. En la etapa de VRM, ¿cómo debe proceder el analista con la equivalencia y con el tiempo que llegue a sobrar?",
+    "options": [
+      "Se aplica la equivalencia de la especialización por tres (3) años, es decir, treinta y seis (36) meses de experiencia profesional, con lo cual el requisito queda cubierto por completo y no es necesario contabilizar los dieciocho (18) meses de experiencia aportados.",
+      "La equivalencia se aplica de forma parcial, tomando de la especialización únicamente los dieciocho (18) meses que le faltan al aspirante; de esa manera se completan los treinta y seis (36) meses exigidos y no queda ningún tiempo sobrante que trasladar.",
+      "Se aplica de forma completa la equivalencia (la especialización adicional equivale a dos años, esto es, veinticuatro meses de experiencia profesional); como esos veinticuatro meses no alcanzan los treinta y seis exigidos, se suman los dieciocho meses aportados (42 meses) y se admite al aspirante. Los seis (6) meses sobrantes NO se acumulan en la VRM: se tendrán en cuenta para puntuar en la prueba de valoración de antecedentes.",
+      "Se admite al aspirante y los seis (6) meses de experiencia sobrantes se acumulan dentro de la misma VRM como experiencia adicional, para tener por satisfecho cualquier otro requisito de experiencia del empleo."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "Anexo del Criterio Unificado (CRITERIOS_717.txt), Caso 7 de equivalencias, líneas 1854-1860: cuando el aspirante no cumple el requisito mínimo de experiencia, primero se identifica qué títulos de formación adicional acredita para verificar si se puede aplicar la equivalencia COMPLETA de experiencia por título; \"Si no le alcanza, se contabiliza la experiencia aportada. En caso de sobrar tiempo, este se tendrá en cuenta para puntuar en la prueba de valoración de antecedentes.\" La equivalencia aplicable (niveles directivo, asesor y profesional, nacional y territorial) es: título de posgrado en modalidad de especialización por DOS (2) años de experiencia profesional y viceversa, siempre que se acredite el título profesional (art. 25 del Decreto Ley 785 de 2005 y art. 2.2.2.5.1 del Decreto 1083 de 2015; ver CRITERIOS_716.txt, Cap. VI, líneas 992-1004, en especial 996-997). Por tanto: la especialización se convierte íntegramente en 24 meses (no en 3 años -eso corresponde a la maestría-, ni de forma parcial), 24 + 18 = 42 ≥ 36, y los 6 meses sobrantes no se acumulan en la VRM sino que se puntúan en la VA. Las equivalencias solo operan en la etapa de VRM cuando están previstas en el MEFCL y la OPEC (Cap. VI, líneas 985-987)."
   }
 ]

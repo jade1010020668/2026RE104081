@@ -17,8 +17,10 @@ const ADMIN_CODE = process.env.ADMIN_CODE || '123456789';
 const PUBLIC_URL = process.env.PUBLIC_URL || null;
 
 const DATA_DIR = path.join(__dirname, 'data');
-const QUESTIONS_FILE = path.join(DATA_DIR, 'questions.json');
-const SESSION_FILE = path.join(DATA_DIR, 'session.json');
+// Cada despliegue (jornada) elige su examen y su archivo de sesión por variable de entorno,
+// para tener preguntas y PUNTUACIÓN independientes. Por defecto: questions.json / session.json.
+const QUESTIONS_FILE = path.join(DATA_DIR, process.env.QUESTIONS_FILE || 'questions.json');
+const SESSION_FILE = path.join(DATA_DIR, process.env.SESSION_FILE || 'session.json');
 
 const gameOpts = {
   showResultOnAnswer: process.env.SHOW_RESULT_ON_ANSWER !== 'false',
@@ -128,9 +130,12 @@ app.get('/api/urls', (req, res) => {
 const BRANDING_FILE = path.join(DATA_DIR, 'branding.json');
 app.get('/api/branding', (req, res) => {
   try {
-    res.json(JSON.parse(fs.readFileSync(BRANDING_FILE, 'utf8')));
+    const b = JSON.parse(fs.readFileSync(BRANDING_FILE, 'utf8'));
+    // Cada despliegue (jornada) puede sobrescribir la etiqueta de actividad.
+    if (process.env.JORNADA_LABEL) b.actividad = process.env.JORNADA_LABEL;
+    res.json(b);
   } catch (err) {
-    res.json({ entidad: 'CNSC', proceso: 'Quiz VRM/VA', actividad: 'Capacitación', logo: null });
+    res.json({ entidad: 'CNSC', proceso: 'Quiz VRM/VA', actividad: process.env.JORNADA_LABEL || 'Capacitación', logo: null });
   }
 });
 
