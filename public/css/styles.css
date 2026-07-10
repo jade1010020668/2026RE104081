@@ -460,6 +460,17 @@ p { margin: 0.3em 0; }
 
 .s-title { font-size: clamp(1.8rem, 3.6vw, 2.9rem); font-weight: 800; letter-spacing: -0.015em; }
 .s-sub { color: var(--ink-2); font-size: 1.1rem; }
+.s-sustento {
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-left: 4px solid var(--accent);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  color: var(--ink-2);
+  font-size: clamp(0.95rem, 1.5vw, 1.25rem);
+  line-height: 1.45;
+  max-width: 1150px;
+}
 
 /* portada / QR */
 .s-lobby {

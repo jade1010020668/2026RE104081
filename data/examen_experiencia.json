@@ -9,7 +9,8 @@
       "La terminación y aprobación del pensum académico de la formación profesional"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.2.2.3.7 del Decreto 1083 de 2015; Criterio Unificado, cap. IV 4.1. (Nota: salud → desde el registro RETHUS; ingenierías → desde la matrícula, Ley 842 de 2003 — puede ser pregunta adicional.)"
   },
   {
     "id": "exp02",
@@ -21,7 +22,8 @@
       "Únicamente el cargo desempeñado y el año de ingreso"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.2.2.3.8 del Decreto 1083 de 2015; Criterio Unificado, cap. V 5.2."
   },
   {
     "id": "exp03",
@@ -33,7 +35,8 @@
       "No, salvo que se complete con declaración juramentada"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "arts. 11 del Decreto 785 de 2005 y 2.2.2.3.7 del Decreto 1083 de 2015; Anexo de Casos, experiencia #33."
   },
   {
     "id": "exp04",
@@ -45,7 +48,8 @@
       "El último día del año en curso"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, experiencia #5 (verbos en presente dan certeza de vinculación)."
   },
   {
     "id": "exp05",
@@ -57,7 +61,8 @@
       "Del último día del último mes del año de ingreso al primer día del primer mes del año de retiro"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, experiencia #4 y #7; CSJ Sala Laboral, Rad. 25580 (2006). Cascarita: la opción A es la intuitiva, pero beneficia indebidamente al aspirante."
   },
   {
     "id": "exp06",
@@ -69,7 +74,8 @@
       "Se cuenta la mitad del tiempo certificado"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "arts. 2.2.2.3.8 y 2.2.3.4 del Decreto 1083 de 2015; Anexo de Casos, experiencia #11."
   },
   {
     "id": "exp07",
@@ -81,7 +87,8 @@
       "El semestre traslapado se anula en ambas certificaciones por coincidir en el tiempo, de modo que ese periodo no se valida en ninguna."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 9 de CRITERIOS_717: la experiencia adquirida de manera simultánea (tiempos traslapados) se contabiliza una sola vez, salvo medios tiempos o tiempos parciales autorizados, que se suman sin exceder la jornada de tiempo completo. Artículo 12 del Decreto Ley 785 de 2005 y artículos 2.2.3.4 y 2.2.2.3.8 del Decreto 1083 de 2015."
   },
   {
     "id": "exp08",
@@ -93,7 +100,8 @@
       "Sí: se convierte automáticamente en experiencia profesional relacionada"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, experiencia #12 (la naturaleza del cargo prima sobre la fecha del grado)."
   },
   {
     "id": "exp09",
@@ -105,7 +113,8 @@
       "No: se requieren documentos adicionales que evidencien el tiempo laborado y el ejercicio del cargo"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado, cap. V 5.2 («no se deben validar actas de posesión»); Anexo de Casos, experiencia #13."
   },
   {
     "id": "exp10",
@@ -117,7 +126,8 @@
       "Sí, pero únicamente por la mitad del tiempo certificado"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2 de la Ley 552 de 1999; Acuerdo CSJ PSAA10-7543 de 2010; Anexo de Casos, experiencia #23."
   },
   {
     "id": "comp01",
@@ -129,7 +139,8 @@
       "No se reconoce, porque es experiencia anterior a la obtención del título"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Ley 2043 de 2020, arts. 1º y 3º, y tabla «Ley 2043 de 2020» del Criterio (págs. 4-5), que reconoce la Práctica Laboral realizada como opción para adquirir el título al 100% del tiempo y «Aplica sin distinción de edad (Sin franja etaria)»."
   },
   {
     "id": "comp02",
@@ -141,7 +152,8 @@
       "El 100% del tiempo, aplicando la Ley 2043 por el principio de favorabilidad del artículo 53 de la Constitución"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Aparte final del Criterio (pág. 9): \"En relación con los campos de Judicatura, Pasantías, Contrato de aprendizaje y Relación docencia de servicio en el Sector de la Salud, al estar incluidos como práctica laboral en ambas leyes y el Decreto Reglamentario 952 de 2021, se aplicará lo dispuesto en la Ley 2043 de 2020, en virtud del principio de favorabilidad establecido en el artículo 53 de la Constitución Política\". La Ley 2043 reconoce el 100% del tiempo."
   },
   {
     "id": "comp03",
@@ -153,7 +165,8 @@
       "No se reconoce, porque el consultorio jurídico excede el límite de 6 meses permitido"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Decreto 952 de 2021, art. 2.2.5.6.3 (90% de la intensidad horaria certificada) y Parágrafo 4 del art. 2 de la Ley 2039 de 2020: para el servicio en consultorios jurídicos la experiencia máxima será de 6 meses (tabla «Servicio en los Consultorios Jurídicos», pág. 7 del Criterio). El consultorio jurídico se rige por la Ley 2039 —no por la Ley 2043— pues no está entre las experiencias trasladadas por favorabilidad (Judicatura, Pasantías, Contrato de aprendizaje y Relación docencia de servicio en salud). La aspirante de 24 años queda dentro de la franja 14-28 años."
   },
   {
     "id": "comp04",
@@ -165,7 +178,8 @@
       "Sí, siempre que la certificación cumpla los requisitos mínimos establecidos en el Criterio"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Decreto 952 de 2021, Parágrafo 3 del art. 2.2.5.6.2 (págs. 3-4 del Criterio): el ámbito de aplicación excluye expresamente las profesiones relacionadas con el sistema de seguridad social en salud, cuya experiencia profesional solo se computará a partir de la inscripción o registro profesional."
   },
   {
     "id": "comp05",
@@ -177,7 +191,8 @@
       "Convalidar la suma completa solo si las dos profesiones pertenecieran a áreas del conocimiento diferentes; como son de la misma área, se toma únicamente la certificación de mayor duración."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 9 de CRITERIOS_717: la experiencia simultánea o traslapada se cuenta una sola vez, con independencia del número de títulos, salvo medios tiempos o tiempos parciales autorizados que se suman sin exceder la jornada completa. Artículo 12 del Decreto Ley 785 de 2005 y artículos 2.2.3.4 y 2.2.2.3.8 del Decreto 1083 de 2015."
   },
   {
     "id": "comp06",
@@ -189,7 +204,8 @@
       "Tenerla por válida: se presume válida siempre que la firma digital o electrónica cumpla las condiciones de validez de la Ley 527 de 1999 y del Decreto 1074 de 2015"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Numeral 5.2.1 del Criterio Unificado (párrafo final, líneas 191-197): se presumen válidas las certificaciones laborales del sector público y privado firmadas de forma digital o electrónica, siempre que cumplan las condiciones de la Ley 527 de 1999 y del Decreto 1074 de 2015. Concordante con el art. 28 de la Ley 527 de 1999 (la firma digital tiene la misma fuerza que la manuscrita) y el art. 25 del Decreto Ley 019 de 2012 (eliminación de autenticaciones notariales)."
   },
   {
     "id": "comp07",
@@ -201,6 +217,7 @@
       "Sí, siempre que el aspirante además la autentique ante notario por tratarse de una entidad pública"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Numeral 5.2.1 del Criterio Unificado (líneas 20-26): de conformidad con el Decreto 1083 de 2015 y el Decreto 785 de 2005, las certificaciones de experiencia deben contener como mínimo razón social, tiempo de servicio y relación de funciones. La validez de la firma electrónica (art. 28 Ley 527 de 1999; Decreto 1074 de 2015) sustituye la firma manuscrita, no el contenido. El art. 25 del Decreto Ley 019 de 2012 solo presume autenticidad."
   }
 ]

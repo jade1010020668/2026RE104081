@@ -9,7 +9,8 @@
       "Seis (6) meses de experiencia relacionada"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.2.2.5.1 del Decreto 1083 de 2015; art. 25 del Decreto 785 de 2005."
   },
   {
     "id": "equ02",
@@ -21,7 +22,8 @@
       "En la etapa que el aspirante solicite por escrito"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado, cap. VI; Anexo de Casos, equivalencias #4."
   },
   {
     "id": "equ03",
@@ -33,7 +35,8 @@
       "Tres (3) años de experiencia profesional, siempre que se acredite el título profesional"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.2.2.5.1 del Decreto 1083 de 2015. Cascaritas: A son los años de la especialización y B los del doctorado."
   },
   {
     "id": "equ04",
@@ -45,7 +48,8 @@
       "Seis (6) meses de experiencia profesional"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 25.2.1 del Decreto 785 de 2005; art. 2.2.2.5.1 del Decreto 1083 de 2015. Cascarita: C es la equivalencia del título ADICIONAL."
   },
   {
     "id": "equ05",
@@ -57,7 +61,8 @@
       "No: las equivalencias son taxativas y la norma no la contempla"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, equivalencias #2. Cascarita fuerte: la opción C suena razonable, pero el MEFCL no puede crear equivalencias nuevas."
   },
   {
     "id": "equ06",
@@ -69,7 +74,8 @@
       "Sí, pero únicamente para los empleos del nivel directivo"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, equivalencias #3 y #9."
   },
   {
     "id": "equ07",
@@ -81,7 +87,8 @@
       "Dos títulos de técnico profesional en cualquier área"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "tabla del cap. VI del Criterio Unificado."
   },
   {
     "id": "equ08",
@@ -93,7 +100,8 @@
       "Sí, previa autorización de la entidad que oferta el empleo"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, equivalencias #8 (se cambiaría un «saber hacer» por un «saber»)."
   },
   {
     "id": "equ09",
@@ -105,7 +113,8 @@
       "No pueden compensarse por experiencia u otras calidades, salvo que la ley lo establezca"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "arts. 5 y 26 de los Decretos 770 y 785 de 2005; art. 2.2.2.5.2 del Decreto 1083 de 2015."
   },
   {
     "id": "equ10",
@@ -117,6 +126,7 @@
       "Admitir al aspirante si acredita la inscripción o registro profesional en salud, documento que supliría el requisito mínimo de estudios."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado VRM y VA de la CNSC (Sala Plena, 18 de febrero de 2021), Capítulo VI 'Equivalencias entre estudio y experiencia': las equivalencias no se aplican a los empleos del área médico-asistencial de las entidades que conforman el Sistema de Seguridad Social en Salud (parágrafo 2 del artículo 25 del Decreto Ley 785 de 2005; parágrafo del artículo 8 del Decreto Ley 770 de 2005; parágrafo 2 del artículo 2.2.2.5.1 del Decreto 1083 de 2015)."
   }
 ]

@@ -96,6 +96,15 @@ function renderQuestionRanking() {
   document.getElementById('qr-correct').textContent =
     `Respuesta correcta: ${LETTERS[lq.question.correctIndex]}. ${lq.question.options[lq.question.correctIndex]}`;
 
+  // sustento normativo (refuerza el aprendizaje al cerrar la pregunta)
+  const sustEl = document.getElementById('qr-sustento');
+  if (lq.question.sustento) {
+    sustEl.textContent = `Sustento: ${lq.question.sustento}`;
+    sustEl.hidden = false;
+  } else {
+    sustEl.hidden = true;
+  }
+
   // distribución de respuestas por opción (identidad de cada opción)
   const dist = clear(document.getElementById('qr-dist'));
   const maxCount = Math.max(...lq.stats.perOption, 1);

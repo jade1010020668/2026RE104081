@@ -9,7 +9,8 @@
       "Con una declaración juramentada del aspirante"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.2.2.3.3 del Decreto 1083 de 2015; Criterio Unificado, cap. V."
   },
   {
     "id": "edu02",
@@ -21,7 +22,8 @@
       "Sí, pero únicamente para empleos del nivel asistencial"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, educación #5."
   },
   {
     "id": "edu03",
@@ -33,7 +35,8 @@
       "No: la sábana de notas no acredita ningún tipo de requisito"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, educación #22."
   },
   {
     "id": "nbc01",
@@ -45,7 +48,8 @@
       "Las áreas de desempeño referidas en la Clasificación Nacional de Ocupaciones."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Numeral 2.9 del Criterio Unificado (CRITERIOS_716) y artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015, que señalan que los NBC contienen las disciplinas académicas o profesiones según la clasificación del SNIES."
   },
   {
     "id": "nbc02",
@@ -57,7 +61,8 @@
       "El registro de la tarjeta o matrícula profesional del aspirante."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Numeral 2.9 del Criterio Unificado (CRITERIOS_716) y artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015: la clasificación de disciplinas y profesiones en NBC y áreas del conocimiento está en el SNIES."
   },
   {
     "id": "comp08",
@@ -69,7 +74,8 @@
       "Que el título equivale de manera automática a uno colombiano del mismo nivel"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Res. 1959 de 2020 Min. Relaciones Exteriores, literal a) definición de apostilla (pág. 3 del criterio): \"Certificación de la autenticidad de la firma de un servidor público... para que el documento surta plenos efectos legales\". El apartado 2.1 (pág. 5) precisa que estos trámites certifican autenticidad, pero de forma alguna certifican la validez académica en el territorio nacional; esa validez solo la confiere la convalidación del MEN."
   },
   {
     "id": "edu04",
@@ -81,7 +87,8 @@
       "Sí, siempre que el diploma sea anterior a 1994"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "art. 2.3.3.3.5.3 del Decreto 1075 de 2015; Anexo de Casos, educación #1."
   },
   {
     "id": "edu05",
@@ -93,7 +100,8 @@
       "Sí, únicamente si fue expedido por el SENA"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "arts. 2.6.4.1 y 2.6.4.3 del Decreto 1075 de 2015; Anexo de Casos, educación #9."
   },
   {
     "id": "edu06",
@@ -105,7 +113,8 @@
       "Darlo por válido solo si el aspirante allega la convalidación a más tardar en el cierre de inscripciones."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado (4-jun-2024), acápite III, VRM, pág. 7: en VRM se verifican los títulos de educación superior apostillados o legalizados y traducidos, «independientemente de que estén o no convalidados»; la convalidación se exige a la posesión o dentro de los 2 años siguientes (Decreto 1083 de 2015, art. 2.2.2.3.4; Decreto Ley 785 de 2005, art. 8º)."
   },
   {
     "id": "edu07",
@@ -117,7 +126,8 @@
       "Sí, pero solo si además acredita un año de experiencia"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "arts. 2.2.2.5.3 y 2.2.3.7 del Decreto 1083 de 2015; Anexo de Casos, educación #13; concepto Consejo de Estado 3-jul-2008."
   },
   {
     "id": "nbc03",
@@ -129,7 +139,8 @@
       "Se acredita únicamente si el aspirante además aporta tarjeta profesional vigente."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 12 del Anexo de Casos (CRITERIOS_717) y parágrafo 3 de los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015."
   },
   {
     "id": "nbc04",
@@ -141,7 +152,8 @@
       "Se valida solo si el empleo pertenece a los niveles asistencial o técnico."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 16 del Anexo de Casos (CRITERIOS_717)."
   },
   {
     "id": "nbc06",
@@ -153,7 +165,8 @@
       "No, salvo que el aspirante aporte tarjeta o matrícula profesional."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 20 del Anexo de Casos (CRITERIOS_717), en concordancia con el artículo 23 del Decreto 785 de 2005 (referido en la nota 6 del Caso 12)."
   },
   {
     "id": "nbc08",
@@ -165,7 +178,8 @@
       "La disciplina agrupa los NBC dentro de un área de desempeño ocupacional."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 17 del Anexo de Casos (CRITERIOS_717, cita de la Sentencia T-207 de 2010) y numeral 2.9 del Criterio Unificado (CRITERIOS_716). El Caso 12 (CRITERIOS_717) también confirma que las áreas de conocimiento contienen los NBC."
   },
   {
     "id": "comp09",
@@ -177,7 +191,8 @@
       "Admitir el título: en VRM basta que esté apostillado y traducido, esté o no convalidado; la convalidación se exigirá al posesionarse o dentro de los 2 años siguientes"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado, sección VRM (pág. 6-7); art. 2.2.2.3.4 Decreto 1083 de 2015 y art. 8 Decreto 785 de 2005: pregrado/posgrado se verifican apostillados y traducidos, con convalidación exigible a la posesión o dentro de los 2 años siguientes."
   },
   {
     "id": "comp10",
@@ -189,7 +204,8 @@
       "No, pero puede admitirse si en lugar de la convalidación presenta la legalización consular del título"
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Criterio Unificado, sección VRM (pág. 7); inciso primero del art. 2.2.2.3.4 Decreto 1083 de 2015 y art. 8 Decreto 785 de 2005: la excepción de los 2 años se refiere expresamente a 'pregrado o postgrado', no a básica, media ni bachiller."
   },
   {
     "id": "edu08",
@@ -201,7 +217,8 @@
       "No: solo hay certeza de cinco semestres cursados y aprobados"
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, educación #23 (cascarita clásica: «cursando» ≠ «aprobado»)."
   },
   {
     "id": "edu09",
@@ -213,7 +230,8 @@
       "Sí, pero el documento solo se puntúa en la prueba de VA"
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, educación #14."
   },
   {
     "id": "edu10",
@@ -225,7 +243,8 @@
       "Sí, si los tres cursos los expidió la misma institución"
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Anexo de Casos, educación #29 (no hay hilo conductor ni profundización)."
   },
   {
     "id": "nbc05",
@@ -237,7 +256,8 @@
       "No, porque no es posible determinar si el pregrado que permitió obtener el posgrado pertenece a alguno de los NBC exigidos por la OPEC."
     ],
     "correctIndex": 3,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 14 del Anexo de Casos (CRITERIOS_717)."
   },
   {
     "id": "nbc07",
@@ -249,6 +269,7 @@
       "Consultar la Clasificación Nacional de Ocupaciones del SENA para ubicar el programa dentro de un NBC."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180
+    "timeLimitSec": 180,
+    "sustento": "Caso 18 del Anexo de Casos (CRITERIOS_717) y artículo 2.5.3.2.2.3 del Decreto 1075 de 2015."
   }
 ]

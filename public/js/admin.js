@@ -291,6 +291,7 @@ function openEditor(q) {
     : 'Nueva pregunta';
   document.getElementById('qf-text').value = q ? q.text : '';
   document.getElementById('qf-time').value = q ? q.timeLimitSec : 180;
+  document.getElementById('qf-sustento').value = q && q.sustento ? q.sustento : '';
   const box = clear(document.getElementById('qf-options'));
   const options = q ? q.options : ['', '', '', ''];
   options.forEach((opt, i) => {
@@ -315,6 +316,7 @@ qform.addEventListener('submit', (ev) => {
     options: rows.map((r) => r.querySelector('input.input').value),
     correctIndex: rows.findIndex((r) => r.querySelector('input[type="radio"]').checked),
     timeLimitSec: Number(document.getElementById('qf-time').value),
+    sustento: document.getElementById('qf-sustento').value,
   };
   const done = (res) => {
     if (!res.ok) return toast(res.error || 'No se pudo guardar.');
