@@ -19,6 +19,8 @@ services:
         value: session_dia1.json
       - key: JORNADA_LABEL
         value: "Jornada 1 · Educación"
+      - key: PUBLIC_URL
+        value: "https://quiz-vrm-educacion.onrender.com"
 
   # ---------- Día 2 · Experiencia ----------
   - type: web
@@ -37,6 +39,8 @@ services:
         value: session_dia2.json
       - key: JORNADA_LABEL
         value: "Jornada 2 · Experiencia"
+      - key: PUBLIC_URL
+        value: "https://quiz-vrm-experiencia.onrender.com"
 
   # ---------- Día 3 · Alternativas y Equivalencias ----------
   - type: web
@@ -55,3 +59,5 @@ services:
         value: session_dia3.json
       - key: JORNADA_LABEL
         value: "Jornada 3 · Alternativas y Equivalencias"
+      - key: PUBLIC_URL
+        value: "https://quiz-vrm-alternativas.onrender.com"
