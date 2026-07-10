@@ -1,12 +1,57 @@
-# Despliegue con un clic en Render (https://render.com):
-# New + → Blueprint → conectar este repositorio de GitHub.
+# Despliegue en Render (https://render.com): New + → Blueprint → conectar este repositorio.
+# Crea 3 servicios independientes, uno por jornada, cada uno con su examen y su
+# puntuación (sesión) separada. Los 3 comparten el mismo código.
 services:
+  # ---------- Día 1 · Educación ----------
   - type: web
-    name: quiz-vrm-cnsc
+    name: quiz-vrm-educacion
     runtime: node
     plan: free
-    buildCommand: npm ci --omit=dev
+    branch: claude/vrm-assessment-app-hr4055
+    buildCommand: npm install
     startCommand: node server.js
     envVars:
       - key: ADMIN_CODE
-        sync: false # se pide al crear el servicio; usa un código propio
+        value: "123456789"
+      - key: QUESTIONS_FILE
+        value: examen_educacion.json
+      - key: SESSION_FILE
+        value: session_dia1.json
+      - key: JORNADA_LABEL
+        value: "Jornada 1 · Educación"
+
+  # ---------- Día 2 · Experiencia ----------
+  - type: web
+    name: quiz-vrm-experiencia
+    runtime: node
+    plan: free
+    branch: claude/vrm-assessment-app-hr4055
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_CODE
+        value: "123456789"
+      - key: QUESTIONS_FILE
+        value: examen_experiencia.json
+      - key: SESSION_FILE
+        value: session_dia2.json
+      - key: JORNADA_LABEL
+        value: "Jornada 2 · Experiencia"
+
+  # ---------- Día 3 · Alternativas y Equivalencias ----------
+  - type: web
+    name: quiz-vrm-alternativas
+    runtime: node
+    plan: free
+    branch: claude/vrm-assessment-app-hr4055
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_CODE
+        value: "123456789"
+      - key: QUESTIONS_FILE
+        value: examen_alternativas.json
+      - key: SESSION_FILE
+        value: session_dia3.json
+      - key: JORNADA_LABEL
+        value: "Jornada 3 · Alternativas y Equivalencias"
