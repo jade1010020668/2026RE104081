@@ -395,9 +395,9 @@ p { margin: 0.3em 0; }
 }
 .masthead-screen {
   display: block;
-  height: clamp(96px, 15vh, 190px);
+  height: clamp(130px, 20vh, 260px);
   width: auto;
-  max-width: min(92%, 960px);
+  max-width: min(96%, 1120px);
   margin: 0 auto;
   border-radius: 16px;
   box-shadow: 0 18px 50px -18px rgba(0, 0, 0, 0.6);
