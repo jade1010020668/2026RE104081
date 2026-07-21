@@ -61,3 +61,23 @@ services:
         value: "Jornada 3 · Alternativas y Equivalencias"
       - key: PUBLIC_URL
         value: "https://quiz-vrm-alternativas.onrender.com"
+
+  # ---------- Día 4 · Discapacidad (PcD) ----------
+  - type: web
+    name: quiz-vrm-discapacidad
+    runtime: node
+    plan: free
+    branch: claude/vrm-assessment-app-hr4055
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_CODE
+        value: "123456789"
+      - key: QUESTIONS_FILE
+        value: examen_discapacidad.json
+      - key: SESSION_FILE
+        value: session_dia4.json
+      - key: JORNADA_LABEL
+        value: "Jornada 4 · Discapacidad (PcD)"
+      - key: PUBLIC_URL
+        value: "https://quiz-vrm-discapacidad.onrender.com"
