@@ -1,0 +1,392 @@
+[
+  {
+    "id": "pcd01",
+    "text": "Un aspirante se inscribe a una vacante reservada para personas con discapacidad. ¿Qué documento debe aportar en SIMO para acreditar esa condición?",
+    "options": [
+      "Registro en el RLCPD del Ministerio de Salud.",
+      "Dictamen de pérdida de capacidad laboral.",
+      "Certificado de discapacidad de IPS autorizada.",
+      "Historia clínica con el diagnóstico vigente."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "El Anexo exige el certificado de discapacidad expedido conforme a la Circular Externa 009 del 06/10/2017 (Supersalud) y la Resolución 1197 del 05/07/2024 (MinSalud). El certificado es documento personal e intransferible que expiden las IPS autorizadas tras la valoración clínica multidisciplinaria. Es el único documento que el Anexo nombra. A — Confunde el registro administrativo con el documento acreditante. El RLCPD es la plataforma donde se registra el resultado de la certificación; NO APARECE NI UNA VEZ en los Anexos de EOT ni de UApA. Es el error conceptual que este banco busca desmontar.\nB — Traslada un instrumento del Sistema de Riesgos Laborales. La PCL mide cuánta capacidad laboral se perdió; no certifica discapacidad ni la clasifica en categorías.\nD — Toma el insumo por el resultado. La historia clínica alimenta la valoración; no la reemplaza."
+  },
+  {
+    "id": "pcd02",
+    "text": "¿Conforme a qué normas debe estar expedido el certificado de discapacidad que exige este Proceso de Selección?",
+    "options": [
+      "Circular Externa 009 de 2017 y Resolución 1197 de 2024.",
+      "Ley 1618 de 2013 y Resolución 113 de 2020 de MinSalud.",
+      "Ley 2418 de 2024 y Resolución 1239 de 2022 de MinSalud.",
+      "Ley 361 de 1997 y Resolución 583 de 2018 de MinSalud."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Los numerales 1.1.e, 1.1.q, 1.2.1, 1.2.5 y 2 del Anexo citan, siempre juntas y siempre las mismas, la Circular Externa 009 del 06/10/2017 de la Superintendencia Nacional de Salud y la Resolución 1197 del 05/07/2024 del Ministerio de Salud y Protección Social. B — La Resolución 113 de 2020 fue reemplazada por la 1239 de 2022, y esta por la 1197 de 2024. La Ley 1618 de 2013 define persona con discapacidad y ordena el RLCPD, pero no regula el certificado en este proceso.\nC — La Ley 2418 de 2024 crea la reserva del 7%, la gratuidad y los ajustes razonables; no regula el certificado. ATENCIÓN DEL CAPACITADOR: quien eligió C puede tener razón material, porque el numeral 5 del Anexo cita la Resolución 1239 de 2022 para el tiempo adicional de 30 minutos. Es una INCONSISTENCIA DEL PROPIO ANEXO. La norma vigente es la 1197 de 2024. Reconózcalo abiertamente en sala.\nD — Antecedentes superados. La Res. 583 de 2018 inició la cadena; la Ley 361 de 1997 es marco general de integración social."
+  },
+  {
+    "id": "pcd03",
+    "text": "¿En qué momento debe el aspirante cargar en SIMO el certificado de discapacidad para una vacante reservada?",
+    "options": [
+      "Antes de la citación a las Pruebas Escritas.",
+      "Dentro de los dos días de reclamación.",
+      "En cualquier momento antes de la VRM.",
+      "Al momento de formalizar la inscripción."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "El numeral 1.2.6 es literal: 'deberá presentar al momento de la inscripción en el aplicativo SIMO, el certificado de discapacidad'. La Nota del numeral 1.2.5 lo reitera para la gratuidad. Y el mismo 1.2.6 cierra la puerta: los documentos cargados o actualizados con posterioridad al cierre de la Etapa serán válidos únicamente para futuros procesos de selección. A — La citación a pruebas ocurre después de la VRM. Para entonces el aspirante ya salió del proceso en el numeral 2.\nB — La reclamación no es oportunidad para aportar el certificado; el numeral 2 lo prohíbe expresamente (ver ítem 07).\nC — Sitúa el hito en la VRM (num. 4) cuando el hito real es el cierre de inscripciones. La verificación del certificado es el numeral 2, anterior."
+  },
+  {
+    "id": "pcd04",
+    "text": "Un aspirante se inscribió a vacante reservada pero no aportó certificado de discapacidad. ¿Cuál es la consecuencia?",
+    "options": [
+      "Pasa a la OPEC de vacantes sin reserva.",
+      "No continúa en el Proceso de Selección.",
+      "Queda NO ADMITIDO en la etapa de VRM.",
+      "Se le requiere para que subsane en SIMO."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Los numerales 1.1.q y 2 usan la misma fórmula: 'no continuaran en el Proceso de Selección'. La CNSC publica el listado de quienes NO CONTINÚAN EN CONCURSO, con antelación no inferior a cinco días hábiles. A — Confunde el traslado de EMPLEOS con el traslado de PERSONAS. Los numerales 1.1.o y 1.1.p trasladan vacantes entre OPEC cuando quedan desiertas; nunca mueven aspirantes. Además el aspirante solo puede inscribirse a un empleo (1.2.3) y, formalizada la inscripción, no puede cambiarla (1.2.6).\nC — Confunde las dos etapas. NO ADMITIDO es resultado de la VRM (num. 4.6). Quien no acredita el certificado no llega allí. Ver ítem 28.\nD — El Anexo no prevé subsanación ni requerimiento. El cargue es responsabilidad exclusiva del aspirante."
+  },
+  {
+    "id": "pcd05",
+    "text": "¿En qué momento del Proceso de Selección se verifica el certificado de discapacidad?",
+    "options": [
+      "Finalizado el plazo de inscripciones, antes de la VRM.",
+      "Durante la VRM, junto con educación y experiencia.",
+      "Antes del cierre de la etapa de inscripciones.",
+      "Después de la VRM, antes de las Pruebas Escritas."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "El numeral 2 abre así: 'Finalizado el plazo de inscripciones del presente Proceso de Selección, se verificará...'. Y su ubicación no es casual: el numeral 2 antecede al numeral 4 (VRM). El certificado es REQUISITO DE PARTICIPACIÓN, no requisito mínimo del empleo. B — La VRM (num. 4) coteja educación y experiencia contra la OPEC. El certificado tiene etapa propia, canal propio de reclamación y resultado propio.\nC — Imposible: hasta el cierre el aspirante puede actualizar sus documentos (1.2.6). No hay nada definitivo que verificar.\nD — Para entonces la lista de quienes no continúan ya fue publicada y su reclamación ya se resolvió."
+  },
+  {
+    "id": "pcd06",
+    "text": "¿Por qué canal y en qué término se reclama contra la verificación del certificado de discapacidad?",
+    "options": [
+      "Por SIMO, dentro de los cinco días hábiles.",
+      "Por SIMO, dentro de los dos días hábiles.",
+      "Por Ventanilla Única, dos días hábiles.",
+      "Por Ventanilla Única, cinco días hábiles."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 2: las reclamaciones se presentan 'únicamente a través de la Ventanilla Única de la CNSC (https://gestion.cnsc.gov.co/cpqr/), durante los dos (2) días hábiles siguientes a la fecha de comunicación, en los términos del artículo 12 del Decreto Ley 760 de 2005'. Las resuelve la CNSC. A y B — SIMO es el canal para reclamar contra los resultados de la VRM (num. 4.5), no contra la verificación del certificado. Ojo: el término de la VRM también es de dos días hábiles (art. 12 D.L. 760/2005); los cinco días aplican a Pruebas Escritas y a Valoración de Antecedentes (art. 13). Quien eligió B acertó el término y erró el canal.\nD — Acierta el canal y yerra el término.\nESTE ES EL ERROR DE MAYOR IMPACTO OPERATIVO DEL BANCO: mandar al aspirante al canal equivocado le hace perder el término, y contra la decisión no procede recurso alguno."
+  },
+  {
+    "id": "pcd07",
+    "text": "Al reclamar contra la verificación del certificado, un aspirante adjunta uno nuevo. ¿Cómo debe proceder el analista?",
+    "options": [
+      "Valorarlo, por favorabilidad y debido proceso.",
+      "Tenerlo por extemporáneo y no valorarlo.",
+      "Valorarlo si fue expedido antes del cierre.",
+      "Devolverlo y conceder plazo para el cargue."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 2, en subrayado: 'Estas reclamaciones NO constituyen la oportunidad para que los aspirantes complementen, modifiquen, reemplacen o actualicen el certificado de discapacidad aportado en SIMO antes del cierre de inscripciones (...), ni para adicionar uno nuevo después de dicha fecha. En consecuencia, los documentos allegados con la reclamación se consideran extemporáneos y no serán tenidos en cuenta para resolverlas.' A — La favorabilidad no rehabilita términos vencidos. El Anexo es regla del concurso, aceptada por el aspirante con su inscripción (num. 1.1.h).\nC — EL DISTRACTOR MÁS FINO DEL BANCO. La fecha de expedición del certificado es irrelevante. Lo que cuenta es la fecha de CARGUE EN SIMO. Un certificado de 2023 cargado tarde es extemporáneo igual.\nD — No existe plazo adicional. Cerrada la etapa, el aspirante no puede modificar documentos (1.2.6)."
+  },
+  {
+    "id": "pcd08",
+    "text": "Un aspirante quiere impugnar la decisión que resolvió su reclamación sobre el certificado de discapacidad. ¿Qué recurso procede?",
+    "options": [
+      "Reposición ante la CNSC, en cinco días.",
+      "Apelación ante la Sala Plena de la CNSC.",
+      "Reposición y en subsidio apelación.",
+      "Ninguno; la decisión queda en firme."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 2, subrayado y sin matices: 'Contra la decisión que resuelva estas reclamaciones no procede ningún recurso.' La misma regla se repite en VRM (4.5), Pruebas Escritas (5.3) y Valoración de Antecedentes (6.12 en EOT / 6.9 en UApA). A, B y C — Trasladan el régimen general del CPACA a un procedimiento especial. El Decreto Ley 760 de 2005 regula un régimen propio de reclamaciones en concursos de mérito, y el Anexo cierra expresamente la vía de recursos. Esto no impide acciones judiciales, pero eso ya excede la competencia del analista."
+  },
+  {
+    "id": "pcd09",
+    "text": "¿Contra qué referente debe cotejar el analista la categoría de discapacidad que registra el certificado del aspirante?",
+    "options": [
+      "La categoría señalada por la ENTIDAD en SIMO.",
+      "La categoría que el aspirante declaró en SIMO.",
+      "La categoría registrada en el RLCPD de MinSalud.",
+      "La categoría prevista en el MEFCL de la ENTIDAD."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6: el aspirante 'deberá verificar que cumple con la categoría de discapacidad señalada por la ENTIDAD en el aplicativo SIMO, para el ejercicio del empleo ofertado'. El referente lo pone la ENTIDAD, empleo por empleo. A tener presente: aquí conviven dos condiciones distintas. Que el certificado exista y sea válido, y que su categoría corresponda a la señalada. Cumplir una no suple la otra.\nB — La autodeclaración en datos básicos (1.2.1) sirve para activar ajustes razonables; no define la categoría acreditada. La define el certificado.\nC — El RLCPD no es referente en este proceso. El Anexo no lo menciona.\nD — BUEN DISTRACTOR: el MEFCL sí es referente, pero de estudios y experiencia (num. 1.2.2), no de categorías de discapacidad."
+  },
+  {
+    "id": "pcd10",
+    "text": "Un empleo aparece marcado con discapacidad múltiple y la ENTIDAD señaló varias categorías permitidas. ¿Qué debe acreditar el aspirante?",
+    "options": [
+      "Todas las categorías señaladas por la ENTIDAD.",
+      "Certificado en la categoría múltiple, sin más.",
+      "Al menos una de las categorías señaladas.",
+      "Dos o más de las categorías señaladas."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6, literal: 'En caso de tratarse de empleos marcados con discapacidad múltiple, el aspirante deberá validar cuales categorías han sido señaladas como permitidas por la ENTIDAD y acreditar, AL MENOS UNA DE ELLAS.' Es una regla de mínimo. A y D — Convierten un mínimo en acumulación. Exigirlo agrega un requisito que la norma no previó: causal de reclamación fundada y con razón.\nB — AQUÍ ESTÁ LA TRAMPA CENTRAL DEL BANCO. 'Marcado con discapacidad múltiple' significa que la ENTIDAD habilitó VARIAS categorías para ese empleo. No significa que exija a la persona tener discapacidad múltiple en el sentido de MinSalud. El adjetivo califica al EMPLEO, no a la PERSONA."
+  },
+  {
+    "id": "pcd11",
+    "text": "En un empleo marcado con discapacidad múltiple, un analista rechaza a quien certifica discapacidad física. ¿Es correcta la decisión?",
+    "options": [
+      "Sí; la marca exige acreditar múltiple.",
+      "No, si física es categoría permitida.",
+      "Sí; física es una sola deficiencia.",
+      "No; esa marca no excluye a nadie."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6. Si la ENTIDAD señaló la física entre las categorías permitidas, acreditarla basta. La marca del empleo habilita un abanico de categorías; no impone la categoría múltiple al aspirante. A y C — Reproducen el error de lectura del ítem 10. C además le agrega un razonamiento clínico (contar deficiencias) que no le compete al analista.\nD — LLEGA AL RESULTADO CORRECTO POR UNA RAZÓN FALSA, y por eso hay que trabajarlo. La marca SÍ delimita: solo valen las categorías que la ENTIDAD señaló como permitidas. Un certificado en categoría no señalada no sirve. Quien eligió D suele ser alguien que ya entendió el ítem 10 y sobrecorrigió."
+  },
+  {
+    "id": "pcd12",
+    "text": "El certificado acredita discapacidad visual. La ENTIDAD señaló en SIMO únicamente discapacidad auditiva para ese empleo. ¿Qué procede?",
+    "options": [
+      "No continúa; la categoría no corresponde.",
+      "Continúa; el certificado es válido y vigente.",
+      "Continúa; la categoría no es determinante.",
+      "No continúa; debe acreditar sordoceguera."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6: cumplir con la categoría señalada por la ENTIDAD y cargar el certificado es 'una condición necesaria para continuar en el Proceso de Selección'. Si la categoría no corresponde, la condición no se cumple. B — Separa mal dos condiciones que son acumulativas. Un certificado impecable, vigente y bien expedido, pero en categoría no señalada, no habilita.\nC — Invierte la regla: la categoría es exactamente lo determinante.\nD — Inventa un requisito. La sordoceguera no es la suma de visual y auditiva a conveniencia del analista; es categoría única con criterio clínico propio (ver ítems 13 y 18)."
+  },
+  {
+    "id": "pcd13",
+    "text": "Un certificado acredita sordoceguera. El empleo señala únicamente discapacidad auditiva. ¿Qué debe hacer el analista?",
+    "options": [
+      "Aceptarlo; sordoceguera contiene lo auditivo.",
+      "Aceptarlo; el aspirante tiene más barreras.",
+      "Rechazarlo y sugerir corregir el certificado.",
+      "Aplicar la regla; sordoceguera no es auditiva."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Las siete categorías de MinSalud son excluyentes entre sí. La sordoceguera es 'una discapacidad única que resulta de la combinación de una deficiencia visual y una deficiencia auditiva'. No es un subconjunto de la auditiva. Si la ENTIDAD señaló únicamente auditiva, el certificado en sordoceguera no corresponde. A — Razonamiento de contenencia lógica que la categorización no admite. El analista no descompone categorías.\nB — La severidad de las barreras no es criterio de verificación documental. La compasión no es criterio técnico.\nC — El analista no interviene el certificado ni orienta su corrección. La valoración clínica es competencia exclusiva de la IPS.\nADVERTENCIA PARA LA SALA: el resultado puede parecer injusto y es material fértil de reclamación. La respuesta técnica es que la marca de categorías la decide la ENTIDAD; ahí, aguas arriba, está el punto a revisar."
+  },
+  {
+    "id": "pcd14",
+    "text": "El certificado acredita discapacidad múltiple. El empleo señala únicamente discapacidad física. ¿Qué procede?",
+    "options": [
+      "Continúa; múltiple contiene la física.",
+      "No continúa; múltiple es otra categoría.",
+      "Elevar consulta; el Anexo no lo prevé.",
+      "Continúa; el aspirante elige categoría."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "ESTE ES EL VACÍO NORMATIVO DEL ANEXO Y JUSTIFICA LA SESIÓN. El numeral 1.2.6 resuelve el caso inverso (empleo marcado múltiple → basta una categoría permitida), pero NO prevé la hipótesis contraria: certificado en categoría múltiple frente a empleo marcado con una sola categoría. Como la decisión excluye del concurso y no admite recurso, el analista no puede crear la regla por vía interpretativa. Corresponde documentar el caso y elevar consulta a la CNSC para criterio unificado. A — Intuitivamente razonable, pero 'múltiple' no es un contenedor: MinSalud la define por la INTERACCIÓN entre dos o más deficiencias asociadas, no por su sumatoria. Aun si el resultado fuera este, decidirlo requiere respaldo, no intuición.\nB — Literalismo que produce un resultado contrario a la finalidad de la Ley 2418 de 2024, sin norma que lo ordene.\nD — La categoría la fija el certificado, no la elección del aspirante."
+  },
+  {
+    "id": "pcd15",
+    "text": "¿A quién corresponde definir qué categorías de discapacidad son permitidas para cada empleo reservado?",
+    "options": [
+      "A la CNSC, en el Acuerdo del proceso.",
+      "A la ENTIDAD que oferta el empleo.",
+      "Al operador que ejecuta la etapa.",
+      "Al MinSalud, según el certificado."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6, dos veces: 'la categoría de discapacidad señalada por la ENTIDAD en el aplicativo SIMO' y 'cuales categorías han sido señaladas como permitidas por la ENTIDAD'. Es la ENTIDAD quien conoce las funciones del empleo. A — La CNSC adelanta el proceso y fija reglas generales, pero la marca empleo por empleo la hace la ENTIDAD. Es coherente con el numeral 3, donde también le corresponde a la ENTIDAD definir cuáles vacantes se declaran desiertas.\nC — El operador ejecuta etapas delegadas por contrato; no marca la OPEC.\nD — MinSalud regula la certificación de discapacidad, no la oferta pública de empleos.\nIMPLICACIÓN QUE HAY QUE NOMBRAR: si la marca está mal hecha, el problema no se corrige en la mesa de VRM."
+  },
+  {
+    "id": "pcd16",
+    "text": "Una persona con discapacidad certificada se inscribe a una vacante SIN reserva. ¿Debe aportar el certificado de discapacidad?",
+    "options": [
+      "Sí, para acceder a los ajustes razonables.",
+      "No; ese documento solo aplica a reserva.",
+      "Sí, y además obtiene la gratuidad del pago.",
+      "No; debe aportarlo solo si lo requieren."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.1: 'El aspirante con discapacidad debe indicarlo en el formulario de datos básicos en SIMO y adjuntar el certificado de discapacidad (...), con el fin de determinar e implementar adaptaciones y ajustes razonables necesarios en todas las etapas previstas en este Proceso de Selección.' Aplica con independencia de que la vacante tenga o no reserva. B — Confunde dos finalidades del MISMO documento: habilitar la reserva y activar los ajustes razonables.\nC — MATIZ IMPORTANTE: la gratuidad está atada a las vacantes reservadas. El numeral 1.1.e cierra así: 'salvo que decidan participar para vacantes que no tengan reserva para personas con discapacidad, ASUMIENDO EL PAGO de sus derechos de participación'. Quien va a vacante sin reserva paga.\nD — El sistema no requiere. La carga es del aspirante.\nCONSECUENCIA PRÁCTICA: no aportarlo en vacante sin reserva no excluye del proceso, pero deja al aspirante sin ajustes razonables el día de la prueba."
+  },
+  {
+    "id": "pcd17",
+    "text": "¿Cuáles son las siete categorías de discapacidad del procedimiento de certificación de MinSalud?",
+    "options": [
+      "Física, auditiva, visual, cognitiva, mental, sordoceguera, múltiple.",
+      "Física, auditiva, visual, sordoceguera, intelectual, psíquica, mixta.",
+      "Motora, auditiva, visual, sordoceguera, intelectual, psicosocial, múltiple.",
+      "Física, auditiva, visual, sordoceguera, intelectual, psicosocial, múltiple."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Son las siete categorías contempladas en el procedimiento de certificación de discapacidad: física, auditiva, visual, sordoceguera, intelectual, psicosocial (mental) y múltiple. Estas son las etiquetas que la OPEC usa. Un analista que las nombra mal, coteja mal. A — Sustituye 'intelectual' por 'cognitiva' (que no existe) y convierte 'mental' en categoría autónoma. 'Mental' va entre paréntesis junto a psicosocial, como sinónimo, no como casilla aparte. Contaría ocho.\nB — 'Psíquica' y 'mixta' no existen en la nomenclatura.\nC — 'Motora' no es la denominación. La categoría es 'física', que es más amplia y cubre más que lo motor."
+  },
+  {
+    "id": "pcd18",
+    "text": "En la clasificación de MinSalud, ¿cómo se define la sordoceguera?",
+    "options": [
+      "Como la suma de discapacidad visual y auditiva.",
+      "Como una modalidad de discapacidad múltiple.",
+      "Como una discapacidad única por combinación.",
+      "Como discapacidad auditiva con baja visión."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "La definición es explícita: 'La sordoceguera es una discapacidad única que resulta de la combinación de una deficiencia visual y una deficiencia auditiva, que genera en las personas que la presentan problemas de comunicación, orientación, movilidad y el acceso a la información.' Es categoría autónoma dentro de las siete. A — La suma es exactamente lo que la definición niega. Si fuera suma, no necesitaría categoría propia.\nB — Sordoceguera y múltiple son categorías distintas y coordinadas en el mismo listado de siete.\nD — Describe un caso particular. La categoría no exige restos visuales o auditivos determinados: hay personas sordociegas totales y otras con restos.\nCONSECUENCIA: un empleo que señala 'visual' no admite certificado en sordoceguera, y viceversa. Ver ítem 13."
+  },
+  {
+    "id": "pcd19",
+    "text": "La OPEC de un empleo señala 'discapacidad mental'. El certificado dice 'discapacidad psicosocial'. ¿Coinciden?",
+    "options": [
+      "Sí; psicosocial (mental) es una sola categoría.",
+      "No; son dos categorías distintas del listado.",
+      "No; mental corresponde a la intelectual.",
+      "Sí; toda discapacidad mental es psicosocial."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "La nomenclatura oficial es 'discapacidad psicosocial (mental)'. El paréntesis es sinonimia, no una categoría adicional. Son la misma casilla del listado de siete. B — Llevaría a contar ocho categorías. No existen ocho.\nC — ERROR DE FONDO Y MUY FRECUENTE. La discapacidad intelectual se refiere a deficiencias en capacidades mentales generales: razonamiento, resolución de problemas, planificación, pensamiento abstracto, juicio y aprendizaje. Es categoría separada de la psicosocial.\nD — Llega al 'sí' con la lógica invertida: presenta la psicosocial como género y la mental como especie, cuando son la misma denominación."
+  },
+  {
+    "id": "pcd20",
+    "text": "Según MinSalud, ¿qué caracteriza a la discapacidad múltiple?",
+    "options": [
+      "La suma de los tipos de deficiencia presentes.",
+      "La interacción entre dos o más deficiencias.",
+      "La presencia de tres o más deficiencias graves.",
+      "La coexistencia de deficiencias sin relación."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "Definición de MinSalud: 'Presencia de dos o más deficiencias asociadas, de orden físico, sensorial, mental o intelectual (...). Las particularidades de la discapacidad múltiple NO están dadas por la sumatoria de los diferentes tipos de deficiencia, SINO POR LA INTERACCIÓN que se presenta entre ellos.' A — La definición lo niega palabra por palabra.\nC — El umbral es de DOS, no de tres. Y la gravedad no hace parte del criterio.\nD — Las deficiencias deben estar ASOCIADAS. La ausencia de relación contradice la definición.\nADVERTENCIA DE ROL: determinar si un caso concreto es o no múltiple es competencia de la valoración clínica multidisciplinaria, no del analista. Este ítem entrena para LEER el certificado, no para discutirlo."
+  },
+  {
+    "id": "pcd21",
+    "text": "¿Cuál de estas denominaciones NO corresponde a una categoría de discapacidad de MinSalud?",
+    "options": [
+      "Discapacidad intelectual.",
+      "Discapacidad psicosocial.",
+      "Discapacidad cognitiva.",
+      "Discapacidad múltiple."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "'Cognitiva' no existe en la nomenclatura del procedimiento de certificación de discapacidad. La categoría oficial es INTELECTUAL. 'Cognitiva' circula en el ámbito educativo y en el uso coloquial, y por eso es el error más frecuente y más contagioso. A, B y D — Las tres son categorías del listado oficial de siete.\nPOR QUÉ IMPORTA: si un analista busca 'cognitiva' en la OPEC no la encuentra; y si la asume equivalente a intelectual sin verificar, decide sin sustento. La nomenclatura no es un detalle de estilo: es la base del cotejo."
+  },
+  {
+    "id": "pcd22",
+    "text": "Según la Ley 2418 de 2024, la experiencia no es determinante para el ingreso de personas con discapacidad. ¿A qué modalidad se circunscribe esa medida?",
+    "options": [
+      "A las modalidades de Ascenso y Abierto.",
+      "A la modalidad de Ascenso con reserva.",
+      "A todo empleo con reserva del 7%.",
+      "A la modalidad de Abierto (Ingreso)."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.1.f: el parágrafo del art. 28 de la Ley 909 de 2004, modificado por el art. 5 de la Ley 2418 de 2024, dispone que la demostración de experiencia no será determinante para el ingreso; y el Anexo precisa: 'el ámbito de aplicación de esta acción afirmativa se circunscribe EXCLUSIVAMENTE a los procesos de selección en la modalidad de Ingreso'. El numeral 4.1 lo repite: 'no será determinante para su admisión en la modalidad de Ingreso (Abierto)'. A — Extiende la medida al Ascenso. Es el error de mayor impacto de este bloque.\nB — Invierte el ámbito con precisión quirúrgica: dice justo lo contrario.\nC — La medida opera en la VRM y por modalidad, no por el hecho de haber reserva. Y hay una regla distinta —también derivada del art. 5— para la Valoración de Antecedentes (num. 6.8 EOT / 6.6 UApA, Criterio Unificado del 22/08/2025)."
+  },
+  {
+    "id": "pcd23",
+    "text": "Un servidor con discapacidad se inscribe en Ascenso con reserva. No acredita la experiencia exigida en la OPEC. ¿Cuál es el resultado de su VRM?",
+    "options": [
+      "NO ADMITIDO; en Ascenso sí es determinante.",
+      "ADMITIDO; la experiencia no es determinante.",
+      "ADMITIDO; la reserva desplaza el requisito.",
+      "NO ADMITIDO; también lo sería en Abierto."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "Numerales 1.1.f y 4.1: la medida del art. 5 de la Ley 2418 de 2024 aplica SOLO a la modalidad de Ingreso (Abierto). En Ascenso con reserva —que sí existe en el proceso EOT— la experiencia conserva su carácter de requisito mínimo, y su falta produce NO ADMITIDO. B y C — Aplican al Ascenso una regla que la norma reservó al Ingreso. Es el escenario de mayor riesgo de tutela del banco.\nD — ACIERTA EL RESULTADO CON RAZÓN FALSA. Ese mismo aspirante, en la modalidad Abierto, SÍ sería admitido. Quien elige D no distingue las modalidades; simplemente aplicó el requisito sin pensar en la reserva.\nRECOMENDACIÓN: al responder la reclamación, citar los dos numerales (1.1.f y 4.1), porque el aspirante llegará con la Ley 2418 en la mano."
+  },
+  {
+    "id": "pcd24",
+    "text": "Ante un certificado que le genera dudas, un analista propone consultar el RLCPD para confirmar la categoría. ¿Es procedente?",
+    "options": [
+      "Sí, es la fuente oficial de MinSalud.",
+      "No; el Anexo no prevé esa consulta.",
+      "Sí, si el certificado resulta ilegible.",
+      "No, salvo autorización del aspirante."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "El Anexo no contempla el RLCPD en ninguna de sus etapas. El objeto de la verificación es el certificado cargado en SIMO. Consultar fuentes externas introduce información que el aspirante no aportó y quiebra la igualdad entre concursantes, que se evalúan con lo que registraron hasta el cierre. A — EL MATIZ QUE HAY QUE INSTALAR: el RLCPD sí es fuente oficial de caracterización poblacional. Pero ser fuente oficial no la convierte en fuente DE ESTE PROCESO. Son cosas distintas.\nC — Si el documento es ilegible, la consecuencia ya está en el Anexo (ver ítem 29): el cargue legible es responsabilidad exclusiva del aspirante. La ilegibilidad no habilita una vía alterna.\nD — Plantea el asunto como problema de consentimiento. No lo es: es problema de competencia y de igualdad entre aspirantes."
+  },
+  {
+    "id": "pcd25",
+    "text": "Un analista considera que la deficiencia descrita en un certificado no configura discapacidad real. ¿Qué debe hacer?",
+    "options": [
+      "Rechazarlo y motivar la decisión técnica.",
+      "Pedir concepto a un médico de la CNSC.",
+      "Atenerse a lo certificado por la IPS.",
+      "Rechazarlo y remitirlo a Supersalud."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "El certificado es el resultado de una valoración clínica multidisciplinaria practicada por una IPS autorizada. La verificación en el Proceso de Selección es DOCUMENTAL: constata que el certificado exista, provenga de fuente autorizada, esté cargado a tiempo y corresponda a la categoría señalada. La suficiencia clínica no está en discusión y no es objeto de la etapa. A — EL ERROR DE ROL MÁS GRAVE DEL BANCO. El analista se atribuye una competencia clínica que no tiene, con formación que no tiene, para desconocer un acto de otra autoridad.\nB — Traslada el error a otro actor. Ni la CNSC ni el operador re-valoran la discapacidad de nadie.\nD — La Supersalud emitió la Circular 009 de 2017, pero no es instancia de revisión de certificados individuales dentro de este concurso."
+  },
+  {
+    "id": "pcd26",
+    "text": "El certificado registra un nivel de dificultad en el desempeño 'leve'. ¿Cómo incide en la acreditación del requisito?",
+    "options": [
+      "En nada; el Anexo no gradúa la categoría.",
+      "Reduce el puntaje de sus antecedentes.",
+      "Obliga a verificar si requiere ajustes.",
+      "Excluye del beneficio de la reserva del 7%."
+    ],
+    "correctIndex": 0,
+    "timeLimitSec": 180,
+    "sustento": "El 'nivel de dificultad en el desempeño' es el grado de dificultad que experimenta la persona al realizar actividades e involucrarse en situaciones vitales de su entorno cotidiano. Es información de caracterización. Ni el Anexo ni la Ley 2418 de 2024 gradúan el acceso a la reserva según ese nivel. La condición es binaria: o hay certificado en la categoría señalada, o no lo hay. B — Confunde planos. La Valoración de Antecedentes puntúa educación y experiencia (num. 6), jamás la severidad de la discapacidad. Y para empleos con reserva, el Criterio Unificado del 22/08/2025 dejó la Educación como único componente puntuable, con ponderación del 10%.\nC — Los ajustes razonables se determinan a partir del certificado (num. 1.2.1) y la CNSC verifica su necesidad caso a caso (num. 5). Pero esa es OTRA decisión, ajena a la acreditación del requisito.\nD — Crearía un umbral de severidad que ninguna norma establece. Eso tiene nombre: discriminación."
+  },
+  {
+    "id": "pcd27",
+    "text": "¿Cuál de estos documentos puede sustituir el certificado de discapacidad en la verificación?",
+    "options": [
+      "Dictamen de pérdida de capacidad laboral.",
+      "Constancia de atención de la IPS tratante.",
+      "Certificación de la secretaría de salud.",
+      "Ninguno; el certificado es insustituible."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Los numerales 1.1.q, 1.2.6 y 2 exigen el certificado de discapacidad conforme a la Circular 009 de 2017 y la Resolución 1197 de 2024. El Anexo no prevé equivalentes, alternativas ni sustitutos de ninguna clase. A — EL SUSTITUTO MÁS OFRECIDO Y EL MÁS EQUIVOCADO. La calificación de PCL pertenece al Sistema de Riesgos Laborales, la practican las juntas de calificación de invalidez y responde a otra pregunta: cuánta capacidad laboral se perdió. No dice si hay discapacidad certificada ni en qué categoría. Son sistemas distintos, con finalidades distintas y actores distintos.\nB — La constancia de atención no es el resultado de la valoración clínica multidisciplinaria.\nC — Las secretarías de salud autorizan y direccionan el procedimiento; el certificado lo expide la IPS autorizada.\nEXCEPCIÓN QUE NO ES EXCEPCIÓN: el numeral 5 pide prescripción médica y certificado de la IPS tratante para el uso de audífonos en pruebas. Eso habilita un AJUSTE RAZONABLE, no la reserva."
+  },
+  {
+    "id": "pcd28",
+    "text": "Un aspirante pregunta por qué aparece en 'quienes no continúan en concurso' y no como 'NO ADMITIDO'. ¿Qué explica la diferencia?",
+    "options": [
+      "Son sinónimos; cambia solo la redacción.",
+      "Corresponden a etapas y canales distintos.",
+      "NO ADMITIDO aplica solo a la reserva.",
+      "La diferencia depende de la modalidad."
+    ],
+    "correctIndex": 1,
+    "timeLimitSec": 180,
+    "sustento": "'No continúa en concurso' es el resultado de la verificación del certificado (num. 2): se publica en el sitio web de la CNSC y se reclama por VENTANILLA ÚNICA, en dos días hábiles, ante la CNSC. 'NO ADMITIDO' es el resultado de la VRM (num. 4.6): se consulta en SIMO y se reclama por SIMO, en dos días hábiles, ante la CNSC o la IES contratada. A — La distinción no es de estilo: determina el canal, y equivocarlo cuesta el término.\nC — NO ADMITIDO aplica a cualquier aspirante que no acredite requisitos mínimos, con reserva o sin ella.\nD — La modalidad (Ascenso/Abierto) no altera esta distinción en absoluto.\nES EL ÍTEM DE MAYOR RENDIMIENTO OPERATIVO DEL BANCO: un analista que confunde los canales induce al aspirante a perder su única oportunidad de reclamar, y contra la decisión no procede recurso."
+  },
+  {
+    "id": "pcd29",
+    "text": "El certificado fue cargado en SIMO, pero está ilegible y protegido con contraseña. ¿Qué procede en la verificación?",
+    "options": [
+      "Requerir al aspirante que lo cargue de nuevo.",
+      "Solicitar la contraseña por Ventanilla Única.",
+      "No se acredita; el cargue es del aspirante.",
+      "Aceptarlo; el documento sí fue aportado."
+    ],
+    "correctIndex": 2,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.1: cada documento cargado en SIMO no debe superar 2 MB, debe estar en formato PDF y ser legible, con resolución entre 300 y 600 dpi, y NO DEBE TENER CONTRASEÑAS. El mismo numeral es explícito: 'Es responsabilidad exclusiva del aspirante verificar que la documentación aportada para este Proceso de Selección quede cargada correctamente en el aplicativo, siendo posible su adecuada consulta y visualización.' A — No hay requerimiento ni subsanación. Y cerrada la etapa, el aspirante ya no puede modificar documentos (1.2.6).\nB — Ventanilla Única es canal de reclamación, no mesa de ayuda técnica.\nD — Aportar un archivo que no puede consultarse no es aportar el documento. El Anexo condiciona la validez a la posibilidad de visualización.\nMATIZ QUE CONVIENE NOMBRAR: aquí no se juzga la discapacidad del aspirante. Se constata el incumplimiento de una carga formal que él asumió con su inscripción (num. 1.1.h)."
+  },
+  {
+    "id": "pcd30",
+    "text": "Un aspirante cargó el certificado en SIMO tres días después del cierre de inscripciones de su modalidad. ¿Qué efecto tiene ese cargue?",
+    "options": [
+      "Se valora; el certificado ya existía antes.",
+      "Se valora si la CNSC no ha publicado nada.",
+      "Se valora solo para los ajustes razonables.",
+      "No se valora aquí; sirve a futuros procesos."
+    ],
+    "correctIndex": 3,
+    "timeLimitSec": 180,
+    "sustento": "Numeral 1.2.6: cerrada la Etapa de Adquisición de derechos de participación e Inscripciones de la modalidad seleccionada, el aspirante no puede modificar, reemplazar, adicionar ni eliminar documentos. 'Participará únicamente con los documentos que tenga registrados en el aplicativo hasta la fecha del cierre de dicha Etapa. Los documentos cargados o actualizados con posterioridad a esta fecha serán válidos ÚNICAMENTE PARA FUTUROS PROCESOS DE SELECCIÓN.' A — Repite el error del ítem 07. La fecha de expedición no cuenta; cuenta la fecha de cargue.\nB — El hito es el cierre de inscripciones, no la actividad publicadora de la CNSC.\nC — Los ajustes también se determinan a partir del certificado aportado en la inscripción (num. 1.2.1). No hay ventana separada ni plazo distinto.\nOJO CON EL CIERRE POR MODALIDAD: el Anexo lo repite una y otra vez —ascenso con reserva, ascenso sin reserva, abierto con reserva, abierto sin reserva tienen cierres PROPIOS. El analista debe comparar contra el cierre de LA MODALIDAD DEL ASPIRANTE, no contra una fecha única."
+  }
+]
