@@ -1,11 +1,11 @@
 [
   {
     "id": "pcd01",
-    "text": "Un aspirante se inscribe a una vacante reservada para personas con discapacidad. ¿Qué documento debe aportar en SIMO para acreditar esa condición?",
+    "text": "Un aspirante se inscribe a una vacante reservada para personas con discapacidad. ¿Qué documento debe aportar en SIMO para acreditar su discapacidad?",
     "options": [
       "Registro en el RLCPD del Ministerio de Salud.",
       "Dictamen de pérdida de capacidad laboral.",
-      "Certificado de discapacidad de IPS autorizada.",
+      "Certificado de discapacidad",
       "Historia clínica con el diagnóstico vigente."
     ],
     "correctIndex": 2,
@@ -14,7 +14,7 @@
   },
   {
     "id": "pcd02",
-    "text": "¿Conforme a qué normas debe estar expedido el certificado de discapacidad que exige este Proceso de Selección?",
+    "text": "¿Conforme a qué normas debe estar expedido el certificado de discapacidad que exigen los procesos de selección?",
     "options": [
       "Circular Externa 009 de 2017 y Resolución 1197 de 2024.",
       "Ley 1618 de 2013 y Resolución 113 de 2020 de MinSalud.",
@@ -27,12 +27,12 @@
   },
   {
     "id": "pcd03",
-    "text": "¿En qué momento debe el aspirante cargar en SIMO el certificado de discapacidad para una vacante reservada?",
+    "text": "¿En qué momento debe el aspirante cargar en SIMO el certificado de discapacidad para optar por una vacante reservada?",
     "options": [
       "Antes de la citación a las Pruebas Escritas.",
       "Dentro de los dos días de reclamación.",
       "En cualquier momento antes de la VRM.",
-      "Al momento de formalizar la inscripción."
+      "Previo a la formalización de la inscripción."
     ],
     "correctIndex": 3,
     "timeLimitSec": 180,
@@ -162,7 +162,7 @@
       "Aceptarlo; sordoceguera contiene lo auditivo.",
       "Aceptarlo; el aspirante tiene más barreras.",
       "Rechazarlo y sugerir corregir el certificado.",
-      "Aplicar la regla; sordoceguera no es auditiva."
+      "No continúa; sordoceguera es una categoría de discapacidad diferente a la discapacidad auditiva."
     ],
     "correctIndex": 3,
     "timeLimitSec": 180,
@@ -209,7 +209,7 @@
   },
   {
     "id": "pcd17",
-    "text": "¿Cuáles son las siete categorías de discapacidad del procedimiento de certificación de MinSalud?",
+    "text": "¿Cuáles son las siete categorías de discapacidad que establece el Ministerio de Salud y Protección Social?",
     "options": [
       "Física, auditiva, visual, cognitiva, mental, sordoceguera, múltiple.",
       "Física, auditiva, visual, sordoceguera, intelectual, psíquica, mixta.",
@@ -287,9 +287,9 @@
   },
   {
     "id": "pcd23",
-    "text": "Un servidor con discapacidad se inscribe en Ascenso con reserva. No acredita la experiencia exigida en la OPEC. ¿Cuál es el resultado de su VRM?",
+    "text": "Un servidor con discapacidad se inscribe en Ascenso con reserva y no acredita la experiencia exigida por el empleo. ¿Cuál es el resultado de su VRM?",
     "options": [
-      "NO ADMITIDO; en Ascenso sí es determinante.",
+      "NO ADMITIDO",
       "ADMITIDO; la experiencia no es determinante.",
       "ADMITIDO; la reserva desplaza el requisito.",
       "NO ADMITIDO; también lo sería en Abierto."
