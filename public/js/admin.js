@@ -108,6 +108,20 @@ document.getElementById('btn-reset').addEventListener('click', () => {
   }
 });
 
+// Respaldo de resultados: el servicio pierde la sesión al reiniciarse o dormirse.
+function descargarResultados(tipo) {
+  const code = localStorage.getItem('vrm_admin_code') || '';
+  if (!code) {
+    alert('Vuelve a ingresar el código de acceso para poder descargar.');
+    return;
+  }
+  window.location.href =
+    '/api/resultados.csv?tipo=' + encodeURIComponent(tipo) + '&code=' + encodeURIComponent(code);
+}
+
+document.getElementById('btn-csv-resumen').addEventListener('click', () => descargarResultados('resumen'));
+document.getElementById('btn-csv-detalle').addEventListener('click', () => descargarResultados('detalle'));
+
 // ---------- render ----------
 
 const PHASE_LABEL = {

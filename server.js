@@ -139,6 +139,88 @@ app.get('/api/branding', (req, res) => {
   }
 });
 
+// ---------- respaldo de resultados ----------
+// El plan Free de Render tiene disco efímero: la sesión se pierde cuando el
+// servicio se reinicia o se duerme. Esto permite bajar el marcador antes de
+// cerrar la jornada. Pide el código del supervisor.
+
+const LETRA = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+function csvEscapar(v) {
+  const s = v == null ? '' : String(v);
+  return /[";\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+
+const BOM = '﻿'; // Excel necesita el BOM para leer bien las tildes
+
+function aCsv(filas) {
+  // "sep=;" hace que Excel en español separe por columnas sin pedir nada.
+  return BOM + 'sep=;\r\n' + filas.map((f) => f.map(csvEscapar).join(';')).join('\r\n') + '\r\n';
+}
+
+function filasResumen() {
+  const ranking = game.accumulatedRanking();
+  const filas = [['Posicion', 'Participante', 'Aciertos', 'Preguntas jugadas', 'Respondidas', 'Puntaje total', 'Tiempo total (s)', 'Conectado al cierre']];
+  for (const r of ranking) {
+    filas.push([
+      r.position,
+      r.name,
+      r.correct,
+      game.playedIds.length,
+      r.answeredCount,
+      r.total,
+      (r.timeSumMs / 1000).toFixed(1),
+      r.connected ? 'Si' : 'No',
+    ]);
+  }
+  return filas;
+}
+
+function filasDetalle() {
+  const filas = [['Participante', 'N pregunta', 'Id', 'Enunciado', 'Respondio', 'Texto elegido', 'Correcta', 'Acerto', 'Puntaje', 'Tiempo (s)']];
+  const participantes = [...game.participants.values()].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  for (const p of participantes) {
+    for (const qid of game.playedIds) {
+      const q = game.findQuestion(qid);
+      if (!q) continue;
+      const a = p.answers[qid] || {};
+      filas.push([
+        p.name,
+        game.questionNumber(qid),
+        qid,
+        q.text,
+        a.choice == null ? 'Sin responder' : LETRA[a.choice],
+        a.choice == null ? '' : q.options[a.choice],
+        LETRA[q.correctIndex],
+        a.correct ? 'Si' : 'No',
+        a.score || 0,
+        a.elapsedMs == null ? '' : (a.elapsedMs / 1000).toFixed(1),
+      ]);
+    }
+  }
+  return filas;
+}
+
+app.get('/api/resultados.csv', (req, res) => {
+  if (String(req.query.code || '') !== ADMIN_CODE) {
+    return res.status(401).type('text/plain; charset=utf-8').send('Código de acceso incorrecto.');
+  }
+  const tipo = req.query.tipo === 'detalle' ? 'detalle' : 'resumen';
+  if (game.participants.size === 0) {
+    return res.status(409).type('text/plain; charset=utf-8').send('Todavía no hay participantes registrados en esta sesión.');
+  }
+  const jornada = (process.env.JORNADA_LABEL || 'jornada')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '') // quita las tildes para el nombre del archivo
+    .replace(/[^A-Za-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+    .toLowerCase();
+  const sello = new Date().toISOString().slice(0, 16).replace(/[:T]/g, '-');
+  const nombre = `resultados-${tipo}-${jornada}-${sello}.csv`;
+  res.setHeader('Content-Disposition', `attachment; filename="${nombre}"`);
+  res.type('text/csv; charset=utf-8').send(aCsv(tipo === 'detalle' ? filasDetalle() : filasResumen()));
+});
+
 app.get('/api/qr.svg', async (req, res) => {
   try {
     const to = req.query.to;
