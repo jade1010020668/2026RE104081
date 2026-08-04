@@ -8,7 +8,7 @@
       "La sábana de notas o el certificado de calificaciones expedido por la institución."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Artículos 7 del Decreto Ley 785 de 2005 (empleos del orden territorial) y 2.2.2.3.3 del Decreto 1083 de 2015, recogidos en el Criterio Unificado, Capítulo V, numeral 5.1.1 (Certificación de la Educación Formal o Estudios): los estudios se acreditan mediante certificados, diplomas, grados o títulos otorgados por las instituciones correspondientes y, según el caso, la tarjeta profesional o matrícula suple su presentación. Por el contrario, la constancia de matrícula o el carné estudiantil (Anexo de Casos, educación #3) y la sábana de notas o certificado de calificaciones (Anexo de Casos, educación #22) no son documentos idóneos para acreditar el requisito de educación."
   },
   {
@@ -20,7 +20,7 @@
       "Sí, pero únicamente para empleos del nivel asistencial, donde el requisito sería más flexible."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo de Casos, educación #5: el certificado de presentación del examen de Estado (ICFES) NO es válido para acreditar el título de bachiller. La acreditación de la educación formal se rige por el art. 7 del Decreto Ley 785 de 2005 (orden territorial) y el art. 2.2.2.3.3 del Decreto 1083 de 2015, según los cuales los estudios se acreditan mediante certificados, diplomas, grados o títulos otorgados por las instituciones correspondientes; la calidad de bachiller se prueba con el diploma o el acta de grado. Ambos artículos se citan de forma conjunta en el Criterio base, num. 5.1.1 (Certificación de la Educación Formal o Estudios)."
   },
   {
@@ -32,7 +32,7 @@
       "No: la sábana de notas no es documento idóneo para acreditar ningún tipo de requisito de educación."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo de Casos, educación #22 (CRITERIOS_717): la sábana de notas «no es un documento para acreditar ningún tipo de requisito». Los estudios se acreditan mediante certificados, diplomas, grados o títulos otorgados por las instituciones, conforme al art. 7 del Decreto Ley 785 de 2005 (empleos del orden territorial) y al art. 2.2.2.3.3 del Decreto 1083 de 2015; Criterio Unificado, Capítulo V, num. 5.1.1. Los documentos idóneos son: títulos legalmente reconocidos, actas de grado, certificaciones de terminación de materias, certificaciones que señalen expresamente el número de semestres o el porcentaje de créditos aprobados, y tarjetas profesionales. La sábana de notas no equivale a ninguno de ellos y tampoco se puntúa en la VA."
   },
   {
@@ -44,7 +44,7 @@
       "Las áreas de desempeño referidas en la Clasificación Nacional de Ocupaciones."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Numeral 2.9 del Criterio Unificado (CRITERIOS_716): los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015 señalan que los NBC contienen «las disciplinas académicas o profesiones, de acuerdo con la clasificación establecida en el Sistema Nacional de Información de la Educación Superior -SNIES-». Por tratarse de un proceso del orden territorial, las disciplinas académicas de los NBC son las «de que trata el artículo 23 del Decreto Ley 785 de 2005» (así lo remite la nota 6 del Caso 12 del Anexo de Casos, CRITERIOS_717)."
   },
   {
@@ -56,7 +56,7 @@
       "El registro de la tarjeta o matrícula profesional del aspirante."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Numeral 2.9 del Criterio Unificado (CRITERIOS_716) y parágrafo 3 de los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015: los NBC contienen «las disciplinas académicas o profesiones, de acuerdo con la clasificación establecida en el SNIES». Por ser un proceso del orden territorial, esas disciplinas académicas son las «de que trata el artículo 23 del Decreto Ley 785 de 2005» (así lo precisa la nota 6 del Caso 12 del Anexo de Casos, CRITERIOS_717). Por tanto, la fuente idónea para ubicar el NBC y el área de conocimiento del título es el SNIES (el Caso 16 muestra al analista revisando el SNIES para verificar el NBC del título aportado). No lo son: la Clasificación Nacional de Ocupaciones del SENA (que se refiere a las áreas de desempeño de la educación para el trabajo, art. 2.6.4.1 del Decreto 1075 de 2015), el MEFCL/OPEC (que solo indican el NBC exigido para ese empleo, no clasifican el título aportado), ni la tarjeta o matrícula profesional (que solo acredita el registro para el ejercicio, arts. 7 del Decreto 785 de 2005 y 2.2.2.3.3 del Decreto 1083 de 2015)."
   },
   {
@@ -68,7 +68,7 @@
       "Únicamente la autenticidad de la firma del servidor público que suscribió el documento, sin conferir validez académica."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado de valoración de títulos obtenidos en el exterior (CNSC, 4-jun-2024), en concordancia con el art. 8 del Decreto Ley 785 de 2005 (orden territorial) y el art. 2.2.2.3.4 del Decreto 1083 de 2015 (orden nacional), que regulan los títulos obtenidos en el exterior y radican la convalidación en el Ministerio de Educación Nacional. La Resolución 1959 de 2020 del Min. de Relaciones Exteriores, literal a) (pág. 3 del criterio), define la apostilla como la «certificación de la autenticidad de la firma de un servidor público... para que el documento surta plenos efectos legales». El apartado 2.1 (pág. 5) precisa que estos trámites certifican autenticidad, pero «de forma alguna» certifican la validez académica en el territorio nacional; esa validez solo la confiere la convalidación del MEN (Res. 10687 de 2019)."
   },
   {
@@ -80,7 +80,7 @@
       "Sí, si el aspirante autentica el diploma ante notario público."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo de Casos (CRITERIOS_717), educación #1: un diploma firmado solo por el rector (o solo por el secretario) no se valida, pues debe contener las firmas del rector y del secretario académico. Art. 2.3.3.3.5.3 del Decreto 1075 de 2015: los diplomas «llevarán las firmas y los sellos del Rector y del secretario del plantel». Esta exigencia se enmarca en la acreditación de la educación formal del orden territorial: art. 7 del Decreto Ley 785 de 2005 y art. 2.2.2.3.3 del Decreto 1083 de 2015, según los cuales los estudios se acreditan con diplomas que «para su validez requerirán de los registros y autenticaciones que determinen las normas vigentes sobre la materia». La autenticación notarial no subsana la ausencia de la firma institucional exigida."
   },
   {
@@ -92,7 +92,7 @@
       "Sí, pero únicamente si el certificado fue expedido por el SENA."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo de Casos, educación #9 (CRITERIOS_717): el certificado de técnico laboral por competencias es un certificado de aptitud ocupacional y no un título de técnico profesional. El técnico profesional es educación superior (art. 3 de la Ley 749 de 2002; arts. 24 y 25 de la Ley 30 de 1992), mientras que el técnico laboral por competencias corresponde a la educación para el trabajo y el desarrollo humano (arts. 2.6.4.1 y 2.6.4.3 del Decreto 1075 de 2015; Criterio Unificado, num. 2.7). En el orden territorial, los estudios se rigen por el art. 6 del Decreto Ley 785 de 2005 (definición de «estudios», incluida la formación técnica profesional), y la certificación de la educación para el trabajo por el art. 10 del Decreto Ley 785 de 2005, en concordancia con el art. 2.2.2.3.6 del Decreto 1083 de 2015 (Criterio Unificado, num. 5.1.2). La regla de 600 horas es solo el mínimo de registro de los programas de formación laboral y no los convierte en educación superior; la expedición por el SENA es irrelevante, pues el SENA ofrece tanto ETDH como educación superior."
   },
   {
@@ -104,7 +104,7 @@
       "Dar por válido el título en la VRM por estar apostillado y traducido, esté o no convalidado; la convalidación se le exigirá al tomar posesión o dentro de los dos (2) años siguientes."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado, Capítulo V, numeral 5.1.1 «Certificación de la Educación Formal o Estudios» (págs. 17-18): los títulos obtenidos en el exterior se verifican en la VRM debidamente apostillados o legalizados y traducidos al español, y quienes adelantaron estudios de pregrado o de postgrado en el exterior pueden acreditarlos con los certificados de la institución al tomar posesión, debiendo presentar los títulos homologados dentro de los dos (2) años siguientes a la posesión (so pena de aplicar el art. 5º de la Ley 190 de 1995). Fundamento normativo: art. 8 del Decreto Ley 785 de 2005 (orden territorial) y art. 2.2.2.3.4 del Decreto 1083 de 2015. Concordante con el Caso 28 del Anexo de Casos (CRITERIOS_717), que exige que los títulos del exterior estén apostillados y traducidos para su validez en VRM y VA. Nota: el plazo de un (1) año aplica a la tarjeta o matrícula profesional (art. 7 del Decreto Ley 785 de 2005 y art. 2.2.2.3.3 del Decreto 1083 de 2015), no a la convalidación de títulos del exterior."
   },
   {
@@ -116,7 +116,7 @@
       "No: la equivalencia solo procede si el título profesional pertenece a una disciplina afín a las funciones o al área del empleo."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 13, literal c), del Anexo de Casos (CRITERIOS_717): en aplicación del principio constitucional de la buena fe, el requisito de bachiller se acredita con cualquier título de técnico profesional (salvo la excepción del parágrafo del art. 14 de la Ley 30 de 1992), de tecnólogo, de profesional o de posgrado «en cualquier modalidad o disciplina académica». Fundamento normativo: arts. 2.2.2.5.3 (orden nacional) y 2.2.3.7 (orden territorial) del Decreto 1083 de 2015 y arts. 1, 10, 11 y 14 de la Ley 30 de 1992; con respaldo en el concepto de la Sala de Consulta y Servicio Civil del Consejo de Estado del 3 de julio de 2008 (los requisitos fijados son mínimos y no excluyen a quien acredita una formación mayor). A diferencia de los literales d) y e) del mismo Caso 13 —que exigen la misma disciplina para validar tecnólogo o profesional frente a un técnico/tecnólogo—, tratándose del bachiller la equivalencia opera con cualquier disciplina, por lo que es irrelevante que el título profesional sea de otra área. Nota: para este supuesto el Criterio no invoca el Decreto Ley 785 de 2005; la base territorial queda dada por el art. 2.2.3.7 del Decreto 1083 de 2015."
   },
   {
@@ -128,7 +128,7 @@
       "Se acredita únicamente si el aspirante aporta, además, la tarjeta o matrícula profesional de esa disciplina."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 12 del Anexo de Casos (CRITERIOS_717): cuando el requisito se define a nivel de NBC sin especificar disciplina, se acredita con cualquiera de los títulos pertenecientes a los NBC contenidos en las áreas de conocimiento definidas para el empleo. Fundamento territorial: artículo 23 del Decreto Ley 785 de 2005, relativo a las disciplinas académicas, expresamente citado en la nota 6 del Caso 12. En concordancia con el parágrafo 3 de los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015 y el numeral 2.9 del Criterio Unificado (CRITERIOS_716), que remiten la clasificación de disciplinas y NBC al SNIES."
   },
   {
@@ -140,7 +140,7 @@
       "No se tiene en cuenta para el requisito de educación, porque la disciplina acreditada quedó clasificada en el SNIES en un NBC distinto al exigido en el MEFCL y la OPEC."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 16 del Anexo de Casos (CRITERIOS_717): si la disciplina acreditada por el aspirante no se encuentra dentro de los NBC solicitados por el MEFCL y la OPEC, no se tiene en cuenta para el cumplimiento del requisito de educación, aun cuando el nombre de la disciplina coincida. Esto concuerda con el numeral 2.9 del Criterio Unificado (CRITERIOS_716) y el parágrafo 3 de los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015, según los cuales los NBC contienen las disciplinas académicas o profesiones de acuerdo con la clasificación del SNIES. Por tratarse de un proceso del orden territorial, las disciplinas académicas son las del artículo 23 del Decreto Ley 785 de 2005 (así remitido en la nota 6 del Caso 12 del Anexo de Casos). La clasificación del SNIES prevalece sobre la mera coincidencia de la denominación."
   },
   {
@@ -152,7 +152,7 @@
       "Sí, siempre que ambos programas se hayan cursado en la misma institución de educación superior."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 20 del Anexo de Casos (CRITERIOS_717): solo se tienen como válidos los semestres cursados y aprobados cuando pertenecen a una misma disciplina académica de las requeridas en el MEFCL y la OPEC, y siempre que haya evidencia de avance dentro de un proceso académico (no cuentan, por ejemplo, los semestres repetidos por haberse perdido). Por tratarse de un proceso del orden territorial, concuerda con el artículo 23 del Decreto Ley 785 de 2005 sobre disciplinas académicas (referido en la nota 6 del Caso 12) y con el parágrafo 3 de los artículos 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015."
   },
   {
@@ -164,7 +164,7 @@
       "Área de conocimiento, NBC y disciplina son términos equivalentes dentro del SNIES."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Numeral 2.9 del Criterio Unificado (CRITERIOS_716): los NBC contienen «las disciplinas académicas o profesiones, de acuerdo con la clasificación establecida en el SNIES» (arts. 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015). Por tratarse de un proceso del orden territorial, esas disciplinas académicas son las del artículo 23 del Decreto Ley 785 de 2005, al que remite expresamente la nota 6 del Caso 12 (CRITERIOS_717). El Caso 17 (CRITERIOS_717), al citar la Sentencia T-207 de 2010, precisa que el área de conocimiento 'Economía, administración, contaduría y afines' agrupa el NBC 'Administración'; y el Caso 12 confirma que las áreas de conocimiento contienen los NBC. Jerarquía: área de conocimiento → NBC → disciplina académica o profesión."
   },
   {
@@ -176,7 +176,7 @@
       "Admitir el título: en VRM basta que esté apostillado y traducido, esté o no convalidado; la convalidación se exigirá al posesionarse o dentro de los 2 años siguientes."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado sobre valoración de estudios y títulos obtenidos en el exterior (Sala Plena CNSC, 4 de junio de 2024), sección III – VRM (págs. 6-7): en la etapa de VRM se verifican los títulos de educación superior apostillados (o legalizados) y traducidos al español, «independientemente de que estén o no convalidados»; la convalidación la exigirá la entidad al momento de la posesión o dentro de los dos (2) años siguientes. Fundamento normativo territorial: art. 8º del Decreto Ley 785 de 2005 (empleos del orden territorial), y concordante art. 2.2.2.3.4 del Decreto 1083 de 2015 (orden nacional); en ambos, el plazo de 2 años posteriores a la posesión se refiere expresamente a estudios de «pregrado o de postgrado», por lo que en VRM no cabe rechazar el título por no estar aún convalidado (a diferencia de la prueba de VA, donde la convalidación sí se exige desde la inscripción)."
   },
   {
@@ -188,7 +188,7 @@
       "No, pero puede admitirse si en lugar de la convalidación presenta la legalización consular del título, para efectos de la verificación del requisito mínimo del empleo."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado sobre valoración de estudios y títulos obtenidos en el exterior (CNSC, 4-jun-2024), sección 2.2 y acápite III – VRM (pág. 6-7): los estudios, grados y títulos de preescolar, básica o media obtenidos en el exterior deben estar debidamente convalidados por el Ministerio de Educación Nacional desde la etapa de VRM. La excepción de los 2 años posteriores a la posesión se refiere expresamente a quienes adelantaron estudios de 'pregrado o postgrado', conforme al art. 8 del Decreto Ley 785 de 2005 (orden territorial) y al inciso primero del art. 2.2.2.3.4 del Decreto 1083 de 2015 (orden nacional); por tanto, no cobija la educación básica, la media ni el título de bachiller. La apostilla o la legalización solo certifican la autenticidad de la firma y no otorgan validez académica en el territorio nacional."
   },
   {
@@ -200,7 +200,7 @@
       "Sí, en aplicación del principio de la buena fe, pues el aspirante avanza en el programa."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 23 del Anexo de Casos (CRITERIOS_717): «tres (3) años de educación superior» equivalen a seis (6) semestres; quien «se encuentra cursando» el sexto aún no lo ha terminado ni aprobado, por lo que solo hay certeza de cinco (5) semestres aprobados (2,5 años), insuficientes frente al requisito. La certificación debe indicar los semestres o créditos efectivamente aprobados frente al total del programa, y ser igual o superior a lo exigido (Casos 22 y 23). La acreditación de la educación formal se rige por el art. 7 del Decreto Ley 785 de 2005 (empleos del orden territorial) y el art. 2.2.2.3.3 del Decreto 1083 de 2015."
   },
   {
@@ -212,7 +212,7 @@
       "No: con solo la especialización no es posible establecer si el pregrado que le dio acceso pertenece a alguno de los NBC exigidos por la OPEC."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 14 del Anexo de Casos (CRITERIOS_717): aunque para obtener el posgrado es necesario haber cursado un pregrado, no resulta posible determinar de manera precisa si ese pregrado pertenece a alguno de los NBC exigidos por la respectiva OPEC, por lo que la sola especialización no acredita el requisito. Los NBC contienen las disciplinas académicas o profesiones según la clasificación del SNIES (arts. 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015; en el orden territorial, las disciplinas académicas de que trata el art. 23 del Decreto Ley 785 de 2005, referido en la nota 6 del Caso 12). La acreditación de la educación formal se hace con certificados, diplomas, grados o títulos, o con la tarjeta o matrícula profesional (art. 7 del Decreto Ley 785 de 2005 y art. 2.2.2.3.3 del Decreto 1083 de 2015)."
   },
   {
@@ -224,7 +224,7 @@
       "Sí, porque al tener los tres cursos la misma denominación se entiende que existe hilo conductor y profundización."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo de Casos, educación #29 (CRITERIOS_717): cuando el empleo exige un curso con determinada intensidad horaria, se requiere que el aspirante haya alcanzado un nivel de profundización con hilo conductor; sumar varios cursos de igual o similar denominación con duración inferior a la exigida no acredita ese requisito. Sustento normativo: art. 9 del Decreto Ley 785 de 2005 (cursos específicos de educación no formal para empleos del orden territorial) y art. 2.2.2.3.5 del Decreto 1083 de 2015 (orden nacional); arts. 2.6.2.2, 2.6.2.3 y 2.6.6.8 del Decreto 1075 de 2015 y art. 43 de la Ley 115 de 1994. La regla de los diez (10) años (Caso #24) aplica a la puntuación en VA, no a la acreditación del requisito mínimo en VRM."
   },
   {
@@ -236,7 +236,7 @@
       "Sí, porque la especialización en Ingeniería de Producción y Operaciones es afín al NBC de Administración exigido en el perfil."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 14 del Anexo de Casos (CRITERIOS_717): el título de especialización por sí solo no acredita el requisito, pues, aunque para obtener el posgrado se requiere haber cursado un pregrado, no resulta posible determinar de manera precisa si ese pregrado pertenece a alguno de los NBC exigidos por la respectiva OPEC. Los estudios se acreditan mediante certificados, diplomas, actas de grado o títulos —o la tarjeta o matrícula profesional que los suple— conforme al art. 7 del Decreto Ley 785 de 2005 (aplicable al orden territorial) y al art. 2.2.2.3.3 del Decreto 1083 de 2015. Los NBC contienen las disciplinas académicas o profesiones (art. 23 del Decreto Ley 785 de 2005) según la clasificación del SNIES (parágrafo 3 de los arts. 2.2.2.4.9 y 2.2.3.5 del Decreto 1083 de 2015; numeral 2.9 del Criterio Unificado, CRITERIOS_716)."
   },
   {
@@ -248,7 +248,7 @@
       "Validar inicialmente el NBC al que pertenece el programa y exigir que sea el aspirante quien aporte la constancia del Ministerio de Educación Nacional de que el programa y la institución existieron, pues la carga de la prueba le corresponde."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 18 del Anexo de Casos (CRITERIOS_717): se valida inicialmente el NBC al que pertenece el programa y, ante la carencia de registro calificado, la carga de la prueba recae en el aspirante, quien debe adjuntar constancia del Ministerio de Educación Nacional de que el programa académico y la institución existieron. La acreditación y validez de los estudios está sujeta a \"los registros y autenticaciones que determinen las normas vigentes\", conforme al art. 7 del Decreto Ley 785 de 2005 (orden territorial) y al art. 2.2.2.3.3 del Decreto 1083 de 2015; la carencia de registro calificado se rige por el art. 2.5.3.2.2.3 del Decreto 1075 de 2015 (Decreto Único del Sector Educación)."
   },
   {
@@ -260,7 +260,7 @@
       "Debe admitir provisionalmente a la aspirante y concederle que aporte el documento de la Registraduría al momento de la posesión o dentro de los dos años siguientes, tal como se procede con los títulos obtenidos en el exterior."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717 (Anexo Técnico, casos del Factor Educación), CASO 2: '¿Se puede validar un diploma de bachiller con irregularidades en los datos del aspirante que no permitan su identificación?'. La respuesta señala que 'No se pueden validar documentos con irregularidades en los datos del aspirante, de tal magnitud que no permitan su identificación', pero agrega expresamente que 'para los casos de cambio de nombre, cambio de asignación sexual, o cualquier motivo similar el aspirante deberá aportar, al momento de la inscripción, documento de la Registraduría que soporte que se está tramitando dicho cambio en el documento de identidad o que se tramitó'. Este manejo documental se enmarca en el artículo 7 del Decreto Ley 785 de 2005 (orden territorial) y el artículo 2.2.2.3.3 del Decreto 1083 de 2015 sobre certificación de la educación formal, y concuerda con el artículo 2.3.3.3.5.3 del Decreto 1075 de 2015 (CASO 1), que exige que el diploma incluya los nombres, apellidos y el número de documento de identidad del graduado, precisamente para permitir la identificación."
   },
   {
@@ -272,7 +272,7 @@
       "Sí. El pregrado y la especialización constituyen formación superior a la mínima."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "El artículo 10 de la Ley 30 de 1992 (citado en CRITERIOS_716, líneas 247-248) ordena los posgrados en una jerarquía ascendente: especialización, maestría, doctorado y postdoctorado; esas mismas modalidades son las que el artículo 6 del Decreto Ley 785 de 2005 —norma del orden territorial— y el 2.2.2.3.2 del Decreto 1083 de 2015 reconocen como estudios (CRITERIOS_716, líneas 214-223). Los artículos 2.2.2.5.3 y 2.2.3.7 del Decreto 1083 de 2015 (CRITERIOS_717, líneas 443-447) disponen que el requisito de formación se entiende cumplido cuando se acredite título académico en un nivel de formación SUPERIOR al exigido; de ahí que el requisito se satisfaga con el nivel igual (maestría) o con uno superior (doctorado o postdoctorado), pero jamás con un nivel inferior. Como la especialización está por debajo de la maestría, no cumple. En la misma línea, el Caso 15 (CRITERIOS_717, líneas 514-525) confirma que un requisito de nivel no se valida con un título de rango distinto o inferior."
   },
   {
@@ -284,7 +284,7 @@
       "Debe aceptar la certificación de trámite y verificar la tarjeta definitiva al momento de la posesión."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Conforme a los artículos 7 del Decreto 785 de 2005 (orden territorial) y 2.2.2.3.3 del Decreto 1083 de 2015, y al Criterio Unificado CRITERIOS_716, numeral 5.1.1 (líneas 770-775), 'en los casos en que se requiera acreditar la tarjeta o matrícula profesional, podrá sustituirse por la certificación expedida por el organismo competente de otorgarla, en la cual conste que dicho documento se encuentra en trámite, siempre y cuando se acredite el respectivo título o grado. Dentro del año siguiente a la fecha de posesión, el empleado deberá presentar la correspondiente tarjeta o matrícula profesional'. Además, el Criterio precisa (líneas 777-781) que cuando el MEFCL exija la tarjeta o matrícula, 'tal requisito será verificable por la respectiva entidad al momento de la posesión', de conformidad con el Decreto 2106 de 2019."
   },
   {
@@ -296,7 +296,7 @@
       "Sí. El diploma o el acta de grado pueden presentarse después de la posesión."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Conforme al CASO 21 del Anexo Técnico (Factor Educación) de CRITERIOS_717, el certificado de haber cursado y aprobado la totalidad de las materias del pénsum y/o el paz y salvo académico NO es válido para acreditar el requisito de 'título profesional', ya que este únicamente se acredita con el respectivo diploma o acta de grado, la tarjeta profesional o el certificado de existencia del título expedido por la institución educativa competente. Ello con sustento en el artículo 2.2.2.3.3 del Decreto 1083 de 2015 (los estudios se acreditan mediante certificados, diplomas, grados o títulos; la tarjeta profesional excluye la presentación de los anteriores) y, por tratarse del orden territorial, en el artículo 7 del Decreto Ley 785 de 2005."
   },
   {
@@ -308,7 +308,7 @@
       "No se valida hasta que el aspirante aporte la resolución de convalidación del Ministerio de Educación Nacional, ya que sin ese acto el título del SENA carece de validez académica."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Anexo Técnico, Factor Educación, CASO 8: cuando el aspirante aporta acta de grado del SENA como \"técnico\" sin precisar el nivel, \"si el acta de grado dice la palabra 'título', y en la misma se indica que corresponde a 'Técnico Profesional en...', entonces se debe validar, ya que, si correspondiera a la educación técnica laboral, expresamente el certificado mencionaría dicha formación\". El sustento son los artículos 24 y 25 de la Ley 30 de 1992: el art. 24 define el título como el reconocimiento académico que se hace constar en un diploma, y el art. 25 ordena anteponer la denominación \"Técnico Profesional en...\" a los programas de ese nivel. A su vez, el Parágrafo del art. 2.6.4.8 del Decreto 1075 de 2015 prohíbe a las instituciones de educación para el trabajo y el desarrollo humano usar la denominación \"técnico profesional\" y les exige anteponer \"Técnico Laboral en...\". Por eso la presencia de la palabra 'título' y de la denominación 'Técnico Profesional en...', unida a la ausencia de la marca 'Técnico Laboral', es lo que permite validarlo como educación superior."
   },
   {
@@ -320,7 +320,7 @@
       "Validar los años aprobados en los ciclos propedéuticos (técnico profesional y tecnológico) como educación superior de la misma disciplina, aunque la denominación del primer ciclo no coincida, por tratarse de un programa organizado por ciclos hasta el nivel profesional."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Anexo Técnico, Factor Educación, CASO 27: los semestres o años de formación aprobados en los primeros ciclos propedéuticos de un programa de educación superior \"pueden tenerse como válidos para acreditar los semestres o años de Educación Superior exigidos para un empleo, aun cuando la denominación de estos primeros ciclos no coincida con la denominación del programa de educación superior exigido para dicho empleo\". Ello porque, conforme a los artículos 1 y 2 de la Ley 749 de 2002 y al artículo 5 de la Ley 1188 de 2008, las instituciones pueden ofrecer sus programas por ciclos propedéuticos hasta el nivel profesional, siendo estos unidades interdependientes, complementarias y secuenciales (técnico profesional, tecnólogo, profesional) de una misma disciplina. En el orden territorial este requisito de años de educación superior en una disciplina académica se enmarca en el artículo 23 del Decreto Ley 785 de 2005 (que define las disciplinas académicas para el nivel territorial), en concordancia con las reglas de acreditación del Decreto 1083 de 2015."
   },
   {
@@ -332,7 +332,7 @@
       "Sí. Los tres meses pueden convertirse a horas mediante un promedio mensual."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_716, numeral 5.1.2 (líneas 825-838): conforme al artículo 2.2.2.3.6 del Decreto 1083 de 2015, en concordancia con el artículo 10 del Decreto Ley 785 de 2005, los programas de ETDH se acreditan mediante certificados que \"deberán contener, como mínimo\": 1) nombre o razón social de la institución, 2) nombre y contenido del programa, 3) intensidad horaria y 4) fechas en que se adelantó. El parágrafo precisa que \"la intensidad horaria de los programas se indicará en horas. Cuando se exprese en días deberá señalárseles el número total de horas por día\"."
   },
   {
@@ -344,7 +344,7 @@
       "No cumple, porque ningún título de educación superior puede acreditar la calidad de bachiller mientras no se aporte además el diploma de bachiller académico."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Caso 13 literales b) y c): si bien de manera general el requisito de bachiller puede acreditarse \"con cualquier título de técnico profesional, de Tecnólogo, de Profesional o de Postgrado en cualquier modalidad o disciplina académica\" (literal c), el literal b) condiciona esa equivalencia a que \"el perfil del empleo no haya determinado como requisito ser bachiller en una modalidad específica, como por ejemplo; bachiller comercial, bachiller técnico, etc.\" En el mismo sentido, el Caso 6 (líneas 111-119) advierte que la acreditación del bachiller con título superior procede \"siempre y cuando el perfil del empleo no haya determinado como requisito ser bachiller en una modalidad específica (V.G. Normalista, Técnico, Comercial, etc.)\". Por ello, exigido \"bachiller comercial\", el Tecnólogo en otra disciplina no suple el requisito."
   },
   {
@@ -356,7 +356,7 @@
       "Sí. Es válido para títulos obtenidos entre 1981 y abril de 1994 si contiene los datos exigidos."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Anexo Técnico (Casos), Factor Educación, CASO 4 (¿El certificado de registro del diploma de bachiller ante las secretarías de educación es válido para acreditar el título de bachiller?). La respuesta textual establece que dicho certificado \"es válido siempre y cuando el título se haya obtenido entre los años 1981 y abril de 1994 y contemple la información de Acta, Libro, Folio y fecha del grado\". Ello porque a partir del Decreto 180 de 1981 el título de bachiller requería, para su validez, registro ante el Estado, y con el Decreto 921 de 1994 se suprimió ese registro. La misma fuente precisa que con posterioridad a abril de 1994 la calidad de bachiller solo se prueba con copia autenticada del acta de graduación o con el diploma."
   }
 ]
