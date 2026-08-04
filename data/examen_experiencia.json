@@ -8,7 +8,7 @@
       "Desde la fecha de inscripción o registro profesional del aspirante (registro RETHUS)."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Art. 11 del Decreto Ley 785 de 2005 (orden territorial): la experiencia profesional es la adquirida \"a partir de la terminación y aprobación de todas las materias que conforman el pensum académico de la respectiva formación profesional, tecnológica o técnica profesional\"; concordante con el art. 2.2.2.3.7 del Decreto 1083 de 2015 (nacional). Criterio Unificado (18/02/2021), cap. III, num. 3.1.3 (Experiencia Profesional) y cap. IV, num. 2.2.2.3.7 Dec. 1083; art. 23 de la Ley 1164 de 2007, mod. por el art. 100 del Decreto Ley 2106 de 2019)."
   },
   {
@@ -20,7 +20,7 @@
       "Nombre o razón social de la entidad o empresa, tiempo de servicio y relación de funciones desempeñadas."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Art. 12 del Decreto Ley 785 de 2005 (norma territorial) y art. 2.2.2.3.8 del Decreto 1083 de 2015. Criterio Unificado (CRITERIOS_716), Capítulo V, numeral 5.2 «Certificaciones de experiencia»: las certificaciones o declaraciones de experiencia deben contener como mínimo: 1) nombre o razón social de la entidad o empresa; 2) tiempo de servicio; y 3) relación de funciones desempeñadas. Además, para los procesos de selección de la CNSC la certificación debe especificar fecha de inicio y de fin (aunque la norma no lo exija expresamente). El salario, el tipo de contrato, el horario o el motivo del retiro no integran ese contenido mínimo."
   },
   {
@@ -32,7 +32,7 @@
       "No: al no relacionar las funciones, la certificación incumple el contenido mínimo exigido y debe rechazarse."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 33 de CRITERIOS_717: es válida la certificación laboral sin funciones cuando el empleo exige experiencia laboral, pues esta es «la adquirida en el ejercicio de cualquier empleo, ocupación, arte u oficio». Fundamento territorial: art. 11 del Decreto Ley 785 de 2005; y nacional: art. 2.2.2.3.7 del Decreto 1083 de 2015. La exigencia de describir funciones aplica a la experiencia RELACIONADA (art. El contenido mínimo de las certificaciones (razón social, tiempo de servicio y relación de funciones) está en el art. 12 del Decreto Ley 785 de 2005 y el art."
   },
   {
@@ -44,7 +44,7 @@
       "El último día del año de expedición (31 de diciembre de 2024), aplicando la regla de los extremos temporales por anualidad."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 5 de CRITERIOS_717: cuando la certificación no da la fecha final pero emplea verbos en tiempo presente («se encuentra vinculado», «trabaja», «labora») que dan certeza de la vinculación a esa fecha, se toma como fecha de terminación la de expedición de la certificación; en los demás casos la certificación resulta inválida (cf. Caso 6: expresiones como «actualmente», sin fechas de inicio y fin, no se validan). Marco normativo territorial: art. 11 del Decreto Ley 785 de 2005 y art. 2.2.2.3.7 del Decreto 1083 de 2015 (experiencia); art. 12 del Decreto Ley 785 de 2005 y art. 2.2.2.3.8 del Decreto 1083 de 2015 (contenido de las certificaciones). Sustento jurisprudencial: CSJ, Sala de Casación Laboral, Sentencia del 22 de marzo de 2006, Rad. 25580 (extremos temporales de la relación laboral)."
   },
   {
@@ -56,7 +56,7 @@
       "Toma como extremo inicial el 31 de diciembre de 2019 (último día del último mes del año de ingreso) y como extremo final el 1 de enero de 2022 (primer día del primer mes del año de retiro)."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 4 (lit. b) y Caso 7 (lit. b) de CRITERIOS_717: cuando la certificación solo da cuenta del año de ingreso y/o de retiro, se toma como fecha inicial el último día del último mes del año de ingreso (31 dic 2019) y como fecha final el primer día del primer mes del año de retiro (1 ene 2022), pues es lo único de lo que se tiene certeza que fue laborado. Sustento jurisprudencial: Corte Suprema de Justicia, Sala de Casación Laboral, Sentencia del 22 de marzo de 2006, Rad. 25580 (reiterada en Rad. 33849 de 2009 y Rad. 42167 de 2012). Las certificaciones de experiencia se rigen, en el orden territorial, por el art. 12 del Decreto Ley 785 de 2005 y, en el nacional, por el art. 2.2.2.3.8 del Decreto 1083 de 2015. Nota de fuente: existe un Caso 29 del mismo Criterio (Sentencia CSJ Rad. 37865 de 2013) que, para año-solo, ordena contar del primer día del año de inicio al último del año de terminación; para la certificación laboral ordinaria de este escenario prevalecen los Casos 4 y 7, específicamente titulados para el supuesto."
   },
   {
@@ -68,7 +68,7 @@
       "No contabiliza ese tiempo, pues solo se acredita experiencia con jornadas de ocho (8) horas diarias o más."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Artículo 12 del Decreto Ley 785 de 2005 (norma territorial) y artículos 2.2.3.4 y 2.2.2.3.8 del Decreto 1083 de 2015: cuando las certificaciones indiquen una jornada laboral inferior a ocho (8) horas diarias, el tiempo de experiencia se establece sumando las horas trabajadas y dividiendo el resultado entre ocho (8). Criterio Unificado, numeral 5.2 de CRITERIOS_716 (que aplica el art. 2.2.3.4 del Decreto 1083 \"en concordancia con el artículo 12 del Decreto Ley 785 de 2005\") y Anexo Técnico (Casos), factor experiencia, Caso 11 de CRITERIOS_717, que toma como referencia la jornada de 44 horas semanales del sector público (art. 33 del Decreto Ley 1042 de 1978) y de 48 horas del sector privado (art. 161 del Código Sustantivo del Trabajo)."
   },
   {
@@ -80,7 +80,7 @@
       "Dieciocho meses, porque debe tomarse el periodo más largo y descontar la superposición."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 9 de CRITERIOS_717: cuando se acredita experiencia adquirida de manera simultánea en una o varias entidades o empresas (tiempos traslapados), el tiempo se contabiliza por una sola vez, salvo que se trate de medios tiempos o tiempos parciales en los casos autorizados, evento en el que se suman sin exceder la jornada de tiempo completo. Fundamento normativo territorial: artículo 12 del Decreto Ley 785 de 2005, en concordancia con los artículos 2.2.3.4 y 2.2.2.3.8 del Decreto 1083 de 2015. Cómputo: 24 meses (01/03/2021–28/02/2023) + 12 meses (01/09/2022–31/08/2023) − 6 meses traslapados (01/09/2022–28/02/2023) = 30 meses."
   },
   {
@@ -92,7 +92,7 @@
       "No se acredita como experiencia profesional: al ser el cargo del nivel asistencial, la naturaleza de sus funciones difiere de la del nivel profesional, aunque se haya adquirido después del grado."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Decreto Ley 785 de 2005, art. 11 (para el nivel territorial, la experiencia profesional es la adquirida a partir de la terminación y aprobación del pensum en el ejercicio de las actividades propias de la profesión exigida), en concordancia con sus arts. 4 (naturaleza general de los niveles) y 13 (requisitos), y art. 2.2.2.3.7 del Decreto 1083 de 2015. Criterio Unificado CNSC (18 de febrero de 2021), Cap. III, num. 3.1.3: para las entidades del nivel territorial, la experiencia adquirida en un empleo público solo se clasifica como profesional si dicho empleo es del nivel jerárquico profesional. Anexo Técnico (Casos), Factor Experiencia, Caso 12: la experiencia como auxiliar contable corresponde al nivel asistencial y no se valida para el nivel profesional, aunque se haya adquirido luego de la obtención del título; la naturaleza del cargo prima sobre la fecha del grado. Las certificaciones de experiencia se rigen por el art. 12 del Decreto Ley 785 de 2005 y el art. 2.2.2.3.8 del Decreto 1083 de 2015."
   },
   {
@@ -104,7 +104,7 @@
       "Sí: la experiencia se cuenta desde la fecha del acta de posesión, aunque no se aporte certificación del tiempo efectivamente servido ni del retiro."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado, Cap. V, num. 5.2: la experiencia se acredita mediante constancias expedidas por la autoridad competente con contenido mínimo (razón social, tiempo de servicio y relación de funciones), y expresamente «No se deben validar actas de posesión ni documentos irrelevantes para demostrar la experiencia» (arts. 12 del Decreto Ley 785 de 2005 —norma territorial— y 2.2.2.3.8 del Decreto 1083 de 2015). Anexo Técnico (Casos), factor experiencia, Caso 13 de CRITERIOS_717: las resoluciones de nombramiento, actas de posesión o documentos similares «no son válidos por sí solos»; el aspirante debe aportar documentos adicionales que permitan evidenciar el tiempo laborado y que el cargo fue efectivamente ejercido. (Nota: la autenticación notarial tampoco es exigible, conforme al art. 25 del Decreto Ley 019 de 2012.)"
   },
   {
@@ -116,7 +116,7 @@
       "No: la judicatura solo se computa como experiencia profesional si el aspirante ya obtuvo el título de abogado y la correspondiente tarjeta profesional."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico (Casos), factor experiencia, Caso 23 de CRITERIOS_717: la judicatura se valida como experiencia profesional aunque no se aporte la certificación de terminación de materias, porque conforme al art. 2 de la Ley 552 de 1999 y al Acuerdo CSJ No. PSAA10-7543 de 2010 (expedido con base en los arts. 257 de la Constitución Política y 85 de la Ley 270 de 1996) la judicatura solo la pueden realizar quienes ya cursaron y aprobaron la totalidad de las materias del pensum de Derecho, de modo que la constancia de judicatura da certeza de ese presupuesto. Concordante con el art. 11 del Decreto Ley 785 de 2005 (experiencia profesional del orden territorial: la adquirida a partir de la terminación y aprobación de todas las materias del pensum académico) y el art. 2.2.2.3.7 del Decreto 1083 de 2015."
   },
   {
@@ -128,7 +128,7 @@
       "Sí se reconoce al 100% del tiempo, sin distinción de edad, porque la práctica se realizó como opción para adquirir el título y se rige por la Ley 2043 de 2020."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Ley 2043 de 2020, arts. 1º, 2º y 3º: reconoce de manera obligatoria como experiencia profesional y/o relacionada las prácticas realizadas en el sector público y/o privado como opción para adquirir el correspondiente título. La tabla «Ley 2043 de 2020» del Criterio Unificado (Complementación aprobada en Sala Plena del 21 de septiembre de 2021, págs. 4-5) reconoce la Práctica Laboral realizada como opción para adquirir el título al 100% del tiempo y precisa que «Aplica sin distinción de edad (Sin franja etaria)». Esto se diferencia de la Ley 2039 de 2020, reglamentada por el Decreto 952 de 2021 (arts. 2.2.5.6.2 y 2.2.5.6.3 del Decreto 1083 de 2015), que reconoce el 90% de la intensidad horaria y aplica únicamente para jóvenes entre los 14 y los 28 años (Parágrafo 1 del art. 2.2.5.6.2). El Parágrafo 2 del art. 2.2.5.6.2 dispone que «Las entidades territoriales darán aplicación al contenido de este decreto». La experiencia, en el orden territorial, se define en el art. 11 del Decreto Ley 785 de 2005 (y art. 2.2.2.3.7 del Decreto 1083 de 2015 para el nivel nacional)."
   },
   {
@@ -140,7 +140,7 @@
       "No se computa, porque la judicatura es experiencia adquirida antes de la obtención del título."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Aparte final de la Complementación del Criterio Unificado (Sala Plena del 21 de septiembre de 2021, pág. 9): «En relación con los campos de Judicatura, Pasantías, Contrato de aprendizaje y Relación docencia de servicio en el Sector de la Salud, al estar incluidos como práctica laboral en ambas leyes y el Decreto Reglamentario 952 de 2021, se aplicará lo dispuesto en la Ley 2043 de 2020, en virtud del principio de favorabilidad establecido en el artículo 53 de la Constitución Política». La Ley 2043 de 2020 (arts. 1º y 3º y tabla del Criterio, pág. 4) reconoce la práctica laboral al 100% del tiempo y «Aplica sin distinción de edad (Sin franja etaria)», por lo que la edad de 26 años (dentro de la franja 14-28 de la Ley 2039) es irrelevante para desplazar el 100%. El Decreto 952 de 2021 (parágrafo 2 del art. 2.2.5.6.2 adicionado al Decreto 1083 de 2015) dispone que «las entidades territoriales darán aplicación al contenido de este decreto», de modo que la regla rige en procesos del orden territorial. El tope de 6 meses (parágrafo 4 del art. 2 de la Ley 2039 de 2020) aplica únicamente al servicio en consultorios jurídicos, no a la judicatura. Concordante con los arts. 11 del Decreto Ley 785 de 2005 y 2.2.2.3.7 del Decreto 1083 de 2015 (definición de experiencia)."
   },
   {
@@ -152,7 +152,7 @@
       "No se reconoce ningún tiempo, porque el servicio supera el máximo de 6 meses permitido."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "El servicio en consultorios jurídicos se rige por la Ley 2039 de 2020 (Parágrafo 4 del art. 2, adicionado por el art. 16 de la Ley 2113 de 2021) y por el Decreto 952 de 2021, que adicionó el Capítulo 6 al Título 5 del Decreto 1083 de 2015: el art. 2.2.5.6.3 reconoce el 90% de la intensidad horaria certificada, y para el consultorio jurídico la experiencia máxima es de 6 meses (tabla «Servicio en los Consultorios Jurídicos», pág. 7 de la Complementación del Criterio de 21/09/2021). Esta regla aplica únicamente a jóvenes entre 14 y 28 años (art. 2.2.5.6.2 del Decreto 1083 de 2015), franja en la que se ubica la aspirante de 24 años. El consultorio jurídico NO está entre las experiencias trasladadas a la Ley 2043 de 2020 por el principio de favorabilidad del art. 53 de la Constitución (solo Judicatura, Pasantías, Contrato de aprendizaje y Relación docencia de servicio en salud), por lo que no procede el 100% ni ignorar el tope de 6 meses. Para las entidades territoriales, el Parágrafo 2 del art. 2.2.5.6.2 dispone que «darán aplicación al contenido de este decreto». Norma base de experiencia: art. 11 del Decreto Ley 785 de 2005 (territorial) y art. 2.2.2.3.7 del Decreto 1083 de 2015."
   },
   {
@@ -164,7 +164,7 @@
       "No: en las profesiones relacionadas con el Sistema de Seguridad Social en Salud la experiencia profesional solo se computa a partir de la inscripción o registro profesional."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Criterio Unificado, cap. IV, num. 4.1: para las disciplinas académicas o profesiones relacionadas con el Sistema de Seguridad Social en Salud, la experiencia profesional (o profesional relacionada) se computa a partir de la inscripción o registro profesional (art. 2.2.2.3.7 del Decreto 1083 de 2015), en concordancia con el art. 23 de la Ley 1164 de 2007, modificado por el art. 100 del Decreto Ley 2106 de 2019 (registro RETHUS). En el orden territorial, la experiencia profesional se define en el art. 11 del Decreto Ley 785 de 2005. Adicionalmente, el Decreto 952 de 2021 —Parágrafo 3 del art. 2.2.5.6.2, que adiciona el Capítulo 6 al Título 5 del Decreto 1083 de 2015— excluye expresamente del reconocimiento de experiencia previa (Leyes 2039 y 2043 de 2020) a las profesiones relacionadas con el sistema de seguridad social en salud, cuya experiencia profesional solo se computará a partir de la inscripción o registro profesional. Por ello, el tiempo anterior al registro no se contabiliza."
   },
   {
@@ -176,7 +176,7 @@
       "Convalidar la suma completa solo si las dos profesiones pertenecieran a áreas del conocimiento diferentes; como son de la misma área, se toma únicamente una de las certificaciones (24 meses), para efectos de la verificación del requisito mínimo del empleo en esta etapa, para efectos de la verificación del requisito mínimo."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Regla rectora de doble titulación: Complementación del Criterio Unificado aprobada en Sala Plena del 21 de septiembre de 2021 (párrafo final), que incorpora el artículo 4 de la Ley 2119 de 2021 —el cual adiciona un parágrafo al artículo 2 de la Ley 2039 de 2020—: \"quienes cuenten con doble titulación en programas de pregrado en Educación Superior, podrán convalidar la Experiencia Profesional obtenida en ejercicio de tales profesiones, siempre y cuando pertenezcan a la misma área del conocimiento (…) y siempre que no se trate de tiempos traslapados\". Como Administración de Empresas y Administración Pública están en la misma área (administración), procede convalidar, pero el periodo coincidente no se duplica. Regla de simultaneidad: Anexo Técnico (Casos), factor experiencia, Caso 9 de CRITERIOS_717: la experiencia adquirida de manera simultánea (tiempos traslapados) se contabiliza una sola vez, salvo medios tiempos o tiempos parciales autorizados, que se suman sin exceder la jornada de tiempo completo. Por ello el semestre traslapado (15-jul-2021 a 14-ene-2022) se cuenta una sola vez: total 42 meses (15-ene-2020 a 14-jul-2023). Fundamento territorial y nacional: artículos 11 (definición de experiencia) y 12 (certificaciones) del Decreto Ley 785 de 2005 y artículos 2.2.2.3.7, 2.2.2.3.8 y 2.2.3.4 del Decreto 1083 de 2015."
   },
   {
@@ -188,7 +188,7 @@
       "Rechazarla, porque las certificaciones del sector privado siempre exigen firma manuscrita del representante legal."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Numeral 5.2.1 del Criterio Unificado (Complementación aprobada en Sala Plena del 12 de marzo de 2024). De conformidad con el Decreto Ley 785 de 2005 (art. 12, certificaciones de experiencia en el orden territorial) y el Decreto 1083 de 2015 (art. 2.2.2.3.8), las certificaciones de experiencia deben contener como mínimo la razón social, el tiempo de servicio y la relación de funciones, y contar con la firma de quien las expide. Para los procesos de la CNSC se presumen válidas las certificaciones del sector público y privado firmadas de forma digital o electrónica, siempre que cumplan las condiciones de validez de la Ley 527 de 1999 (art. 28: la firma digital tiene la misma fuerza y efectos que la manuscrita) y del Decreto 1074 de 2015 (arts. 2.2.2.47.1 y siguientes sobre firma electrónica). El art. 25 del Decreto Ley 019 de 2012 elimina la exigencia de autenticaciones o reconocimientos notariales. La firma digital válida sustituye la manuscrita, no releva del contenido mínimo, que en este caso sí se cumple."
   },
   {
@@ -200,7 +200,7 @@
       "No. La firma valida el documento, pero no suple la relación de funciones exigida."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Numeral 5.2.1 del Criterio Unificado (Complementación aprobada el 12 de marzo de 2024, líneas 20-26): de conformidad con el Decreto Ley 785 de 2005 (art. 12, certificaciones de experiencia en el orden territorial) y el Decreto 1083 de 2015 (art. 2.2.2.3.8, nivel nacional), las certificaciones de experiencia deben contener como mínimo la razón social o nombre de la entidad, el tiempo de servicio y la relación de funciones desempeñadas. La validez de la firma electrónica o digital (art. 28 de la Ley 527 de 1999 y arts. 2.2.2.47.3 a 2.2.2.47.5 del Decreto 1074 de 2015) solo sustituye la firma manuscrita —acredita autenticidad y confiabilidad del documento—, pero no suple el contenido mínimo. El art. 25 del Decreto Ley 019 de 2012 presume auténticos los actos del funcionario público y elimina la autenticación notarial, pero la autenticidad no equivale a la completitud del contenido; por ello, faltando la relación de funciones, la certificación no puede tenerse por completa en la etapa de VRM."
   },
   {
@@ -212,7 +212,7 @@
       "Debe dar por cumplido el requisito solo si la función coincidente es de naturaleza genérica o transversal, común a varios empleos, ya que ese carácter transversal amplía la relación con el empleo ofertado."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Caso 22 de experiencia (renglones 1349-1362): la experiencia relacionada es la adquirida en el ejercicio de empleos o actividades con funciones similares a las del cargo a proveer, y \"no es necesario que todas las funciones cuyo desempeño es certificado, sean relacionadas con las del empleo ofertado. Basta con que una de ellas sea similar con las descritas en la OPEC respectiva, y/o que se relacione con el contenido misional y propósito del empleo\". CRITERIOS_716, Cap. IV num. 4.2 (renglones 566-571): \"Cuando exista una sola función relacionada con alguna de las del empleo a proveer, será suficiente para entender cumplido el requisito de experiencia, siempre y cuando (...) se relacione con alguna de las funciones misionales del empleo, y no con una genérica o transversal, que es común a varios empleos distintos entre sí\". La segunda opción es una error frecuente: el analista exige similitud de la mayoría o de todas las funciones, exigencia que las normas descartan. La tercera es errónea porque el requisito de experiencia se cumple con el tiempo total acreditado del empleo cuya función se relaciona, sin fraccionar el tiempo por función. La cuarta invierte la regla: la función coincidente debe ser MISIONAL y precisamente NO genérica ni transversal; una función transversal común a varios empleos no configura experiencia relacionada. Sustento normativo territorial: artículo 11 del Decreto Ley 785 de 2005 (definición de experiencia relacionada para el orden territorial) y artículo 2.2.2.3.7 del Decreto 1083 de 2015."
   },
   {
@@ -224,7 +224,7 @@
       "Entidad y fecha de inicio, aunque el contrato figure actualmente en ejecución."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_716, Cap. V, num. 5.2 (renglones 943-953): la experiencia adquirida con contratos de prestación de servicios se acredita con la certificación de ejecución del contrato o con el acta de liquidación o terminación, debidamente suscrita por la autoridad competente (o quien haga sus veces) de la entidad, y debe contener al menos: (i) nombre o razón social de la entidad que la expide; (ii) el o los objetos contractuales ejecutados, con fechas de inicio (día, mes y año) y de terminación (día, mes y año) para cada uno, evitando el uso de la expresión 'actualmente'; y (iii) las obligaciones contractuales cumplidas con cada objeto. Fundamento normativo territorial: art. 12 del Decreto Ley 785 de 2005, en concordancia con el art. 2.2.2.3.8 del Decreto 1083 de 2015. Las demás son errores frecuentes: aplicar el contenido de la certificación LABORAL (razón social, tiempo de servicio y relación de funciones) confunde dos supuestos distintos, pues en los contratos de prestación de servicios lo exigido es el objeto contractual y las obligaciones cumplidas, no la 'relación de funciones'; aceptar la expresión 'actualmente' sin fecha de terminación es improcedente porque el Criterio ordena expresamente evitarla y exige fechas de inicio y terminación en día, mes y año; y la copia del contrato firmado no acredita por sí sola la EJECUCIÓN, ya que lo que se debe aportar es la certificación de ejecución o el acta de liquidación/terminación suscrita por la autoridad competente."
   },
   {
@@ -236,7 +236,7 @@
       "Debe validarla, porque el objeto contractual está descrito de forma suficientemente ilustrativa y de él se infiere al menos una actividad específica cumplida por el aspirante, relacionada con el empleo a proveer."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "La certificación es válida. El Anexo Técnico CRITERIOS_717, Factor Experiencia, Caso 34, señala que cuando se certifica la ejecución de un contrato sin especificar las obligaciones cumplidas, pero el objeto contractual es suficientemente ilustrativo o de él se puede inferir al menos una actividad específica cumplida por el aspirante, la certificación es válida; y usa precisamente el ejemplo del contrato de apoyo a la gestión cuyo objeto es el mantenimiento preventivo y correctivo del hardware y software de los equipos de cómputo. En igual sentido, el aparte 4.3.9 del CRITERIOS_716 dispone que \"las actividades específicas descritas en el objeto contractual dan cuenta de la función o labor cumplida por el aspirante con la ejecución del mismo\", regla que proviene del Criterio Unificado de Sala del 10 de noviembre de 2020 (citado en la nota 25 del Caso 34). Para el orden territorial, el artículo 11 del Decreto Ley 785 de 2005 define la experiencia relacionada como la adquirida en el ejercicio de empleos o actividades con funciones similares a las del cargo a proveer \"o en una determinada área de trabajo o área de la profesión, ocupación, arte u oficio\", en concordancia con el artículo 2.2.2.3.7 del Decreto 1083 de 2015; y el Caso 1 del mismo Anexo precisa que la experiencia relacionada se acredita con certificaciones que describan las funciones desempeñadas \"o el objeto y actividades\" contractuales. Por ello basta con que del objeto se infiera una actividad relacionada."
   },
   {
@@ -248,7 +248,7 @@
       "Sí, pero solo si aporta también un certificado de Cámara de Comercio."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_716, Cap. V num. 5.2 (renglones 955-961): cuando el aspirante ejerció su profesión o actividad en forma independiente, o en una empresa o entidad actualmente liquidada, la experiencia se acredita mediante declaración del mismo aspirante, la cual se entiende rendida bajo la gravedad del juramento, y debe especificar las fechas de inicio y de terminación (día, mes y año) y el tiempo de dedicación (en horas y días laborales). Esto se fundamenta en el art. 12 del Decreto Ley 785 de 2005 (norma del orden territorial que define la experiencia y sus modalidades de acreditación) y en el art. 2.2.2.3.8 del Decreto 1083 de 2015 (citados expresamente en el renglón 957). La segunda es falsa porque, si bien por regla general el aspirante no puede certificar su propia experiencia (CRITERIOS_717 renglones 1259-1262), la norma prevé precisamente la excepción del ejercicio independiente y de la empresa liquidada, casos en que la declaración propia sí es válida (renglones 1264-1265). La tercera agrega un requisito no exigido por el Criterio: la declaración juramentada es suficiente y no se condiciona a aportar el certificado de Cámara de Comercio. La cuarta es errónea porque el mismo texto (renglones 960-961) ordena NO usar términos como «dedicación parcial» ni «funciones o actividades desarrolladas»; lo que debe contener la declaración son las fechas y el tiempo de dedicación, no la relación de funciones."
   },
   {
@@ -260,7 +260,7 @@
       "Rechazar la certificación por inconsistente y no computar ese periodo hasta que el aspirante la aclare o la corrija ante la entidad certificadora."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Caso 35 de experiencia (renglones 1706-1712): cuando en la certificación existe diferencia entre las fechas señaladas en letras y en números, prevalece lo escrito en letras, por aplicación analógica del artículo 623 del Código de Comercio, según el cual, si el importe de un título aparece escrito a la vez en palabras y en cifras, en caso de diferencia vale la suma escrita en palabras. Por eso, siendo \"veinte\" lo escrito en letras, la fecha de retiro que usted debe computar es el 20 de agosto de 2023. La valoración se hace en la etapa de VRM sobre empleos del orden territorial cuyas competencias y requisitos se rigen por el Decreto Ley 785 de 2005 (arts. 11 y 12) y por el Decreto 1083 de 2015."
   },
   {
@@ -272,7 +272,7 @@
       "No puede validarse tal como fue aportada: el certificado expedido en el exterior debe presentarse traducido por traductor certificado en los términos de la Resolución 1959 de 2020 del Ministerio de Relaciones Exteriores y, además, apostillado o legalizado según sea el caso."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_716, Cap. V num. 5.2 (renglones 963-966): «Los certificados de experiencia expedidos en el exterior, deberán presentarse debidamente traducidos y apostillados o legalizados, según sea el caso. La traducción debe ser realizada por un traductor certificado […] de acuerdo con los términos previstos en la Resolución No. 1959 de 2020 […] expedida por el Ministerio de Relaciones Exteriores». Esto se reitera en CRITERIOS_717, Caso 36 de experiencia (renglones 1721-1732), cuyo sustento normativo es la Resolución No. 1959 de 2020. La acreditación de experiencia en el orden territorial se rige por el artículo 12 del Decreto Ley 785 de 2005, en concordancia con el artículo 2.2.2.3.8 del Decreto 1083 de 2015 (renglón 957); el contenido mínimo de la certificación es necesario, pero NO sustituye los requisitos de forma exigidos a los documentos expedidos en el exterior. 1959 de 2020) y apostillado o legalizado, no puede validarse. La segunda opción es una error frecuente: confundir el contenido mínimo con la totalidad de los requisitos, ignorando el trámite de traducción oficial y apostilla/legalización. La tercera es errónea porque la Resolución 1959 de 2020 exige traductor certificado para todo idioma distinto del español, sin excepción para el inglés, y el analista no puede suplir esa traducción oficial. La cuarta es falsa: la experiencia en el exterior sí es computable, siempre que se acredite con los documentos debidamente traducidos y apostillados o legalizados."
   },
   {
@@ -284,7 +284,7 @@
       "Sí. Debe contarse todo el periodo como experiencia de tiempo completo."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "CRITERIOS_717, Caso 27 de experiencia (renglones 1570-1589): la certificación como docente de cátedra, ocasional o de tiempo parcial que NO precisa la cantidad de horas dictadas no es válida, toda vez que esa omisión hace imposible contabilizar el tiempo de experiencia, resultando inaplicable el artículo 2.2.2.3.8 del Decreto 1083 de 2015 (que ordena, cuando la jornada es inferior a 8 horas diarias, sumar las horas trabajadas y dividirlas por 8). Sin las horas no hay base para ese cálculo, de modo que el periodo no puede computarse. En el orden territorial la experiencia docente se enmarca en los artículos 11 y 12 del Decreto Ley 785 de 2005: el artículo 11 define la experiencia docente (con la misma definición del Decreto 1083) y el artículo 12 remite la cuantificación de las jornadas inferiores a ocho horas a las reglas del Decreto 1083 de 2015."
   },
   {
@@ -296,7 +296,7 @@
       "Admitir el tiempo, ya que basta con que el aspirante acredite el título profesional que lo habilita para ejercer la docencia, con independencia del reconocimiento de la entidad certificante."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Caso 25 de experiencia del CRITERIOS_717 (renglones 1486-1505): la experiencia docente es la adquirida en el ejercicio de actividades de divulgación del conocimiento obtenida en \"instituciones educativas debidamente reconocidas\", conforme al artículo 2.2.2.3.7 del Decreto 1083 de 2015 y al artículo 11 del Decreto Ley 785 de 2005 (orden territorial). El propio Criterio precisa que la organización debe contar con licencia de funcionamiento conferida por el Gobierno Nacional; por ello, \"las constancias expedidas por instituciones que no gocen de tal reconocimiento en el país no serán válidas para certificar experiencia docente\"."
   },
   {
@@ -308,7 +308,7 @@
       "Sí. Puede contabilizarse el total certificado cuando no existe riesgo de traslape."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico CRITERIOS_717, Factor Experiencia, Caso 8: la experiencia certificada en cantidad total de meses o de años, sin especificar fechas precisas de inicio o fin, \"sí es válida, toda vez que se conoce con exactitud el tiempo de servicio\", pero \"sólo podrá ser tenida en cuenta para aquellos eventos en los cuales corresponda a la única certificación registrada por el aspirante para acreditar experiencia, caso en el cual se contabilizará exclusivamente el tiempo de experiencia certificado en el documento. Por cuanto así se garantiza la inexistencia de tiempos traslapados\". Como en el caso hay una sola certificación de 18 meses, se contabiliza ese total y se cumplen los 12 meses exigidos."
   },
   {
@@ -320,7 +320,7 @@
       "Sí la cuenta, porque las funciones certificadas están relacionadas con las del empleo y, al tratarse de un cargo profesional, las funciones priman sobre la falta de fechas."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico CRITERIOS_717, Factor Experiencia, Caso 6: cuando la certificación señala que el aspirante \"se encuentra vinculado\" y \"actualmente ocupa el cargo\", pero no indica la fecha desde la cual lo ejerce, \"No es válida (...) por cuanto este documento no indica la fecha desde la cual el aspirante ejerce el cargo, ni desde qué momento está desempeñando las funciones señaladas\". El Criterio precisa que las expresiones \"actualmente\" y \"su último cargo desempeñado\" no son objeto de valoración \"salvo que sea clara al especificar el tiempo durante el cual el concursante desempeñó cada cargo, es decir fecha de inicio y de finalización\". Aquí falta el extremo INICIAL de la relación laboral. Para el orden territorial, la experiencia profesional relacionada del nivel profesional se adquiere, conforme al artículo 11 del Decreto Ley 785 de 2005 y al artículo 2.2.2.3.7 del Decreto 1083 de 2015, \"a partir de la terminación y aprobación del pénsum académico (...) en el ejercicio de las actividades propias de la profesión\", exigiéndose siempre poder determinar los extremos temporales de la relación laboral; sin el extremo inicial no hay cómo hacer esa contabilización. Que las funciones estén relacionadas (art. 11 Decreto Ley 785 de 2005 y 2.2.2.3.7 del Decreto 1083 de 2015) es irrelevante si no existen los extremos temporales, pues son requisitos independientes y concurrentes."
   },
   {
@@ -332,7 +332,7 @@
       "Desde el 25 de abril de 2019, aplicando la misma regla de las profesiones de la salud, en las que la experiencia se computa a partir de la inscripción o registro profesional."
     ],
     "correctIndex": 1,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "El aparte 4.1 del Criterio Unificado (CRITERIOS_716) y el Caso 20 del Factor Experiencia del Anexo Técnico (CRITERIOS_717), literal c), disponen que cuando el empleo ofertado contempla como requisito de estudios, además de la Ingeniería y afines, OTROS Núcleos Básicos del Conocimiento (en el caso, Administración), la experiencia profesional NO se computa desde la matrícula profesional de la Ley 842 de 2003, sino a partir de la terminación y aprobación del pénsum académico de educación superior o de la fecha del respectivo diploma. Por tanto, se toma la fecha más favorable acreditada de terminación del pénsum: 10 de junio de 2018, pues según el aparte 4.1 basta con haber aportado la certificación de terminación de materias para que esa fecha prime sobre la del diploma. La fecha del diploma (3/12/2018) solo se usaría si no se hubiera aportado la certificación de terminación de materias, pero aquí sí se aportó, y prima la fecha de terminación del pénsum. La regla del registro o inscripción profesional es exclusiva de las disciplinas del Sistema de Seguridad Social en Salud (art. 2.2.2.3.7 del Decreto 1083 de 2015 y art. 23 de la Ley 1164 de 2007), no de ingeniería. Todo lo anterior se enmarca en la definición de experiencia profesional del orden territorial del artículo 11 del Decreto Ley 785 de 2005 -adquirida a partir de la terminación y aprobación de todas las materias del pénsum- en concordancia con los artículos 2.2.2.3.7 del Decreto 1083 de 2015 y la Ley 842 de 2003."
   },
   {
@@ -344,7 +344,7 @@
       "Se valida como experiencia profesional, siempre que el aspirante acredite título profesional en Derecho o, en su defecto, la certificación de terminación y aprobación de todas las materias del pénsum académico en Derecho."
     ],
     "correctIndex": 2,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico CRITERIOS_717, Factor Experiencia, Caso 21. Aunque el Acuerdo No. PSAA13-10038 del 7 de noviembre de 2013 del Consejo Superior de la Judicatura (modificado por el Acuerdo PCSJA17-10780 de 2017, en relación con los niveles ocupacionales del art. 161 de la Ley 270 de 1996) clasifica el cargo de Oficial Mayor o Sustanciador en el nivel asistencial, el Criterio concluye expresamente que, para los procesos de selección que desarrolla la CNSC, la experiencia adquirida en dicho cargo corresponde a experiencia profesional y se valida siempre que el aspirante acredite título profesional o, en su defecto, la certificación de terminación y aprobación de todas las materias que conforman el pénsum académico en Derecho, expedida por la universidad. En el orden territorial esto se articula con el art. 11 del Decreto Ley 785 de 2005, que define la experiencia profesional como la adquirida a partir de la terminación y aprobación de todas las materias del pénsum de la respectiva formación profesional, en concordancia con el art. 2.2.2.3.7 del Decreto 1083 de 2015; y con el art. 12 del Decreto Ley 785 de 2005, sobre el cómputo del tiempo de experiencia. Justamente porque la norma territorial ancla la experiencia profesional en la terminación y aprobación de materias, la certificación de terminación del pénsum en Derecho basta para habilitar el cómputo, sin que sea indispensable el diploma."
   },
   {
@@ -356,7 +356,7 @@
       "No. Una declaración propia nunca es admisible, aunque la empresa esté liquidada."
     ],
     "correctIndex": 0,
-    "timeLimitSec": 180,
+    "timeLimitSec": 120,
     "sustento": "Anexo Técnico CRITERIOS_717, Factor Experiencia, Caso 18: cuando el certificado no contiene las funciones y el aspirante allega una certificación extra-juicio rendida por él mismo describiendo dichas funciones, NO es válida, porque el aspirante no es el ente competente para certificar las funciones desempeñadas en un empleo perteneciente a una entidad o empresa (no se tendría certeza de que efectivamente las ejerció); la relación de las funciones desempeñadas debe ser parte integral del documento que certifica. El propio Caso 18 fija la única excepción: solo si la empresa para la cual prestó los servicios se encuentra liquidada, la declaración extra-juicio será válida. Ese régimen de la declaración del propio interesado por empresa liquidada está previsto, para el orden territorial, en el artículo 12 del Decreto Ley 785 de 2005 y, de forma concordante, en el artículo 2.2.2.3.8 del Decreto 1083 de 2015 (así lo recoge expresamente el Criterio en el aparte de acreditación de experiencia: «En los casos en que el aspirante haya ejercido su profesión o actividad en forma independiente o en una empresa o entidad actualmente liquidada, la experiencia se acreditará mediante declaración del mismo»)."
   }
 ]
