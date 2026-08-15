@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de Bolsillo</title>
+<style>
+  :root {
+    --fondo: #ECEDE9;
+    --tinta-pagina: #2A2C29;
+    --tinta-suave: #6E716B;
+    --papel: #FBFAF6;
+    --papel-linea: #E4E2D9;
+    --sombra: rgba(30, 32, 30, 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #151717;
+      --tinta-pagina: #E4E5E1;
+      --tinta-suave: #9A9D96;
+      --papel: #1E211F;
+      --papel-linea: #2E322F;
+      --sombra: rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #151717;
+    --tinta-pagina: #E4E5E1;
+    --tinta-suave: #9A9D96;
+    --papel: #1E211F;
+    --papel-linea: #2E322F;
+    --sombra: rgba(0, 0, 0, 0.5);
+  }
+
+  /* La calculadora es un objeto físico: sus colores son propios y no cambian con el tema. */
+  * { box-sizing: border-box; margin: 0; }
+
+  body {
+    background: var(--fondo);
+    color: var(--tinta-pagina);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    gap: 28px;
+  }
+
+  header { text-align: center; }
+  header h1 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  header p {
+    margin-top: 6px;
+    font-size: 0.8rem;
+    color: var(--tinta-suave);
+    letter-spacing: 0.04em;
+  }
+
+  .escena {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 28px;
+  }
+
+  /* ---------- Cuerpo de la calculadora ---------- */
+  .calculadora {
+    background: linear-gradient(175deg, #2B2D30 0%, #232527 60%, #1F2123 100%);
+    border-radius: 26px;
+    padding: 22px 20px 24px;
+    width: 320px;
+    box-shadow:
+      0 24px 48px -16px var(--sombra),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .marca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .marca span {
+    color: #8B8E90;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+  .solar {
+    display: flex;
+    gap: 3px;
+  }
+  .solar i {
+    width: 13px;
+    height: 20px;
+    background: linear-gradient(160deg, #3A3E44, #24272B);
+    border-radius: 2px;
+    border: 1px solid #17191B;
+  }
+
+  .pantalla {
+    background: linear-gradient(178deg, #CFD8C2 0%, #C9D3BD 55%, #BFC9B2 100%);
+    border-radius: 10px;
+    border: 1px solid #15171A;
+    box-shadow:
+      inset 0 3px 8px rgba(20, 26, 18, 0.35),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.5);
+    padding: 10px 14px 12px;
+    margin-bottom: 18px;
+    font-family: ui-monospace, "Cascadia Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    color: #222B22;
+    text-align: right;
+    overflow: hidden;
+  }
+  .pantalla .operacion {
+    font-size: 0.72rem;
+    min-height: 1.1em;
+    color: rgba(34, 43, 34, 0.55);
+    white-space: nowrap;
+  }
+  .pantalla .resultado {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+    white-space: nowrap;
+    letter-spacing: 0.01em;
+  }
+
+  .teclas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  button.tecla {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    height: 56px;
+    border-radius: 50%;
+    justify-self: center;
+    width: 56px;
+    font-family: inherit;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #E9EAE6;
+    background: linear-gradient(175deg, #33363A 0%, #26282B 55%, #1B1D1F 100%);
+    box-shadow:
+      0 3px 0 #0E0F10,
+      0 5px 8px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    transition: transform 70ms ease, box-shadow 70ms ease, filter 70ms ease;
+  }
+  button.tecla:active,
+  button.tecla.presionada {
+    transform: translateY(2px);
+    box-shadow:
+      0 1px 0 #0E0F10,
+      0 2px 4px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    filter: brightness(1.12);
+  }
+  button.tecla:focus-visible {
+    outline: 2px solid #E8A33D;
+    outline-offset: 3px;
+  }
+
+  button.tecla.operador {
+    background: linear-gradient(175deg, #4A4E53 0%, #3B3E42 55%, #2E3134 100%);
+    font-size: 1.3rem;
+  }
+  button.tecla.limpiar {
+    background: linear-gradient(175deg, #57614F 0%, #46503F 55%, #384130 100%);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+  button.tecla.igual {
+    background: linear-gradient(175deg, #F0B052 0%, #E8A33D 55%, #D18F2B 100%);
+    color: #2A2013;
+    font-size: 1.4rem;
+    box-shadow:
+      0 3px 0 #8A5E15,
+      0 5px 8px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  }
+  button.tecla.igual:active,
+  button.tecla.igual.presionada {
+    box-shadow:
+      0 1px 0 #8A5E15,
+      0 2px 4px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    button.tecla { transition: none; }
+  }
+
+  /* ---------- Cinta de historial ---------- */
+  .cinta {
+    width: 240px;
+    background: var(--papel);
+    border: 1px solid var(--papel-linea);
+    border-radius: 4px 4px 10px 10px;
+    box-shadow: 0 16px 32px -18px var(--sombra);
+    padding: 14px 18px 18px;
+    font-family: ui-monospace, "Cascadia Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82rem;
+  }
+  .cinta::before {
+    content: "";
+    display: block;
+    border-top: 2px dashed var(--papel-linea);
+    margin: -6px -18px 12px;
+  }
+  .cinta h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+    margin-bottom: 10px;
+  }
+  .cinta ol {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .cinta li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border-bottom: 1px solid var(--papel-linea);
+    padding-bottom: 5px;
+  }
+  .cinta li .res { font-weight: 600; }
+  .cinta .vacia {
+    color: var(--tinta-suave);
+    border: none;
+    justify-content: flex-start;
+  }
+
+  footer {
+    font-size: 0.72rem;
+    color: var(--tinta-suave);
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  footer kbd {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    border: 1px solid var(--papel-linea);
+    background: var(--papel);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Calculadora</h1>
+    <p>Con cinta de historial · funciona con el teclado</p>
+  </header>
+
+  <main class="escena">
+    <section class="calculadora" aria-label="Calculadora">
+      <div class="marca">
+        <span>ET-2026</span>
+        <div class="solar" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="pantalla" role="status" aria-live="polite">
+        <div class="operacion" id="operacion">&nbsp;</div>
+        <div class="resultado" id="resultado">0</div>
+      </div>
+      <div class="teclas">
+        <button class="tecla limpiar" data-accion="limpiar">C</button>
+        <button class="tecla operador" data-accion="signo" aria-label="Cambiar signo">±</button>
+        <button class="tecla operador" data-accion="porcentaje" aria-label="Porcentaje">%</button>
+        <button class="tecla operador" data-op="/" aria-label="Dividir">÷</button>
+
+        <button class="tecla" data-digito="7">7</button>
+        <button class="tecla" data-digito="8">8</button>
+        <button class="tecla" data-digito="9">9</button>
+        <button class="tecla operador" data-op="*" aria-label="Multiplicar">×</button>
+
+        <button class="tecla" data-digito="4">4</button>
+        <button class="tecla" data-digito="5">5</button>
+        <button class="tecla" data-digito="6">6</button>
+        <button class="tecla operador" data-op="-" aria-label="Restar">−</button>
+
+        <button class="tecla" data-digito="1">1</button>
+        <button class="tecla" data-digito="2">2</button>
+        <button class="tecla" data-digito="3">3</button>
+        <button class="tecla operador" data-op="+" aria-label="Sumar">+</button>
+
+        <button class="tecla" data-digito="0">0</button>
+        <button class="tecla" data-accion="decimal" aria-label="Punto decimal">.</button>
+        <button class="tecla operador" data-accion="borrar" aria-label="Borrar último dígito">⌫</button>
+        <button class="tecla igual" data-accion="igual" aria-label="Igual">=</button>
+      </div>
+    </section>
+
+    <aside class="cinta" aria-label="Historial de operaciones">
+      <h2>Cinta</h2>
+      <ol id="historial">
+        <li class="vacia">Sin operaciones aún</li>
+      </ol>
+    </aside>
+  </main>
+
+  <footer>
+    Teclado: números, <kbd>+</kbd> <kbd>−</kbd> <kbd>×</kbd> <kbd>÷</kbd>,
+    <kbd>Enter</kbd> = igual, <kbd>Esc</kbd> = borrar todo
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var elResultado = document.getElementById('resultado');
+  var elOperacion = document.getElementById('operacion');
+  var elHistorial = document.getElementById('historial');
+
+  var entrada = '0';        // lo que se está tecleando
+  var acumulado = null;     // operando izquierdo
+  var operador = null;      // operación pendiente
+  var reciente = false;     // true justo después de "=" u operador
+
+  var SIMBOLOS = { '+': '+', '-': '−', '*': '×', '/': '÷' };
+  var MAX_DIGITOS = 12;
+
+  function formatear(n) {
+    if (!isFinite(n)) return 'Error';
+    // Redondea para esconder el ruido binario (0.1 + 0.2) y limita el ancho.
+    var r = Math.round(n * 1e10) / 1e10;
+    var s = String(r);
+    if (s.replace(/[-.]/g, '').length > MAX_DIGITOS) {
+      s = r.toPrecision(MAX_DIGITOS).replace(/\.?0+(e|$)/, '$1');
+    }
+    return s;
+  }
+
+  function pintar() {
+    elResultado.textContent = entrada;
+    elOperacion.innerHTML = (acumulado !== null && operador)
+      ? formatear(acumulado) + ' ' + SIMBOLOS[operador]
+      : '&nbsp;';
+  }
+
+  function anotar(texto, res) {
+    var vacia = elHistorial.querySelector('.vacia');
+    if (vacia) vacia.remove();
+    var li = document.createElement('li');
+    var izq = document.createElement('span');
+    izq.textContent = texto;
+    var der = document.createElement('span');
+    der.className = 'res';
+    der.textContent = res;
+    li.appendChild(izq);
+    li.appendChild(der);
+    elHistorial.prepend(li);
+    while (elHistorial.children.length > 30) elHistorial.lastChild.remove();
+  }
+
+  function calcular(a, op, b) {
+    switch (op) {
+      case '+': return a + b;
+      case '-': return a - b;
+      case '*': return a * b;
+      case '/': return b === 0 ? NaN : a / b;
+    }
+  }
+
+  function digito(d) {
+    if (reciente || entrada === 'Error') { entrada = '0'; reciente = false; }
+    if (entrada.replace(/[-.]/g, '').length >= MAX_DIGITOS) return;
+    entrada = entrada === '0' ? d : entrada + d;
+    pintar();
+  }
+
+  function decimal() {
+    if (reciente || entrada === 'Error') { entrada = '0'; reciente = false; }
+    if (entrada.indexOf('.') === -1) entrada += '.';
+    pintar();
+  }
+
+  function elegirOperador(op) {
+    if (entrada === 'Error') return;
+    if (acumulado !== null && operador && !reciente) {
+      var r = calcular(acumulado, operador, parseFloat(entrada));
+      anotar(formatear(acumulado) + ' ' + SIMBOLOS[operador] + ' ' + entrada + ' =', formatear(r));
+      acumulado = r;
+      entrada = formatear(r);
+    } else {
+      acumulado = parseFloat(entrada);
+    }
+    operador = op;
+    reciente = true;
+    pintar();
+  }
+
+  function igual() {
+    if (acumulado === null || !operador || entrada === 'Error') return;
+    var b = parseFloat(entrada);
+    var r = calcular(acumulado, operador, b);
+    anotar(formatear(acumulado) + ' ' + SIMBOLOS[operador] + ' ' + formatear(b) + ' =', formatear(r));
+    entrada = formatear(r);
+    acumulado = null;
+    operador = null;
+    reciente = true;
+    pintar();
+  }
+
+  function limpiar() {
+    entrada = '0';
+    acumulado = null;
+    operador = null;
+    reciente = false;
+    pintar();
+  }
+
+  function borrar() {
+    if (reciente || entrada === 'Error') return;
+    entrada = entrada.length > 1 ? entrada.slice(0, -1) : '0';
+    if (entrada === '-') entrada = '0';
+    pintar();
+  }
+
+  function signo() {
+    if (entrada === '0' || entrada === 'Error') return;
+    entrada = entrada.charAt(0) === '-' ? entrada.slice(1) : '-' + entrada;
+    reciente = false;
+    pintar();
+  }
+
+  function porcentaje() {
+    if (entrada === 'Error') return;
+    var n = parseFloat(entrada);
+    // Con operación pendiente, % es porcentaje del acumulado (uso clásico: 200 + 10 %).
+    entrada = formatear(acumulado !== null && operador ? acumulado * n / 100 : n / 100);
+    reciente = false;
+    pintar();
+  }
+
+  var ACCIONES = {
+    limpiar: limpiar,
+    borrar: borrar,
+    signo: signo,
+    porcentaje: porcentaje,
+    decimal: decimal,
+    igual: igual
+  };
+
+  document.querySelector('.teclas').addEventListener('click', function (ev) {
+    var b = ev.target.closest('button');
+    if (!b) return;
+    if (b.dataset.digito) digito(b.dataset.digito);
+    else if (b.dataset.op) elegirOperador(b.dataset.op);
+    else if (b.dataset.accion) ACCIONES[b.dataset.accion]();
+  });
+
+  function teclaDe(ev) {
+    var k = ev.key;
+    if (k >= '0' && k <= '9') return '[data-digito="' + k + '"]';
+    if (k === '+' || k === '-' || k === '*' || k === '/') return '[data-op="' + k + '"]';
+    if (k === '.' || k === ',') return '[data-accion="decimal"]';
+    if (k === 'Enter' || k === '=') return '[data-accion="igual"]';
+    if (k === 'Backspace') return '[data-accion="borrar"]';
+    if (k === 'Escape') return '[data-accion="limpiar"]';
+    if (k === '%') return '[data-accion="porcentaje"]';
+    return null;
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    var sel = teclaDe(ev);
+    if (!sel) return;
+    ev.preventDefault();
+    var b = document.querySelector(sel);
+    if (!b) return;
+    b.classList.add('presionada');
+    b.click();
+    setTimeout(function () { b.classList.remove('presionada'); }, 90);
+  });
+
+  pintar();
+})();
+</script>
+</body>
+</html>
